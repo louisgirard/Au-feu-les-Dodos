@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 [RequireComponent(typeof(CharacterAnimation))]
 public class PlayerMovement : MonoBehaviour
@@ -16,8 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        xInput = Input.GetAxisRaw("Horizontal");
-        yInput = Input.GetAxisRaw("Vertical");
+        xInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+        yInput = CrossPlatformInputManager.GetAxisRaw("Vertical");
         Vector2 moveVector = new Vector2(xInput, yInput);
 
         // Update Position

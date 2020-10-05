@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 [RequireComponent(typeof(CharacterAnimation))]
 public class PlayerOrientation : MonoBehaviour
@@ -12,7 +13,7 @@ public class PlayerOrientation : MonoBehaviour
 
     void Update()
     {
-        Vector3 mousePosition = Input.mousePosition;
+        Vector3 mousePosition = CrossPlatformInputManager.mousePosition;
 
         // Mouse origin at the center of the screen
         mousePosition.x -= Screen.width / 2;
