@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         xInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
         yInput = CrossPlatformInputManager.GetAxisRaw("Vertical");
-        Vector2 moveVector = new Vector2(xInput, yInput);
+        Vector2 moveVector = new Vector2(xInput, yInput).normalized;
 
         // Update Position
         rigidbody.MovePosition(rigidbody.position + moveVector * speed * Time.deltaTime);
