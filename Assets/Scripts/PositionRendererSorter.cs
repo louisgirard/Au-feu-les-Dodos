@@ -4,9 +4,8 @@ using UnityEngine;
 public class PositionRendererSorter : MonoBehaviour
 {
     [SerializeField] float offset = 0f;
-    float timeBetweenCalculation = 0.01f;
-
-    float precision = 100;
+    readonly float timeBetweenCalculation = 0.01f;
+    readonly float precision = 100;
 
     SpriteRenderer spriteRenderer;
 
@@ -20,11 +19,11 @@ public class PositionRendererSorter : MonoBehaviour
         }
         else
         {
-            StartCoroutine(UpdateSortingLayer());
+            StartCoroutine(LoopUpdateSortingOrder());
         }
     }
 
-    IEnumerator UpdateSortingLayer()
+    IEnumerator LoopUpdateSortingOrder()
     {
         while (true)
         {
