@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3765394934470516731}
   - component: {fileID: 3765394934470516708}
-  - component: {fileID: 313412267966789610}
   - component: {fileID: 56708125555713177}
+  - component: {fileID: 313412267966789610}
   m_Layer: 0
   m_Name: Stump2
   m_TagString: Untagged
@@ -83,19 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &313412267966789610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3765394934470516709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: 0
 --- !u!68 &56708125555713177
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -117,3 +104,16 @@ EdgeCollider2D:
   - {x: -0.6912322, y: -1.7105929}
   - {x: -1.9024011, y: -0.23589164}
   - {x: 0.83903044, y: 1.7200254}
+--- !u!114 &313412267966789610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765394934470516709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0
