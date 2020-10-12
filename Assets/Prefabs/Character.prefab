@@ -59,7 +59,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.5
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 3749985317117988089}
   - component: {fileID: 671217834}
   - component: {fileID: 1854859846}
+  - component: {fileID: 738162217}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -206,7 +207,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0032582283, y: -0.0007880479}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -217,7 +218,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.32}
+  m_Size: {x: 0.13922215, y: 0.3184239}
   m_EdgeRadius: 0
 --- !u!95 &3749985317117988068
 Animator:
@@ -275,3 +276,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e43f816d65f21459ba4e76662346d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &738162217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749985317117988090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: -0.05
