@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEditor;
 using UnityEngine;
 
@@ -24,7 +25,7 @@ public class TreesPainter : EditorWindow
     {
         GUILayout.Label("Settings", EditorStyles.boldLabel);
 
-        if(isPainting)
+        if (isPainting)
         {
             if (GUILayout.Button("Stop Paint"))
             {
@@ -60,9 +61,9 @@ public class TreesPainter : EditorWindow
         SceneView.duringSceneGui += OnSceneGUI;
     }
 
-    private void OnLostFocus()
+    private void OnDisable()
     {
-        isPainting = false;
+       isPainting = false;
     }
 
     void OnSceneGUI(SceneView scene)
@@ -73,9 +74,10 @@ public class TreesPainter : EditorWindow
         Handles.CircleHandleCap(0, MousePosition(), Quaternion.identity, brushSize / 2, EventType.Repaint);
 
         // Paint trees when mouse left click
+        if (parent == null) return;
         if (Event.current.type is EventType.MouseDown && Event.current.button == 0 && trees.Length > 0)
         {
-            PaintTrees();
+           PaintTrees();
         }
     }
 
@@ -84,12 +86,14 @@ public class TreesPainter : EditorWindow
         int treesNumber = Mathf.RoundToInt(brushSize * treeDensity);
         List<GameObject> treesCreated = new List<GameObject>();
 
-        for(int i = 0; i < treesNumber; i++)
+        for (int i = 0; i < treesNumber; i++)
         {
             // Create the tree
             GameObject tree = (GameObject)PrefabUtility.InstantiatePrefab(RandomTree(), parent.transform);
+            Debug.Log("Tree created");
             // Set its position
-            tree.transform.position = TreePosition(tree, treesCreated);
+            tree.transform.position = RandomPointInCircle() + MousePosition();
+            Debug.Log("Position found");
             // Scale it
             tree.transform.localScale *= Random.Range(minTreeSize, maxTreeSize);
 
@@ -115,7 +119,7 @@ public class TreesPainter : EditorWindow
         return trees[Random.Range(0, trees.Length)];
     }
 
-    private Vector2 TreePosition(GameObject currentTree, List<GameObject> trees)
+    private Vector2 TreePosition(List<GameObject> trees)
     {
         bool positionValid;
         Vector2 position;
@@ -126,12 +130,9 @@ public class TreesPainter : EditorWindow
             position = RandomPointInCircle() + MousePosition();
             foreach(GameObject tree in trees)
             {
-                if (Vector2.Distance(currentTree.transform.position, tree.transform.position) < 1f)
+                if (Vector2.Distance(position, tree.transform.position) < (brushSize / treeDensity))
                 {
                     positionValid = false;
-                }
-                if (!positionValid)
-                {
                     break;
                 }
             }
