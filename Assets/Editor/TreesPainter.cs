@@ -70,6 +70,12 @@ public class TreesPainter : EditorWindow
     {
         if (!isPainting) return;
 
+        // Repaint to always see circle around mouse
+        if(Event.current.type is EventType.MouseMove)
+        {
+            scene.Repaint();
+        }
+
         //Draw circle
         Handles.CircleHandleCap(0, MousePosition(), Quaternion.identity, brushSize / 2, EventType.Repaint);
 
