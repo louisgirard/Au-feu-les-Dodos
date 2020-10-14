@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TreeEditor;
 using UnityEditor;
 using UnityEngine;
 
@@ -96,14 +97,13 @@ public class TreesPainter : EditorWindow
         {
             // Create the tree
             GameObject tree = (GameObject)PrefabUtility.InstantiatePrefab(RandomTree(), parent.transform);
-            Debug.Log("Tree created");
             // Set its position
             tree.transform.position = RandomPointInCircle() + MousePosition();
-            Debug.Log("Position found");
             // Scale it
             tree.transform.localScale *= Random.Range(minTreeSize, maxTreeSize);
 
             treesCreated.Add(tree);
+            Undo.RegisterCreatedObjectUndo(tree, "tree");
         }
     }
 
