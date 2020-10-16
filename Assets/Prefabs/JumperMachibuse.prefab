@@ -110,10 +110,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6598429584150558380, guid: 5468693b0a33d4f4c9f05f11cb065c30,
+        type: 3}
+      propertyPath: explosionParticlesPrefab
+      value: 
+      objectReference: {fileID: 2575781283971996858, guid: 7ae4c4956295fa741813c934a44db00b,
+        type: 3}
     - target: {fileID: 6719962053882818380, guid: 5468693b0a33d4f4c9f05f11cb065c30,
         type: 3}
       propertyPath: m_Name
-      value: MachibuseJumper
+      value: JumperMachibuse
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5468693b0a33d4f4c9f05f11cb065c30, type: 3}

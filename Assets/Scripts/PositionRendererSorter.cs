@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PositionRendererSorter : MonoBehaviour
 {
@@ -8,11 +9,13 @@ public class PositionRendererSorter : MonoBehaviour
     readonly float precision = 100;
 
     SpriteRenderer spriteRenderer;
+    SortingGroup sortingGroup;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        sortingGroup = GetComponent<SortingGroup>();
         if (gameObject.isStatic)
         {
             UpdateSortingOrder();
@@ -35,6 +38,13 @@ public class PositionRendererSorter : MonoBehaviour
 
     private void UpdateSortingOrder()
     {
-        spriteRenderer.sortingOrder = (int)((-transform.position.y + offset) * precision);
+        if(sortingGroup == null)
+        {
+            spriteRenderer.sortingOrder = (int)((-transform.position.y + offset) * precision);
+        }
+        else
+        {
+            sortingGroup.sortingOrder = (int)((-transform.position.y + offset) * precision);
+        }
     }
 }
