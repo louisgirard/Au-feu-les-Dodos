@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8628063089276662128}
   - component: {fileID: 109297685336142999}
   m_Layer: 0
-  m_Name: Fire
+  m_Name: FireSprinter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d24bb50a001a443ae1d0cabcf2d243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  machibuse: {fileID: 9378155806178052, guid: 6b26bf8d3097ed4489623eb499b93f15, type: 3}
+  machibuse: {fileID: 7162638216440691532, guid: bbc60c8d07d0fe2449d2a70a1368e688,
+    type: 3}
   average_per_minute: 10
 --- !u!58 &109297685336142999
 CircleCollider2D:
