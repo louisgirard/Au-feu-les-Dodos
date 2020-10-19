@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3834532357107249634}
   - component: {fileID: 8628063089276662128}
   - component: {fileID: 109297685336142999}
+  - component: {fileID: 896305928398523720}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -116,10 +117,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.21034741, y: -0.058719277}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.96, y: 2.37}
+  m_Size: {x: 1.8348861, y: 1.3913472}
   m_EdgeRadius: 0
 --- !u!114 &3834532357107249634
 MonoBehaviour:
@@ -175,3 +176,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 11.94
+--- !u!114 &896305928398523720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832050663595804825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa9851818f579945a6e9f19cd737c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
