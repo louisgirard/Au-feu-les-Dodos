@@ -1,11 +1,8 @@
-﻿using System.Collections.Specialized;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class ObjectOrientation : MonoBehaviour
 {
-
-
     void Update()
     {
         Vector3 mousePosition = CrossPlatformInputManager.mousePosition;
