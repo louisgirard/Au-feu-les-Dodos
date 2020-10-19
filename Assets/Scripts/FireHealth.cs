@@ -7,7 +7,7 @@ public class FireHealth : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Lance"))
         {
-            Destroy(gameObject);
+            Destroy(gameObject,1.0f);
         }
         
     }
