@@ -20,7 +20,7 @@ public class ObjectOrientation : MonoBehaviour
         {
             angle = -angle;
         }
-
+      
         // Update Orientation
         if (xInput == 0 && yInput == 0)
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
