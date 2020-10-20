@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2980980120918442293}
   - component: {fileID: 2965815171525789443}
   - component: {fileID: 2768357395035723707}
+  - component: {fileID: 3522057536514106000}
   m_Layer: 0
   m_Name: Machibuse
   m_TagString: Untagged
@@ -127,3 +128,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 8161871274336104552, guid: 30bcef1f1069ab24c977115ef67513bb,
     type: 3}
+--- !u!114 &3522057536514106000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719962053882818380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa9851818f579945a6e9f19cd737c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0.07

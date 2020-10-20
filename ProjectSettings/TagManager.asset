@@ -45,6 +45,12 @@ TagManager:
   - name: Ground
     uniqueID: 3610663511
     locked: 0
+  - name: Fire
+    uniqueID: 2666051591
+    locked: 0
   - name: Player
     uniqueID: 1204819871
+    locked: 0
+  - name: Water
+    uniqueID: 1172342293
     locked: 0

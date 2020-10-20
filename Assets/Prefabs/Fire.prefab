@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1204819871
+  m_SortingLayerID: -1628915705
   m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -8400872170545095650, guid: 4452ec3c66890e34ba6c09128008eb5e,
@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fa9851818f579945a6e9f19cd737c80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0.3
 --- !u!1 &4837900510685742007
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,8 +167,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8369629192591807235}
-  - component: {fileID: 3881108578812151619}
   - component: {fileID: 1737597923737477896}
+  - component: {fileID: 6777908215141029298}
   m_Layer: 0
   m_Name: Machibuse generation
   m_TagString: Untagged
@@ -189,22 +190,6 @@ Transform:
   m_Father: {fileID: 1832050663595804820}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &3881108578812151619
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832050663595804825}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 15
 --- !u!114 &1737597923737477896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,4 +204,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machibuse: {fileID: 6146808181755892687, guid: 38baf362755d0dc4681d9525ccc6fa13,
     type: 3}
-  average_per_minute: 6
+  average_per_minute: 7
+--- !u!58 &6777908215141029298
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837900510685742007}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 13.36

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4190424075724022826}
   - component: {fileID: 2185865847820571723}
   - component: {fileID: 4297730864967429134}
+  - component: {fileID: -6243286111629431407}
   m_Layer: 0
   m_Name: Rodeur
   m_TagString: Untagged
@@ -129,3 +130,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 7.51
+--- !u!114 &-6243286111629431407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133941204658471718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa9851818f579945a6e9f19cd737c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
