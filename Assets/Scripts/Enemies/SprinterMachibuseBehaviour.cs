@@ -2,7 +2,7 @@
 
 public class SprinterMachibuseBehaviour : MonoBehaviour
 {
-    [SerializeField] float speed = 2f;
+    public float speed;
     Transform player;
 
     void Start()

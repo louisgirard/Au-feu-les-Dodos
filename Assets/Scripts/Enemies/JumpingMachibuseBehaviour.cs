@@ -33,8 +33,10 @@ public class JumpingMachibuseBehaviour : MonoBehaviour
     void Init_jump()
     {
         start_position = transform.position;
-        target_position = Vector3.MoveTowards(start_position, player.position, jump_length);
-        target_position += new Vector3(Random.value, Random.value, Random.value) * jump_length / 3;
+        Vector3 direction = (player.position - transform.position).normalized;
+        if ((player.position - transform.position).magnitude > jump_length)
+            direction = Quaternion.Euler(0, 0, Random.Range(-25f, 25f)) * direction;
+        target_position = transform.position + direction * jump_length;
         jump_timer = - jump_pause;
     }
     
