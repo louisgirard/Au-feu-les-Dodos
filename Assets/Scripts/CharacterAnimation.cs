@@ -5,6 +5,7 @@ public class CharacterAnimation : MonoBehaviour
 {
     string[] idlePositions = { "Idle Down", "Idle Up", "Idle Left", "Idle Right" };
     string[] walkPositions = { "Walk Down", "Walk Up", "Walk Left", "Walk Right" };
+    string[] attackPositions = { "Attack Down", "Attack Up", "Attack Left", "Attack Right" };
     Animator animator;
     int direction;
 
@@ -18,17 +19,26 @@ public class CharacterAnimation : MonoBehaviour
         direction = DirectionToIndex(mouseDirection);
     }
 
-    // Play animation
+    // Play move/idle animation
     public void Move(Vector2 moveVector)
     {
         if(moveVector.Equals(Vector2.zero))
         {
-            animator.Play(idlePositions[direction]);
+            if(!AnimatorIsPlaying())
+                animator.Play(idlePositions[direction]);
         }
         else
         {
-            animator.Play(walkPositions[direction]);
+            if (!AnimatorIsPlaying())
+                animator.Play(walkPositions[direction]);
         }
+    }
+
+    // Play attack animation
+    public void Attack()
+    {
+        if (!AnimatorIsPlaying())
+            animator.Play(attackPositions[direction]);
     }
     
     // Returns a direction index depending on a direction (mouse position, joystick)
@@ -58,5 +68,11 @@ public class CharacterAnimation : MonoBehaviour
             return 0;
         }
         return -1;
+    }
+
+    bool AnimatorIsPlaying()
+    {
+        return animator.GetCurrentAnimatorStateInfo(0).length >
+               animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
 }

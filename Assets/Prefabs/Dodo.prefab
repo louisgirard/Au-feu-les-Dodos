@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 2609259116890333455}
   - component: {fileID: 7905290180993431586}
   - component: {fileID: 298771728550886018}
-  - component: {fileID: 1789702915758072600}
+  - component: {fileID: 433748874383898476}
   - component: {fileID: 3969294475806599676}
   - component: {fileID: 4545174072340348189}
   - component: {fileID: 8696777628580303610}
+  - component: {fileID: 6526784824339440513}
   m_Layer: 0
   m_Name: Dodo
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1204819871
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 2893727692163940154, guid: c3c9b933ffbe1b44e84b42bc07978434,
     type: 3}
@@ -155,7 +156,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!195 &1789702915758072600
+--- !u!195 &433748874383898476
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,3 +215,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c27b074d4de690408ad6e4aa305076d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &6526784824339440513
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969294475806599677}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2

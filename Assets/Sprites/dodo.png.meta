@@ -38,6 +38,66 @@ TextureImporter:
   - first:
       213: 4874719520938356265
     second: left 2
+  - first:
+      213: 1047730225476334550
+    second: dodo_0
+  - first:
+      213: 2863574253132874835
+    second: dodo_1
+  - first:
+      213: -5899285685480377565
+    second: dodo_2
+  - first:
+      213: -7970274808315878511
+    second: dodo_3
+  - first:
+      213: 8471536686416350897
+    second: dodo_4
+  - first:
+      213: -1833333254970820776
+    second: dodo_5
+  - first:
+      213: -3122999516642446429
+    second: dodo_6
+  - first:
+      213: 1188190079994537189
+    second: dodo_7
+  - first:
+      213: -559281998300698359
+    second: dodo_8
+  - first:
+      213: -21108414783071921
+    second: dodo_9
+  - first:
+      213: 8060856826438576458
+    second: dodo_10
+  - first:
+      213: -4520514804930770406
+    second: dodo_11
+  - first:
+      213: 8827744249632886170
+    second: attack up 0
+  - first:
+      213: 1440920802718671151
+    second: attack up 1
+  - first:
+      213: -8577179554403882017
+    second: attack right 0
+  - first:
+      213: 6853664052314790833
+    second: attack right 1
+  - first:
+      213: -6498382301766656273
+    second: attack down 0
+  - first:
+      213: 962479821653403348
+    second: attack down 1
+  - first:
+      213: 8841062083242923456
+    second: attack left 0
+  - first:
+      213: -5753434940372150340
+    second: attack left 1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -370,6 +430,174 @@ TextureImporter:
       bones: []
       spriteID: 92e6131b39b76a340800000000000000
       internalID: 4874719520938356265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack up 0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 197
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8d57af92728a70800000000000000
+      internalID: 8827744249632886170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack up 1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 199
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f216483f5dd2ff310800000000000000
+      internalID: 1440920802718671151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right 0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 131
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb630d93acb7f880800000000000000
+      internalID: -8577179554403882017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack right 1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 130
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb5610b42b1d1f50800000000000000
+      internalID: 6853664052314790833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack down 0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 67
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee5388f9bb11d5a0800000000000000
+      internalID: -6498382301766656273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack down 1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 66
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6e1216c4a6b5d00800000000000000
+      internalID: 962479821653403348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack left 0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c59edc6f13c1ba70800000000000000
+      internalID: 8841062083242923456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack left 1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb71ccc9761b720b0800000000000000
+      internalID: -5753434940372150340
       vertices: []
       indices: 
       edges: []
