@@ -95,7 +95,6 @@ public class DodoAI : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision == null) return;
         if (!collision.CompareTag("Enemy")) return;
         if (isAttacking) return;
 
@@ -107,12 +106,20 @@ public class DodoAI : MonoBehaviour
         }
         else if(mode == Mode.Active)
         {
-            // Potentially change target
-            float distanceToCurrentTarget = Vector2.Distance(transform.position, target.position);
-            float distanceToPotentialTarget = Vector2.Distance(transform.position, collision.transform.position);
-            if(distanceToPotentialTarget < distanceToCurrentTarget)
+            // Target null = dead then change target
+            if (target == null)
             {
                 target = collision.transform;
+            }
+            else
+            {
+                // Target not dead, check if new target is closer
+                float distanceToCurrentTarget = Vector2.Distance(transform.position, target.position);
+                float distanceToPotentialTarget = Vector2.Distance(transform.position, collision.transform.position);
+                if (distanceToPotentialTarget < distanceToCurrentTarget)
+                {
+                    target = collision.transform;
+                }
             }
         }
     }

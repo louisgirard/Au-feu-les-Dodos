@@ -13,6 +13,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6402871981201159274, guid: c4c0fea2b192a164497dd96bbe294abc,
         type: 3}
+    - target: {fileID: 1737597923737477896, guid: ea38cef62c6da364882f0652150b4317,
+        type: 3}
+      propertyPath: average_per_minute
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1832050663595804820, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
       propertyPath: m_LocalPosition.x
