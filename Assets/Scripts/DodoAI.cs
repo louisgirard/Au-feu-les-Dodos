@@ -7,7 +7,6 @@ public class DodoAI : MonoBehaviour
 
     [SerializeField] float attackRange = 1f;
     [SerializeField] float power = 1f;
-    [SerializeField] bool canAttackRodeur = false;
 
     Transform target;
     Transform player;
@@ -40,7 +39,6 @@ public class DodoAI : MonoBehaviour
         if (mode == Mode.Passive)
         {
             // Move to player
-            target = player;
             MoveToTarget();
         }
         else if (mode == Mode.Active)
@@ -93,38 +91,29 @@ public class DodoAI : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    public void EnemyDetected(Transform enemy)
     {
-        if(canAttackRodeur)
-        {
-            if (!collision.CompareTag("Machibuse") && !collision.CompareTag("Rodeur")) return;
-        }
-        else
-        {
-            if (!collision.CompareTag("Machibuse")) return;
-        }
-
         // Target in range, set new target
         if(mode == Mode.Passive)
         {
             mode = Mode.Active;
-            target = collision.transform;
+            target = enemy;
         }
         else if(mode == Mode.Active)
         {
             // Target null = dead then change target
             if (target == null)
             {
-                target = collision.transform;
+                target = enemy;
             }
             else
             {
                 // Target not dead, check if new target is closer
                 float distanceToCurrentTarget = Vector2.Distance(transform.position, target.position);
-                float distanceToPotentialTarget = Vector2.Distance(transform.position, collision.transform.position);
+                float distanceToPotentialTarget = Vector2.Distance(transform.position, enemy.position);
                 if (distanceToPotentialTarget < distanceToCurrentTarget)
                 {
-                    target = collision.transform;
+                    target = enemy;
                 }
             }
         }
