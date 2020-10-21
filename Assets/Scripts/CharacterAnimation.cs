@@ -37,7 +37,8 @@ public class CharacterAnimation : MonoBehaviour
     // Play attack animation
     public void Attack()
     {
-        animator.Play(attackPositions[direction]);
+        if (!AnimatorIsPlaying())
+            animator.Play(attackPositions[direction]);
     }
     
     // Returns a direction index depending on a direction (mouse position, joystick)

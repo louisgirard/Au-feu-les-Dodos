@@ -11,7 +11,7 @@ PrefabInstance:
         type: 3}
       propertyPath: machibuse
       value: 
-      objectReference: {fileID: 6402871981201159274, guid: c4c0fea2b192a164497dd96bbe294abc,
+      objectReference: {fileID: 6146808181755892687, guid: 38baf362755d0dc4681d9525ccc6fa13,
         type: 3}
     - target: {fileID: 1737597923737477896, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
@@ -36,17 +36,17 @@ PrefabInstance:
     - target: {fileID: 1832050663595804820, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1832050663595804820, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1832050663595804820, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1832050663595804820, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
@@ -76,7 +76,7 @@ PrefabInstance:
     - target: {fileID: 1832050663595804825, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
       propertyPath: m_Name
-      value: FireSprinter
+      value: FireJumper
       objectReference: {fileID: 0}
     - target: {fileID: 8628063089276662128, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
