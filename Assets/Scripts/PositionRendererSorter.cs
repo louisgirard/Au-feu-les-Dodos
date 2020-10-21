@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 
 public class PositionRendererSorter : MonoBehaviour
 {
-    [SerializeField] float offset = 0f;
+    public float offset = 0f;
     readonly float timeBetweenCalculation = 0.01f;
     readonly float precision = 100;
 

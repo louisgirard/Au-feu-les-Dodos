@@ -100,7 +100,12 @@ public class TreesPainter : EditorWindow
             // Set its position
             tree.transform.position = RandomPointInCircle() + MousePosition();
             // Scale it
-            tree.transform.localScale *= Random.Range(minTreeSize, maxTreeSize);
+            float scale = Random.Range(minTreeSize, maxTreeSize);
+            tree.transform.localScale *= scale;
+            // Change position renderer offset
+            PositionRendererSorter treeOrderSorter = tree.GetComponent<PositionRendererSorter>();
+            treeOrderSorter.offset -= (1 - scale);
+            treeOrderSorter.offset = Mathf.Floor(treeOrderSorter.offset * 10f) / 10f;
 
             treesCreated.Add(tree);
             Undo.RegisterCreatedObjectUndo(tree, "tree");
