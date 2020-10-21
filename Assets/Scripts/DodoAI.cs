@@ -3,17 +3,17 @@ using UnityEngine.AI;
 
 public class DodoAI : MonoBehaviour
 {
-    enum Mode { Passive, Active, Attacking };
+    enum Mode { Passive, Active };
 
     [SerializeField] float attackRange = 1f;
-    [SerializeField] float power = 2f;
+    [SerializeField] float power = 1f;
+    [SerializeField] bool canAttackRodeur = false;
 
     Transform target;
     Transform player;
     NavMeshAgent agent;
     CharacterAnimation animator;
     Mode mode = Mode.Passive;
-    bool isAttacking = false;
 
     private void Start()
     {
@@ -45,9 +45,7 @@ public class DodoAI : MonoBehaviour
         }
         else if (mode == Mode.Active)
         {
-            // If in range of attack then attack, else move to target
-            float distanceToTarget = Vector2.Distance(transform.position, target.position);
-            if (distanceToTarget <= attackRange)
+            if (InAttackRange())
             {
                 Attack();
             }
@@ -77,26 +75,34 @@ public class DodoAI : MonoBehaviour
         Vector2 direction = (target.position - transform.position).normalized;
         animator.SetOrientation(direction);
         // Attack
-        isAttacking = true;
         animator.Attack();
     }
 
     // Event in every attack animations
     private void AttackHitEvent()
     {
-        if(target != null && !target.CompareTag("Player"))
+        // During attack animation target could have died, changed, or left attack range
+        if(target != null && !target.CompareTag("Player") && InAttackRange())
         {
             // Damage to enemy
-            Destroy(target.gameObject);
-            print("damage");
+            Extinguishment enemy = target.GetComponent<Extinguishment>();
+            if(enemy != null)
+            {
+                enemy.TakeDamage(power);
+            }
         }
-        isAttacking = false;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Enemy")) return;
-        if (isAttacking) return;
+        if(canAttackRodeur)
+        {
+            if (!collision.CompareTag("Machibuse") && !collision.CompareTag("Rodeur")) return;
+        }
+        else
+        {
+            if (!collision.CompareTag("Machibuse")) return;
+        }
 
         // Target in range, set new target
         if(mode == Mode.Passive)
@@ -122,5 +128,11 @@ public class DodoAI : MonoBehaviour
                 }
             }
         }
+    }
+
+    private bool InAttackRange()
+    {
+        float distanceToTarget = Vector2.Distance(transform.position, target.position);
+        return (distanceToTarget <= attackRange);
     }
 }

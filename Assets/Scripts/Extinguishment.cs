@@ -4,29 +4,25 @@ public class Extinguishment : MonoBehaviour
 {
     public float health;
 
-    private float timer;
-
-    private void Start()
-    {
-        timer = 0;
-    }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Lance"))
         {
-            if (timer >= health)
-                Destroy(gameObject, 0.1f);
-            else
-                timer += Time.deltaTime;
+            TakeDamage(Time.deltaTime);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    public void TakeDamage(float damage)
     {
-        if (collision.gameObject.CompareTag("Lance"))
+        health = Mathf.Max(health - damage, 0);
+        if(health == 0)
         {
-            timer = 0;
+            Death();
         }
+    }
+
+    private void Death()
+    {
+        Destroy(gameObject, 0.1f);
     }
 }

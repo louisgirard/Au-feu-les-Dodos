@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Lance
-  - Enemy
   - Dodo
+  - Machibuse
+  - Rodeur
   layers:
   - Default
   - TransparentFX
