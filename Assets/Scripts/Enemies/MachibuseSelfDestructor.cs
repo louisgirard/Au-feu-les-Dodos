@@ -19,7 +19,7 @@ public class MachibuseSelfDestructor : MonoBehaviour
             else
             {
                 // Reduce dodo health
-                collision.GetComponent<DodoHealth>().TakeDamage(1);
+                collision.GetComponentInChildren<DodoHealth>().TakeDamage(1);
             }
         }
     }
