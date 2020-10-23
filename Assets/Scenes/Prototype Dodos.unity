@@ -1975,12 +1975,12 @@ PrefabInstance:
     - target: {fileID: 3471914841249673605, guid: f77bd9135b3239f409f92a577910bb8c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.53005314
+      value: -0.813
       objectReference: {fileID: 0}
     - target: {fileID: 3471914841249673605, guid: f77bd9135b3239f409f92a577910bb8c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.7608957
+      value: -7.04
       objectReference: {fileID: 0}
     - target: {fileID: 3471914841249673605, guid: f77bd9135b3239f409f92a577910bb8c,
         type: 3}
@@ -2010,7 +2010,7 @@ PrefabInstance:
     - target: {fileID: 3471914841249673605, guid: f77bd9135b3239f409f92a577910bb8c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 116
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 3471914841249673605, guid: f77bd9135b3239f409f92a577910bb8c,
         type: 3}
@@ -6660,7 +6660,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.06666667
+  m_VoxelSize: 0.033333335
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: e271a3b7cde15534b98ba5e829c0615b, type: 2}
 --- !u!1001 &583529126
@@ -18584,6 +18584,7 @@ Transform:
   - {fileID: 115021708}
   - {fileID: 833714577}
   - {fileID: 2013427672}
+  - {fileID: 917096941}
   - {fileID: 2138782610}
   - {fileID: 1638899429}
   - {fileID: 174900103}
@@ -18593,10 +18594,9 @@ Transform:
   - {fileID: 1183334593}
   - {fileID: 1570331659}
   - {fileID: 854394479}
-  - {fileID: 917096941}
+  - {fileID: 235354184}
   - {fileID: 749387471}
   - {fileID: 1687758213}
-  - {fileID: 235354184}
   - {fileID: 2144133253}
   - {fileID: 1107085895}
   - {fileID: 1503328899}
@@ -26421,6 +26421,11 @@ PrefabInstance:
       propertyPath: canAttackRodeur
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7905290180993431586, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8696777628580303610, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: power
@@ -26431,7 +26436,8 @@ PrefabInstance:
       propertyPath: canAttackRodeur
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 298771728550886018, guid: 899ebc3df8f84c042bf50b3ea674caa8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 899ebc3df8f84c042bf50b3ea674caa8, type: 3}
 --- !u!1001 &1513195361
 PrefabInstance:
