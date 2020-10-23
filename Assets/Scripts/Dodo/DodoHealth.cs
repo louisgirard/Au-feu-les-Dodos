@@ -38,6 +38,11 @@ public class DodoHealth : MonoBehaviour
         dodoUI.UpdateHealth(health);
     }
 
+    public bool IsDying()
+    {
+        return (health <= 1);
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Lance"))
