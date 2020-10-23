@@ -13,6 +13,7 @@ public class DodoAI : MonoBehaviour
     NavMeshAgent agent;
     CharacterAnimation animator;
     Mode mode = Mode.Passive;
+    DodoHealth health;
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class DodoAI : MonoBehaviour
         target = player;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<CharacterAnimation>();
+        health = GetComponentInChildren<DodoHealth>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
     }
@@ -29,8 +31,8 @@ public class DodoAI : MonoBehaviour
         // Fix z axis to 0
         transform.position = new Vector2(transform.position.x, transform.position.y);
 
-        // Target null = target dead
-        if (target == null)
+        // Target dead, or dodo dying
+        if (target == null || health.IsDying())
         {
             target = player;
             mode = Mode.Passive;

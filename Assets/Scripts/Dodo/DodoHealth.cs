@@ -13,6 +13,15 @@ public class DodoHealth : MonoBehaviour
         dodoUI.UpdateHealth(health);
     }
 
+    private void Update()
+    {
+        // Slowly decrease health when last life
+        if (health <= 1)
+        {
+            TakeDamage(Time.deltaTime / 4);
+        }
+    }
+
     public void TakeDamage(float damage)
     {
         health = Mathf.Max(health - damage, 0);
@@ -27,6 +36,11 @@ public class DodoHealth : MonoBehaviour
     {
         health = Mathf.Min(health + points, maxHealth);
         dodoUI.UpdateHealth(health);
+    }
+
+    public bool IsDying()
+    {
+        return (health <= 1);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
