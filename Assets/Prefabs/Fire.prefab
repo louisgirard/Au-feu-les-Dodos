@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 896305928398523720}
   m_Layer: 0
   m_Name: Fire
-  m_TagString: Untagged
+  m_TagString: Fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 6777908215141029298}
   m_Layer: 0
   m_Name: Machibuse generation
-  m_TagString: Untagged
+  m_TagString: Machibuse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
