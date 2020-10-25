@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PatrolWaypoint : MonoBehaviour
 {
 
     public PatrolWaypoint[] nextPossiblePoints;
 
-    public PatrolWaypoint getNextPoint()
+    public PatrolWaypoint GetNextPoint()
     {
         if (nextPossiblePoints.Length == 0) return null;
         return nextPossiblePoints[Random.Range(0, nextPossiblePoints.Length)];

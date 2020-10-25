@@ -6,7 +6,7 @@ public class RodeurAttack : MonoBehaviour
 {
     public float speed;
 
-    private bool player_in_sight;
+    private bool player_in_sight = false;
     private GameObject player;
 
     void Start()
@@ -18,7 +18,7 @@ public class RodeurAttack : MonoBehaviour
     {
         if (player_in_sight)
         {
-            Vector3 direction = (player.transform.position - transform.position).normalized;
+            Vector2 direction = (player.transform.position - transform.position).normalized;
             transform.Translate(direction * Time.deltaTime * speed);
         }   
     }
@@ -39,7 +39,7 @@ public class RodeurAttack : MonoBehaviour
         }
     }
 
-    public bool get_player_in_sight()
+    public bool Get_player_in_sight()
     {
         return player_in_sight;
     }

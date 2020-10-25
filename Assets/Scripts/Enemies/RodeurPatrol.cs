@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 //using UnityEngine.AI;
 
 public class RodeurPatrol : MonoBehaviour
@@ -8,15 +6,22 @@ public class RodeurPatrol : MonoBehaviour
     public PatrolWaypoint waypoint;
     public float speed;
 
+    RodeurAttack rodeurAttack;
+
+    private void Start()
+    {
+        rodeurAttack = GetComponent<RodeurAttack>();
+    }
+
     void Update()
     {
-        if (!GetComponent<RodeurAttack>().get_player_in_sight())
+        if (!rodeurAttack.Get_player_in_sight())
         {
-            transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, waypoint.transform.position, speed * Time.deltaTime);
 
             if (transform.position == waypoint.transform.position)
             {
-                waypoint = waypoint.getNextPoint();
+                waypoint = waypoint.GetNextPoint();
             }
         }
     }
