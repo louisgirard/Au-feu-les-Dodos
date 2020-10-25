@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0.3
+  rekindle_speed: 1.5
 --- !u!1 &4837900510685742007
 GameObject:
   m_ObjectHideFlags: 0
