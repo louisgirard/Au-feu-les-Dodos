@@ -13,28 +13,36 @@ public class PlayerEnjoyment : MonoBehaviour
         enjoymentBar.SetMaxEnjoyment(maxEnjoyment);
     }
    
-
-    private void OnTriggerEnter2D(Collider2D collision)
+       
+    public void TakeDamage(string action)
     {
-        if (collision.CompareTag("Fire"))
+        if (action == "Machibuse")
         {
-            TakePleasure(10);
+            currentEnjoyment -= 10;
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+        if (action == "Rodeur")
+        {
+            currentEnjoyment -= 15;
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+        if (action == "Brulure")
+        {
+            currentEnjoyment -= 5;
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
 
-        if (collision.CompareTag("Machibuse"))
-        {
-            TakeDamage(2);
-        }
-    }
-    void TakeDamage(int damage)
-    {
-        currentEnjoyment -= damage;
-        enjoymentBar.SetEnjoyment(currentEnjoyment);
+
+
     }
 
-    void TakePleasure(int pleasure)
+    public void TakePleasure(string action)
     {
-        currentEnjoyment += pleasure;
-        enjoymentBar.SetEnjoyment(currentEnjoyment);
+        if (action == "Fire")
+        {
+            currentEnjoyment += 5;
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+
     }
 }

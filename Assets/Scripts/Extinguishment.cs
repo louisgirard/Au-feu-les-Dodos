@@ -29,9 +29,11 @@ public class Extinguishment : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
         health = Mathf.Max(health - damage, 0);
         if(health == 0)
         {
+            playerEnjoyment.TakePleasure("Fire");
             Death();
         }
     }

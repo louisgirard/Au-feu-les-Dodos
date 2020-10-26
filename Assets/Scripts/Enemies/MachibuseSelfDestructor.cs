@@ -6,7 +6,8 @@ public class MachibuseSelfDestructor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player") || collision.CompareTag("Dodo"))
+        PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
+        if (collision.CompareTag("Player") || collision.CompareTag("Dodo"))
         {
             GameObject explosion = Instantiate(explosionPrefab, collision.transform.position, Quaternion.identity, collision.transform);
             Destroy(explosion, 0.5f);
@@ -14,7 +15,7 @@ public class MachibuseSelfDestructor : MonoBehaviour
 
             if(collision.CompareTag("Player"))
             {
-                // Reduce Amusement Gauge
+                playerEnjoyment.TakeDamage("Machibuse");                
             }
             else
             {
