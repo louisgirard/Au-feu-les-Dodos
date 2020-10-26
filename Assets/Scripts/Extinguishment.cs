@@ -16,7 +16,6 @@ public class Extinguishment : MonoBehaviour
     {
         if (health < max_health)
             health += Time.deltaTime * rekindle_speed / 10;
-        print(health);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -40,6 +39,6 @@ public class Extinguishment : MonoBehaviour
 
     private void Death()
     {
-        Destroy(gameObject, 0.1f);
+        Destroy(gameObject);
     }
 }
