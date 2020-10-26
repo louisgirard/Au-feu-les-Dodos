@@ -12,37 +12,43 @@ public class PlayerEnjoyment : MonoBehaviour
         currentEnjoyment = maxEnjoyment;
         enjoymentBar.SetMaxEnjoyment(maxEnjoyment);
     }
-   
        
     public void TakeDamage(string action)
     {
         if (action == "Machibuse")
         {
-            currentEnjoyment -= 10;
+            LoseEnjoyment(10);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur")
         {
-            currentEnjoyment -= 15;
+            LoseEnjoyment(15);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Brulure")
         {
-            currentEnjoyment -= 5;
+            LoseEnjoyment(5);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-
-
-
     }
 
     public void TakePleasure(string action)
     {
         if (action == "Fire")
         {
-            currentEnjoyment += 5;
+            AddEnjoyment(5);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
 
+    }
+
+    private void AddEnjoyment(int enjoyment)
+    {
+        currentEnjoyment = Mathf.Min(currentEnjoyment + enjoyment, maxEnjoyment);
+    }
+
+    private void LoseEnjoyment(int enjoyment)
+    {
+        currentEnjoyment = Mathf.Max(currentEnjoyment - enjoyment, 0);
     }
 }

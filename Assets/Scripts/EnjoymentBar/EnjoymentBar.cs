@@ -7,6 +7,7 @@ public class EnjoymentBar : MonoBehaviour
 
     public Gradient gradient;
     public Image fill;
+
     public void SetMaxEnjoyment(int enjoyment)
     {
         slider.maxValue = enjoyment;
