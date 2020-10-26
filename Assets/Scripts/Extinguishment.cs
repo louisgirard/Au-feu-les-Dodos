@@ -6,16 +6,19 @@ public class Extinguishment : MonoBehaviour
     public float rekindle_speed;
 
     private float max_health;
+    private Vector3 start_scale;
 
     private void Start()
     {
         max_health = health;
+        start_scale = transform.localScale;
     }
 
     private void Update()
     {
         if (health < max_health)
-            health += Time.deltaTime * rekindle_speed / 10;
+            health += Time.deltaTime * rekindle_speed;
+        transform.localScale = start_scale * (health/(max_health*1.5f) + 0.5f);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
