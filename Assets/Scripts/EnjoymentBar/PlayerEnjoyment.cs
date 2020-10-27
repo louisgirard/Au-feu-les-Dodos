@@ -2,8 +2,10 @@
 
 public class PlayerEnjoyment : MonoBehaviour
 {
-    public int maxEnjoyment = 100;
-    private int currentEnjoyment;
+    public float maxEnjoyment = 100;
+    private float currentEnjoyment;
+    private float timer = 0.0f;
+    private float waitTime = 5.0f;
 
     public EnjoymentBar enjoymentBar;
     
@@ -11,6 +13,16 @@ public class PlayerEnjoyment : MonoBehaviour
     {
         currentEnjoyment = maxEnjoyment;
         enjoymentBar.SetMaxEnjoyment(maxEnjoyment);
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+        if(timer > waitTime)
+        {
+            TakeDamage("Time");
+            timer = 0.0f;
+        }
     }
 
     public void TakeDamage(string action)
@@ -57,19 +69,19 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         if (action == "Rodeur Damage")
         {
-            AddEnjoyment(2);
+            AddEnjoyment(0.01f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
 
 
     }
 
-    private void AddEnjoyment(int enjoyment)
+    private void AddEnjoyment(float enjoyment)
     {
         currentEnjoyment = Mathf.Min(currentEnjoyment + enjoyment, maxEnjoyment);
     }
 
-    private void LoseEnjoyment(int enjoyment)
+    private void LoseEnjoyment(float enjoyment)
     {
         currentEnjoyment = Mathf.Max(currentEnjoyment - enjoyment, 0);
     }

@@ -8,7 +8,7 @@ public class EnjoymentBar : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
-    public void SetMaxEnjoyment(int enjoyment)
+    public void SetMaxEnjoyment(float enjoyment)
     {
         slider.maxValue = enjoyment;
         slider.value = enjoyment;
@@ -16,7 +16,7 @@ public class EnjoymentBar : MonoBehaviour
         fill.color = gradient.Evaluate(1f);
     }
 
-    public void SetEnjoyment(int enjoyment)
+    public void SetEnjoyment(float enjoyment)
     {
         slider.value = enjoyment;
         fill.color = gradient.Evaluate(slider.normalizedValue);

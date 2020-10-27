@@ -36,11 +36,26 @@ public class Extinguishment : MonoBehaviour
     {
         PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
         health = Mathf.Max(health - damage, 0);
-        if(health == 0)
+        if (health == 0 && gameObject.CompareTag("Fire"))
         {
             playerEnjoyment.TakePleasure("Fire");
             Death();
         }
+        if (health == 0 && gameObject.CompareTag("Machibuse"))
+        {
+            playerEnjoyment.TakePleasure("Machibuse Death");
+            Death();
+        }
+        if (health > 0 && gameObject.CompareTag("Rodeur"))
+        {
+            playerEnjoyment.TakePleasure("Rodeur Damage");
+        }
+        if (health == 0 && gameObject.CompareTag("Rodeur"))
+        {
+            playerEnjoyment.TakePleasure("Rodeur Death");
+            Death();
+        }
+       
     }
 
     public void Heal(float value)
