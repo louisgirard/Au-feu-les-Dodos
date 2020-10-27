@@ -3,7 +3,7 @@
 public class PlayerEnjoyment : MonoBehaviour
 {
     public int maxEnjoyment = 100;
-    public int currentEnjoyment;
+    private int currentEnjoyment;
 
     public EnjoymentBar enjoymentBar;
     
@@ -17,29 +17,50 @@ public class PlayerEnjoyment : MonoBehaviour
     {
         if (action == "Machibuse")
         {
-            LoseEnjoyment(10);
+            LoseEnjoyment(5);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur")
         {
-            LoseEnjoyment(15);
-            enjoymentBar.SetEnjoyment(currentEnjoyment);
-        }
-        if (action == "Brulure")
-        {
             LoseEnjoyment(5);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
+        if (action == "Burn")
+        {
+            LoseEnjoyment(2);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+        if (action == "Time")
+        {
+            LoseEnjoyment(2);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+
     }
 
     public void TakePleasure(string action)
     {
         if (action == "Fire")
         {
-            AddEnjoyment(1);
+            AddEnjoyment(5);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
-            print(currentEnjoyment);
         }
+        if (action == "Machibuse Death")
+        {
+            AddEnjoyment(2);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+        if (action == "Rodeur Death")
+        {
+            AddEnjoyment(10);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+        if (action == "Rodeur Damage")
+        {
+            AddEnjoyment(2);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+
 
     }
 
