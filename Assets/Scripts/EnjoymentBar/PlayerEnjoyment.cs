@@ -13,11 +13,6 @@ public class PlayerEnjoyment : MonoBehaviour
         enjoymentBar.SetMaxEnjoyment(maxEnjoyment);
     }
 
-    private void Update()
-    {
-        print(currentEnjoyment);
-    }
-
     public void TakeDamage(string action)
     {
         if (action == "Machibuse")

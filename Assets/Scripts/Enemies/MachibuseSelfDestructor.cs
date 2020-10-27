@@ -28,7 +28,7 @@ public class MachibuseSelfDestructor : MonoBehaviour
         if (collision.CompareTag("Rodeur"))
         {
             Destroy(gameObject);
-            collision.GetComponent<Extinguishment>().heal(0.6f);
+            collision.GetComponent<Extinguishment>().Heal(0.6f);
         }
     }
 }

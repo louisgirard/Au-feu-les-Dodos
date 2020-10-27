@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 3969294475806599676}
   - component: {fileID: 4545174072340348189}
   - component: {fileID: 8696777628580303610}
+  - component: {fileID: 4130932191179825551}
+  - component: {fileID: 8008326174411417669}
   m_Layer: 0
   m_Name: Dodo
   m_TagString: Dodo
@@ -216,8 +218,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c27b074d4de690408ad6e4aa305076d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 0.7
-  power: 2
+--- !u!114 &4130932191179825551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969294475806599677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd19f9cd2cf737e46924927f586a99ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8008326174411417669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969294475806599677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05398014ca4e83649b605046e1a86228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRange: 0.8
+  power: 1
 --- !u!1 &4443464784599693320
 GameObject:
   m_ObjectHideFlags: 0

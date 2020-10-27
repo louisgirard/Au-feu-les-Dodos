@@ -83,6 +83,8 @@ namespace UnityEngine.AI
             {
                 CollectSources(it, sources, builder);
             }
+
+            CollectTilemapSources(sources, builder);
         }
 
         private static void CollectSources(GameObject root, List<NavMeshBuildSource> sources, NavMeshBuilder2dWrapper builder)
@@ -141,7 +143,7 @@ namespace UnityEngine.AI
                     }
                 }
             }
-            Debug.Log("Sources " + sources.Count);
+            //Debug.Log("Sources " + sources.Count);
         }
 
         private static void CollectSources(List<NavMeshBuildSource> sources, SpriteRenderer sprite, int area, NavMeshBuilder2dWrapper builder)
@@ -257,6 +259,25 @@ namespace UnityEngine.AI
                         boxsrc.area = area;
                         sources.Add(boxsrc);
                     }
+                }
+            }
+        }
+
+        static private void CollectTilemapSources(List<NavMeshBuildSource> sources, NavMeshBuilder2dWrapper builder)
+        {
+            GameObject[] modifiers = UnityEngine.Object.FindObjectsOfType<GameObject>();
+            foreach (var m in modifiers)
+            {
+                Tilemap tilemap = m.GetComponent<Tilemap>();
+                if (tilemap == null) continue;
+                TilemapCollider2D tilemapCollider2D = m.GetComponent<TilemapCollider2D>();
+                if (tilemapCollider2D == null)
+                {
+                    CollectTileSources(sources, tilemap, 0, builder);
+                }
+                else
+                {
+                    CollectTileSources(sources, tilemap, 1, builder);
                 }
             }
         }
