@@ -19,6 +19,12 @@ public class JumpingMachibuseBehaviour : MachibusePickTarget
 
     void Update()
     {
+        if (target == null)
+        {
+            base.Start();
+            return;
+        }
+
         jump_timer += Time.deltaTime;
 
         if (jump_timer >= jump_duration)

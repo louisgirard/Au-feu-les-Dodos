@@ -12,18 +12,21 @@ public class MachibusePickTarget : MonoBehaviour
         float min_distance = Vector3.Distance(player.position, transform.position);
         target = player;
 
-        Transform dodo = GameObject.FindWithTag("Dodo").transform;
-        float distance = Vector3.Distance(dodo.position, transform.position);
-        if (distance < min_distance)
+        if (GameObject.FindWithTag("Dodo") != null)
         {
-            min_distance = distance;
-            target = dodo;
+            Transform dodo = GameObject.FindWithTag("Dodo").transform;
+            float distance = Vector3.Distance(dodo.position, transform.position);
+            if (distance < min_distance)
+            {
+                min_distance = distance;
+                target = dodo;
+            }
         }
 
         GameObject[] rodeurs = GameObject.FindGameObjectsWithTag("Rodeur");
         foreach (GameObject r in rodeurs)
         {
-            distance = Vector3.Distance(r.transform.position, transform.position);
+            float distance = Vector3.Distance(r.transform.position, transform.position);
             if (distance < min_distance)
             {
                 min_distance = distance;
@@ -31,4 +34,5 @@ public class MachibusePickTarget : MonoBehaviour
             }
         }
     }
+
 }

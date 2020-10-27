@@ -35713,6 +35713,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4297730864967429134, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4537907558852085278, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: waypoint
