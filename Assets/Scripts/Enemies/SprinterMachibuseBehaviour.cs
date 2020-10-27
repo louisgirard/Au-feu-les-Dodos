@@ -11,6 +11,9 @@ public class SprinterMachibuseBehaviour : MachibusePickTarget
 
     void Update()
     {
+        if (target == null)
+            base.Start();
+
         transform.Translate((target.position - transform.position).normalized * Time.deltaTime * speed);
     }
 }
