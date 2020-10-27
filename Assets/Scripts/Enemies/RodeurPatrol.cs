@@ -5,17 +5,10 @@ public class RodeurPatrol : MonoBehaviour
 {
     public PatrolWaypoint waypoint;
     public float speed;
-
-    RodeurAttack rodeurAttack;
-
-    private void Start()
-    {
-        rodeurAttack = GetComponent<RodeurAttack>();
-    }
-
+    
     void Update()
     {
-        if (!rodeurAttack.Get_player_in_sight())
+        if (!GetComponentInChildren<PlayerDetection>().Get_player_in_sight())
         {
             transform.position = Vector2.MoveTowards(transform.position, waypoint.transform.position, speed * Time.deltaTime);
 

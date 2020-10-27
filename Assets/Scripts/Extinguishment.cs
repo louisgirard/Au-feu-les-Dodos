@@ -16,7 +16,7 @@ public class Extinguishment : MonoBehaviour
 
     private void Update()
     {
-        if (health < max_health)
+        if (false)
             health += Time.deltaTime * rekindle_speed;
         transform.localScale = start_scale * (health/(max_health*1.5f) + 0.5f);
     }
@@ -38,6 +38,11 @@ public class Extinguishment : MonoBehaviour
             playerEnjoyment.TakePleasure("Fire");
             Death();
         }
+    }
+
+    public void heal(float value)
+    {
+        health = Mathf.Min(health + value, max_health);
     }
 
     private void Death()

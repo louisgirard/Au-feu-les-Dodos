@@ -6,6 +6,7 @@ public class MachibuseSelfDestructor : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        print(collision.tag);
         if (collision.CompareTag("Player") || collision.CompareTag("Dodo"))
         {
             PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
@@ -22,6 +23,12 @@ public class MachibuseSelfDestructor : MonoBehaviour
                 // Reduce dodo health
                 collision.GetComponentInChildren<DodoHealth>().TakeDamage(1);
             }
+        }
+
+        if (collision.CompareTag("Rodeur"))
+        {
+            Destroy(gameObject);
+            collision.GetComponent<Extinguishment>().heal(0.6f);
         }
     }
 }
