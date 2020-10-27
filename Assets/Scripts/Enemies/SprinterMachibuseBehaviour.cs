@@ -1,17 +1,16 @@
 ﻿using UnityEngine;
 
-public class SprinterMachibuseBehaviour : MonoBehaviour
+public class SprinterMachibuseBehaviour : MachibusePickTarget
 {
     public float speed;
-    Transform player;
 
-    void Start()
+    public override void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;   
+        base.Start();
     }
 
     void Update()
     {
-        transform.Translate((player.position - transform.position).normalized * Time.deltaTime * speed);
+        transform.Translate((target.position - transform.position).normalized * Time.deltaTime * speed);
     }
 }

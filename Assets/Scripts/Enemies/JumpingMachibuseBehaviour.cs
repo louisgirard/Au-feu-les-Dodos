@@ -1,21 +1,19 @@
 ﻿using UnityEngine;
 
-public class JumpingMachibuseBehaviour : MonoBehaviour
+public class JumpingMachibuseBehaviour : MachibusePickTarget
 {
     public float jump_length;
     public float jump_duration;
     public AnimationCurve jump_curve;
     public float jump_pause;
 
-    private Transform player; // final target
-    private Vector3 start_position; // jump start
-    private Vector3 target_position; // jump target
+    private Vector3 jump_start_position; 
+    private Vector3 jump_end_position; 
     private float jump_timer;
-    private float pause_timer;
 
-    private void Start()
+    public override void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
+        base.Start();
         jump_timer = jump_duration;
     }
 
@@ -32,19 +30,19 @@ public class JumpingMachibuseBehaviour : MonoBehaviour
 
     void Init_jump()
     {
-        start_position = transform.position;
-        Vector3 direction = (player.position - transform.position).normalized;
-        if ((player.position - transform.position).magnitude > jump_length)
+        jump_start_position = transform.position;
+        Vector3 direction = (target.position - transform.position).normalized;
+        if ((target.position - transform.position).magnitude > jump_length)
             direction = Quaternion.Euler(0, 0, Random.Range(-25f, 25f)) * direction;
-        target_position = transform.position + direction * jump_length;
+        jump_end_position = transform.position + direction * jump_length;
         jump_timer = - jump_pause;
     }
     
     void Jump()
     {
         transform.position = Vector3.Lerp(
-            start_position,
-            target_position,
+            jump_start_position,
+            jump_end_position,
             jump_curve.Evaluate(jump_timer / jump_duration));
     }
 }
