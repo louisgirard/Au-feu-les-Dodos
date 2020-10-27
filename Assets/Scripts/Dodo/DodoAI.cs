@@ -41,7 +41,6 @@ public class DodoAI : MonoBehaviour
         {
             if (dodoAttack.InAttackRange())
             {
-                print("Attack");
                 dodoMovement.Stop();
                 dodoAttack.Attack();
             }

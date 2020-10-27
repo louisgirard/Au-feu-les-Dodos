@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
+// Base class for Physical and Distance Attack
 public class DodoAttack : MonoBehaviour
 {
     [SerializeField] float attackRange = 1f;
-    [SerializeField] float power = 1f;
     
-    Transform currentTarget;
+    protected Transform currentTarget;
     CharacterAnimation animator;
 
     void Start()
@@ -20,21 +20,6 @@ public class DodoAttack : MonoBehaviour
         animator.SetOrientation(direction);
         // Attack
         animator.Attack();
-    }
-
-    // Event in every attack animations
-    private void AttackHitEvent()
-    {
-        // During attack animation target could have died, changed, or left attack range
-        if (currentTarget != null && !currentTarget.CompareTag("Player") && InAttackRange())
-        {
-            // Damage to enemy
-            Extinguishment enemy = currentTarget.GetComponent<Extinguishment>();
-            if (enemy != null)
-            {
-                enemy.TakeDamage(power);
-            }
-        }
     }
 
     public bool InAttackRange()
