@@ -288,7 +288,6 @@ namespace UnityEngine.AI
             }
         }
 
-
         void AppendCollisions(ref List<NavMeshBuildSource> sources)
         {
             AppendBoxCollisions(ref sources);
@@ -326,7 +325,6 @@ namespace UnityEngine.AI
                 src.transform = Matrix4x4.TRS(mcenter, m.transform.rotation, Vector3.one);
                 src.size = msize;
                 src.area = 1; // not walkable
-                //Debug.Log("Collisions: " + m.name + ", center = " + mcenter + ", size = " + src.size + ", transform = " + src.transform);
                 sources.Add(src);
             }
         }
