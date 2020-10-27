@@ -3,7 +3,7 @@
 // Base class for Physical and Distance Attack
 public class DodoAttack : MonoBehaviour
 {
-    [SerializeField] float attackRange = 1f;
+    [SerializeField] float attackRange = 0.8f;
     
     protected Transform currentTarget;
     CharacterAnimation animator;
@@ -13,7 +13,7 @@ public class DodoAttack : MonoBehaviour
         animator = GetComponent<CharacterAnimation>();
     }
 
-    public void Attack()
+    public virtual void Attack()
     {
         // Face target
         Vector2 direction = (currentTarget.position - transform.position).normalized;
