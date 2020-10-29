@@ -17,8 +17,13 @@ public class RodeurAttack : MonoBehaviour
     {
         if (GetComponentInChildren<PlayerDetection>().Get_player_in_sight())
         {
+            PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
             Vector2 direction = (player.transform.position - transform.position).normalized;
             transform.Translate(direction * Time.deltaTime * speed);
+            if(direction.magnitude < 0.5)
+            {
+                playerEnjoyment.TakeDamage("Rodeur");
+            }
         }   
     }
 }
