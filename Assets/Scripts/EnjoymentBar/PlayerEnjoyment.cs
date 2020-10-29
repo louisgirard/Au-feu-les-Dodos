@@ -5,7 +5,7 @@ public class PlayerEnjoyment : MonoBehaviour
     public float maxEnjoyment = 100;
     private float currentEnjoyment;
     private float timer = 0.0f;
-    private float waitTime = 5.0f;
+    public float waitTime = 5.0f;
 
     public EnjoymentBar enjoymentBar;
     
