@@ -4796,6 +4796,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07a2d92ee92b0ae46b4460ce83be2da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeBeforeOverheat: 4
+  overheatingTime: 1
+  fireKey: Fire1
 --- !u!114 &6389132783920413736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5156,8 +5159,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: f228a4a8cf46abd4796611a44125c2b5, type: 3}
   defaultTexture: {fileID: 2800000, guid: 96096dc737a89984787278b8d3bfa316, type: 3}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
 --- !u!199 &522630289
 ParticleSystemRenderer:
   serializedVersion: 6

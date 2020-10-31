@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 [RequireComponent(typeof(ParticleSystem))]
 [RequireComponent(typeof(BoxCollider2D))]
-public class LanceIncendie : MonoBehaviour
+public class LanceIncendie : Weapon
 {
     ParticleSystem ps;
     BoxCollider2D boxCollider2D;
@@ -14,19 +13,17 @@ public class LanceIncendie : MonoBehaviour
         boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
-    void Update()
+    public override void Fire()
     {
         var emission = ps.emission;
-        if(CrossPlatformInputManager.GetButton("Fire1"))
-        {
-            emission.enabled = true;
-            boxCollider2D.enabled = true;
+        emission.enabled = true;
+        boxCollider2D.enabled = true;
+    }
 
-        }
-        else
-        {
-            emission.enabled = false;
-            boxCollider2D.enabled = false;
-        }
+    public override void StopFire()
+    {
+        var emission = ps.emission;
+        emission.enabled = false;
+        boxCollider2D.enabled = false;
     }
 }
