@@ -48,6 +48,7 @@ public class Weapon : MonoBehaviour
         }
         else
         {
+            timer = Mathf.Min(timer + Time.deltaTime, timeBeforeOverheat);
             StopFire();
         }
     }
