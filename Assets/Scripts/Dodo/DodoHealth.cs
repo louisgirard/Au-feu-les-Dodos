@@ -63,7 +63,7 @@ public class DodoHealth : MonoBehaviour
         }
         else if (collision.CompareTag("MissileExplosion"))
         {
-            Heal(5);
+            Heal(3);
         }
     }
 }

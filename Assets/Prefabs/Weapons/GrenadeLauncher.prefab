@@ -46,6 +46,6 @@ MonoBehaviour:
   timeBeforeOverheat: 0
   overheatingTime: 2
   fireKey: Fire2
-  grenadePrefab: {fileID: -2908479488200296261, guid: 8cff303a9dc10ee42a2ba98c200ba43c,
+  projectilePrefab: {fileID: -2908479488200296261, guid: 8cff303a9dc10ee42a2ba98c200ba43c,
     type: 3}
   rotateProjectile: 0

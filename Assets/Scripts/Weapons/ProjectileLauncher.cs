@@ -2,20 +2,20 @@
 
 public class ProjectileLauncher : Weapon
 {
-    [SerializeField] Projectile grenadePrefab = null;
+    [SerializeField] Projectile projectilePrefab = null;
     [SerializeField] bool rotateProjectile = false;
 
     public override void Fire()
     {
-        Projectile grenade;
+        Projectile projectile;
         if (rotateProjectile)
         {
-            grenade = Instantiate(grenadePrefab, transform.position, transform.rotation);
+            projectile = Instantiate(projectilePrefab, transform.position, transform.rotation);
         }
         else
         {
-            grenade = Instantiate(grenadePrefab, transform.position, Quaternion.identity);
+            projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         }
-        grenade.SetDestination(CursorPosition.ToScreen());
+        projectile.SetDestination(CursorPosition.ToScreen());
     }
 }

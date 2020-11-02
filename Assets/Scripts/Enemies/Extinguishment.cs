@@ -45,7 +45,7 @@ public class Extinguishment : MonoBehaviour
         }
         else if (collision.CompareTag("MissileExplosion"))
         {
-            TakeDamage(5);
+            TakeDamage(3);
         }
     }
 
