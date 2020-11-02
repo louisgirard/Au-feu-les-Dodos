@@ -17,8 +17,16 @@ public static class CursorPosition
 
         // Update Orientation
         if (xInput == 0 && yInput == 0)
-            return new Vector2(mousePosition.x, mousePosition.y).normalized;
+            return new Vector2(mousePosition.x, mousePosition.y);
         else
-            return new Vector2(xInput, yInput).normalized;
+            return new Vector2(xInput, yInput);
+    }
+
+    public static Vector2 ToScreen()
+    {
+        Vector2 cursorPosition = Position();
+        cursorPosition.x += Screen.width / 2;
+        cursorPosition.y += Screen.height / 2;
+        return Camera.main.ScreenToWorldPoint(cursorPosition);
     }
 }

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class ObjectOrientation : MonoBehaviour
 {

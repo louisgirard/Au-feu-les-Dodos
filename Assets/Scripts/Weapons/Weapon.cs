@@ -17,6 +17,8 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
+        Orientation();
+
         if(isOverheating)
         {
             // Increase timer until the end of overheating
@@ -51,6 +53,19 @@ public class Weapon : MonoBehaviour
             timer = Mathf.Min(timer + Time.deltaTime, timeBeforeOverheat);
             StopFire();
         }
+    }
+
+    private void Orientation()
+    {
+        Vector2 cursorPosition = CursorPosition.Position();
+
+        float angle = Vector2.Angle(new Vector2(1, 0), cursorPosition);
+        if (cursorPosition.y < 0)
+        {
+            angle = -angle;
+        }
+
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
     }
 
     public virtual void Fire()

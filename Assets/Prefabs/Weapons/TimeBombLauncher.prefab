@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1565581805172443415}
-  - component: {fileID: -2071925313371857145}
   - component: {fileID: 437803250}
   m_Layer: 0
   m_Name: TimeBombLauncher
@@ -32,18 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-2071925313371857145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565581805172443412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b27fa92aca547a4bb9a9f8c22ed49b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &437803250
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,6 +3,8 @@
 [RequireComponent(typeof(WaterBombExplosion))]
 public class Projectile : MonoBehaviour
 {
+    [SerializeField] float speed = 2f;
+
     Vector2 destination;
     WaterBombExplosion bombExplosion;
 
@@ -13,9 +15,9 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, destination, 2);
+        transform.position = Vector2.MoveTowards(transform.position, destination, speed * Time.deltaTime);
 
-        if(IsArrivedAtDestination())
+        if (IsArrivedAtDestination())
         {
             bombExplosion.StartTimer();
         }
@@ -23,7 +25,7 @@ public class Projectile : MonoBehaviour
 
     private bool IsArrivedAtDestination()
     {
-        return Vector2.Distance(transform.position, destination) <= 0.5f;
+        return Vector2.Distance(transform.position, destination) <= 0.01f;
     }
 
     public void SetDestination(Vector2 finalDestination)

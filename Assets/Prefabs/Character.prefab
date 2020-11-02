@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8126534659614796652}
   - component: {fileID: 8650719312038165955}
   - component: {fileID: 9004828033584968523}
-  - component: {fileID: 6389132783920413736}
   - component: {fileID: 4058656283676625342}
   m_Layer: 0
   m_Name: Lance Incendie
@@ -4799,18 +4798,6 @@ MonoBehaviour:
   timeBeforeOverheat: 4
   overheatingTime: 1
   fireKey: Fire1
---- !u!114 &6389132783920413736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397513882788855887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b27fa92aca547a4bb9a9f8c22ed49b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &4058656283676625342
 BoxCollider2D:
   m_ObjectHideFlags: 0
