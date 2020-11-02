@@ -24,6 +24,11 @@ PrefabInstance:
       propertyPath: timeBeforeExplosion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1258844259, guid: bf5a79e75d14a634cb4521d6bf7a7c35, type: 3}
+      propertyPath: waterExplosionPrefab
+      value: 
+      objectReference: {fileID: 8379016234887530025, guid: d3ead155ddd139a4ea1f9d70fc96a1ce,
+        type: 3}
     - target: {fileID: 1881695994351409275, guid: bf5a79e75d14a634cb4521d6bf7a7c35,
         type: 3}
       propertyPath: m_Sprite

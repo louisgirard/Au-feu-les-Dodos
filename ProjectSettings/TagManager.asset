@@ -9,6 +9,9 @@ TagManager:
   - Machibuse
   - Rodeur
   - Fire
+  - GrenadeExplosion
+  - TimeBombExplosion
+  - MissileExplosion
   layers:
   - Default
   - TransparentFX

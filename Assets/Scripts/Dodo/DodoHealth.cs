@@ -50,4 +50,20 @@ public class DodoHealth : MonoBehaviour
             Heal(Time.deltaTime);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("GrenadeExplosion"))
+        {
+            Heal(2);
+        }
+        else if (collision.CompareTag("TimeBombExplosion"))
+        {
+            Heal(3);
+        }
+        else if (collision.CompareTag("MissileExplosion"))
+        {
+            Heal(5);
+        }
+    }
 }

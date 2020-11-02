@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Net.NetworkInformation;
+using UnityEngine;
 
 public class Extinguishment : MonoBehaviour
 {
@@ -26,9 +27,25 @@ public class Extinguishment : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Lance"))
+        if (collision.CompareTag("Lance"))
         {
             TakeDamage(Time.deltaTime);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("GrenadeExplosion"))
+        {
+            TakeDamage(2);
+        }
+        else if (collision.CompareTag("TimeBombExplosion"))
+        {
+            TakeDamage(3);
+        }
+        else if (collision.CompareTag("MissileExplosion"))
+        {
+            TakeDamage(5);
         }
     }
 

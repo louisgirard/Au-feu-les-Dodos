@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605d6ed4b34b52042b6dc40e93d0488f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1001 &7672700295775395618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23,6 +24,11 @@ PrefabInstance:
       propertyPath: timeBeforeExplosion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1258844259, guid: bf5a79e75d14a634cb4521d6bf7a7c35, type: 3}
+      propertyPath: waterExplosionPrefab
+      value: 
+      objectReference: {fileID: 8379016234887530025, guid: 19c49917730a2e34dab98ce00fc9276c,
+        type: 3}
     - target: {fileID: 1881695994351409275, guid: bf5a79e75d14a634cb4521d6bf7a7c35,
         type: 3}
       propertyPath: m_Sprite

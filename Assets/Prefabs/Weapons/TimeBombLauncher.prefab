@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBeforeOverheat: 0
-  overheatingTime: 2
+  overheatingTime: 3
   fireKey: Fire2
   timeBombPrefab: {fileID: 8370854124882012228, guid: ea6e50a58bcb2b64ab3a33c5e97807a1,
     type: 3}
