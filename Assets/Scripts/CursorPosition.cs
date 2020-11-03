@@ -22,7 +22,7 @@ public static class CursorPosition
             return new Vector2(xInput, yInput);
     }
 
-    public static Vector2 ToScreen()
+    public static Vector2 ToWorld()
     {
         Vector2 cursorPosition = Position();
         cursorPosition.x += Screen.width / 2;
