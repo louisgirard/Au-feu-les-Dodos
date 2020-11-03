@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3765394934470516731}
   - component: {fileID: 3765394934470516708}
-  - component: {fileID: 2265826464403083864}
+  - component: {fileID: 7120794648842000908}
   - component: {fileID: 313412267966789610}
   m_Layer: 0
-  m_Name: Stump3
+  m_Name: Stump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3765394934470516709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.34028587, y: 0.34028587, z: 0.34028587}
+  m_LocalScale: {x: 0.22, y: 0.22, z: 0.22}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1204819871
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bf71a6f4bfc534c668df1816cb5f4245, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95f2daa4640ee9244a9f5f27175d7b07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2265826464403083864
+--- !u!61 &7120794648842000908
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,18 +96,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.031053782, y: -0.18672124}
+  m_Offset: {x: 0.047523618, y: -0.09506786}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.37, y: 2.55}
+    oldSize: {x: 4.1, y: 3.35}
     newSize: {x: 2.66, y: 3.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7219741, y: 0.66240054}
+  m_Size: {x: 3.5432942, y: 1.39432}
   m_EdgeRadius: 0
 --- !u!114 &313412267966789610
 MonoBehaviour:
