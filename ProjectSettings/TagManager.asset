@@ -12,6 +12,7 @@ TagManager:
   - GrenadeExplosion
   - TimeBombExplosion
   - MissileExplosion
+  - Gun
   layers:
   - Default
   - TransparentFX

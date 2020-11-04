@@ -31,6 +31,10 @@ public class Extinguishment : MonoBehaviour
         {
             TakeDamage(Time.deltaTime);
         }
+        else if (collision.CompareTag("Gun"))
+        {
+            TakeDamage(Time.deltaTime);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
