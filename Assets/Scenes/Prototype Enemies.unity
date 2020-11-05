@@ -2233,6 +2233,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 433748874383898476, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3969294475806599674, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26638,12 +26643,12 @@ PrefabInstance:
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.95
+      value: -3.61
       objectReference: {fileID: 0}
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.96
+      value: -7.05
       objectReference: {fileID: 0}
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
@@ -33336,7 +33341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1922511364
 Transform:
   m_ObjectHideFlags: 0
@@ -35699,31 +35704,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1090532581, guid: 75c84a3723528a740bcccf62b66b5273, type: 3}
-      propertyPath: waypoint
-      value: 
-      objectReference: {fileID: 1958377805}
-    - target: {fileID: 2274572670962610722, guid: 75c84a3723528a740bcccf62b66b5273,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 3274551243886420562, guid: 75c84a3723528a740bcccf62b66b5273,
-        type: 3}
-      propertyPath: waypoint
-      value: 
-      objectReference: {fileID: 1958377805}
-    - target: {fileID: 4297730864967429134, guid: 75c84a3723528a740bcccf62b66b5273,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4297730864967429134, guid: 75c84a3723528a740bcccf62b66b5273,
-        type: 3}
-      propertyPath: m_Radius
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537907558852085278, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: waypoint
       value: 
@@ -35731,12 +35712,7 @@ PrefabInstance:
     - target: {fileID: 6133941204658471718, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: m_Name
-      value: rodeur
-      objectReference: {fileID: 0}
-    - target: {fileID: 6871146510619590037, guid: 75c84a3723528a740bcccf62b66b5273,
-        type: 3}
-      propertyPath: nextPossiblePoints.Array.size
-      value: 1
+      value: Rodeur
       objectReference: {fileID: 0}
     - target: {fileID: 8160616578024454076, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
