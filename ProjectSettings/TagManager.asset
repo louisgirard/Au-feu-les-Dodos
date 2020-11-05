@@ -13,6 +13,7 @@ TagManager:
   - TimeBombExplosion
   - MissileExplosion
   - Gun
+  - Bucket
   layers:
   - Default
   - TransparentFX
