@@ -3,10 +3,11 @@
 public class MachibuseSelfDestructor : MonoBehaviour
 {
     [SerializeField] GameObject explosionPrefab = null;
+    float dodoDamage = 1f;
+    float rodeurHeal = 0.6f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print(collision.tag);
         if (collision.CompareTag("Player") || collision.CompareTag("Dodo"))
         {
             PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
@@ -21,14 +22,14 @@ public class MachibuseSelfDestructor : MonoBehaviour
             else
             {
                 // Reduce dodo health
-                collision.GetComponentInChildren<DodoHealth>().TakeDamage(1);
+                collision.GetComponentInChildren<DodoHealth>().TakeDamage(dodoDamage);
             }
         }
 
         if (collision.CompareTag("Rodeur"))
         {
             Destroy(gameObject);
-            collision.GetComponent<Extinguishment>().Heal(0.6f);
+            collision.GetComponent<Extinguishment>().Heal(rodeurHeal);
         }
     }
 }
