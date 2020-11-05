@@ -4794,6 +4794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 287abc691857f814f931b6e54c4f0392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeforeOverheat: 1
+  timeBeforeOverheat: 0
   overheatingTime: 2
-  fireKey: Fire1
+  fireKey: Fire2

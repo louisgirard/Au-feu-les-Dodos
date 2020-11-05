@@ -49,6 +49,14 @@ public class DodoHealth : MonoBehaviour
         {
             Heal(Time.deltaTime);
         }
+        else if (collision.CompareTag("Gun"))
+        {
+            Heal(Time.deltaTime);
+        }
+        else if (collision.CompareTag("Bucket"))
+        {
+            Heal(Time.deltaTime);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
