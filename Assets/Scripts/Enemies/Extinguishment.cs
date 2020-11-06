@@ -35,10 +35,6 @@ public class Extinguishment : MonoBehaviour
         {
             TakeDamage(Time.deltaTime);
         }
-        else if (collision.CompareTag("Bucket"))
-        {
-            TakeDamage(Time.deltaTime);
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -54,6 +50,10 @@ public class Extinguishment : MonoBehaviour
         else if (collision.CompareTag("MissileExplosion"))
         {
             TakeDamage(3);
+        }
+        else if (collision.CompareTag("Bucket"))
+        {
+            TakeDamage(1);
         }
     }
 
