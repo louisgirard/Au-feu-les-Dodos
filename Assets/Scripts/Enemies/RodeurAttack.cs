@@ -72,7 +72,7 @@ public class RodeurAttack : MonoBehaviour
         ready_to_dash = false;
         stop = true;
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.2f);
         foreach (SpriteRenderer sr in GetComponentsInChildren<SpriteRenderer>())
             sr.enabled = false;
         GetComponent<Extinguishment>().enabled = false;
@@ -86,7 +86,7 @@ public class RodeurAttack : MonoBehaviour
         GetComponent<Extinguishment>().enabled = true;
         rift.SetActive(false);
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.2f);
         stop = false;
 
         yield return new WaitForSeconds(pause_between_dash);
