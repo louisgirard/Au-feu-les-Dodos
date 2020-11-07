@@ -2,7 +2,8 @@
 
 public class Axe : Weapon
 {
-    private float weaponRange = 1f;
+    [SerializeField] GameObject axeHitPrefab = null;
+    readonly float weaponRange = 0.7f;
 
     public override void Fire()
     {
@@ -13,7 +14,10 @@ public class Axe : Weapon
 
         if (hit.collider != null)
         {
-            hit.collider.GetComponent<Destruction>().TakeDamage(1);
+            hit.collider.GetComponent<StumpDestruction>().TakeDamage(1);
+            GameObject axeHit = Instantiate(axeHitPrefab, hit.transform.position, axeHitPrefab.transform.rotation);
+            axeHit.GetComponent<SpriteRenderer>().sortingOrder = hit.collider.GetComponent<SpriteRenderer>().sortingOrder + 1;
+            Destroy(axeHit, 0.2f);
         }
     }
 }

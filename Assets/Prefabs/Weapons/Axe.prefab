@@ -46,3 +46,5 @@ MonoBehaviour:
   timeBeforeOverheat: 0
   overheatingTime: 1
   fireKey: Fire2
+  axeHitPrefab: {fileID: 6353944666191466521, guid: c1426c2bfdad2274bad003defd851ccc,
+    type: 3}
