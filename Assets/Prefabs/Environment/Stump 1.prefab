@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3765394934470516708}
   - component: {fileID: 7120794648842000908}
   - component: {fileID: 313412267966789610}
-  m_Layer: 0
+  - component: {fileID: 2285727781564710553}
+  m_Layer: 8
   m_Name: Stump 1
-  m_TagString: Untagged
+  m_TagString: Stump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -96,7 +97,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.047523618, y: -0.09506786}
+  m_Offset: {x: 0.027046442, y: -0.013134599}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,7 +108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.5432942, y: 1.39432}
+  m_Size: {x: 3.283916, y: 1.2304535}
   m_EdgeRadius: 0
 --- !u!114 &313412267966789610
 MonoBehaviour:
@@ -122,3 +123,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 0
+--- !u!114 &2285727781564710553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765394934470516709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac64f2fa451e104aa8c13579af7d840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 4
