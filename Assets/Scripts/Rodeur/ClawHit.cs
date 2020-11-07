@@ -1,18 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ClawHit : MonoBehaviour
 {
     private GameObject player = null;
     private GameObject dodo = null;
     private PlayerEnjoyment playerEnjoyment;
-    private Vector3 start_position;
-    private Vector3 target_position;
 
     private void Start()
     {
-        playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
+        playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
     }
 
     private void OnTriggerEnter2D (Collider2D collision)
