@@ -34,7 +34,7 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         if (action == "Rodeur")
         {
-            LoseEnjoyment(0.01f);
+            LoseEnjoyment(10f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Burn")

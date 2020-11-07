@@ -10,6 +10,7 @@ public class RodeurAttack : MonoBehaviour
     public float hit_trigger_range = 0.8f;
     public float hit_reloading_time = 3f;
     public GameObject rift;
+    public GameObject claw_mark;
 
     private bool ready_to_dash;
     private bool ready_to_hit;
@@ -27,6 +28,7 @@ public class RodeurAttack : MonoBehaviour
         rift.SetActive(false);
         playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
         animator = GetComponent<Animator>();
+        claw_mark.transform.SetParent(null);
     }
 
     void Update()
@@ -41,7 +43,7 @@ public class RodeurAttack : MonoBehaviour
             {
                 Vector2 direction = (player.position - transform.position).normalized;
                 transform.Translate(direction * Time.deltaTime * walk_speed);
-                if (ready_to_hit && Vector2.Distance(player.position, transform.position) < hit_trigger_range) 
+                if (ready_to_hit && Vector2.Distance(player.position, transform.position) < hit_trigger_range)
                 {
                     StartCoroutine(Hit());
                 }
@@ -53,18 +55,22 @@ public class RodeurAttack : MonoBehaviour
     {
         ready_to_hit = false;
         stop = true;
-        animator.Play("Left Claw Hit");
+        if (player.position[0] - transform.position[0] > 0)
+        {
+            animator.Play("Right Claw Hit");
+            transform.Find("Right Claw Aim").gameObject.GetComponent<ClawHitAim>().HitMove(player.position);
+        }
+        else
+        {
+            animator.Play("Left Claw Hit");
+            transform.Find("Left Claw Aim").gameObject.GetComponent<ClawHitAim>().HitMove(player.position);
+        }
 
-        yield return new WaitForSeconds(1.1f);
+        yield return new WaitForSeconds(0.7f);
         stop = false;
 
         yield return new WaitForSeconds(hit_reloading_time);
         ready_to_hit = true;
-    }
-
-    public void AttackHitEvent()
-    {
-        GetComponentInChildren<ClawHit>().AttackHitEvent();
     }
 
     IEnumerator Underground_dash()
@@ -91,5 +97,30 @@ public class RodeurAttack : MonoBehaviour
 
         yield return new WaitForSeconds(pause_between_dash);
         ready_to_dash = true;
+    }
+
+    public void RightHitEvent()
+    {
+        transform.Find("Right Claw Aim").GetComponentInChildren<ClawHit>().AttackHitEvent();
+        StartCoroutine(RightClawMarkEvent());
+    }
+    public void LeftHitEvent()
+    {
+        transform.Find("Left Claw Aim").gameObject.GetComponentInChildren<ClawHit>().AttackHitEvent();
+        StartCoroutine(LeftClawMarkEvent());
+    }
+    IEnumerator RightClawMarkEvent()
+    {
+        claw_mark.transform.position = transform.Find("Right Claw Aim").position;
+        claw_mark.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        claw_mark.SetActive(false);
+    }
+    IEnumerator LeftClawMarkEvent()
+    {
+        claw_mark.transform.position = transform.Find("Left Claw Aim").position;
+        claw_mark.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        claw_mark.SetActive(false);
     }
 }
