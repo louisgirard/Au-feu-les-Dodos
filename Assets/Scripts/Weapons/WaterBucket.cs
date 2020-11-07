@@ -1,29 +1,29 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 [RequireComponent(typeof(ParticleSystem))]
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(PolygonCollider2D))]
 public class WaterBucket : Weapon
 {
     ParticleSystem ps;
-    BoxCollider2D boxCollider2D;
+    PolygonCollider2D polygonCollider2D;
 
     void Start()
     {
         ps = GetComponent<ParticleSystem>();
-        boxCollider2D = GetComponent<BoxCollider2D>();
+        polygonCollider2D = GetComponent<PolygonCollider2D>();
     }
 
     public override void Fire()
     {
-        var emission = ps.emission;
-        emission.enabled = true;
-        boxCollider2D.enabled = true;
+        ps.Play();
+        polygonCollider2D.enabled = true;
+        StartCoroutine(DisableWater());
     }
 
-    public override void StopFire()
+    IEnumerator DisableWater()
     {
-        var emission = ps.emission;
-        emission.enabled = false;
-        boxCollider2D.enabled = false;
+        yield return new WaitForSeconds(ps.main.duration);
+        polygonCollider2D.enabled = false;
     }
 }
