@@ -3,6 +3,7 @@
 public class Axe : Weapon
 {
     private float weaponRange = 1f;
+
     public override void Fire()
     {
         int layerMask = 1 << 8;
