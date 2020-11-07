@@ -9,12 +9,10 @@ public class ClawHit : MonoBehaviour
     private PlayerEnjoyment playerEnjoyment;
     private Vector3 start_position;
     private Vector3 target_position;
-    private float timer;
 
     private void Start()
     {
         playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
-        timer = 1;
     }
 
     private void OnTriggerEnter2D (Collider2D collision)
