@@ -11,31 +11,29 @@ public class Inventory : MonoBehaviour
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
-            NextWeapon(indice);
+            NextWeapon();
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
-            PreviousWeapon(indice);
+            PreviousWeapon();
         }
 
     }
 
-    private void NextWeapon(int indice)
+    private void NextWeapon()
     {
         if(indice + 1 < myWeapons.Count)
         {
-            print(indice);
             myWeapons[indice].gameObject.SetActive(false);
             myWeapons[indice + 1].gameObject.SetActive(true);
             indice++;
         }
     }
 
-    private void PreviousWeapon(int indice)
+    private void PreviousWeapon()
     {
         if (indice - 1 >= 0)
         {
-            print(indice);
             myWeapons[indice].gameObject.SetActive(false);
             myWeapons[indice - 1].gameObject.SetActive(true);
             indice--;
