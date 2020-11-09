@@ -4797,3 +4797,4 @@ MonoBehaviour:
   timeBeforeOverheat: 2
   overheatingTime: 2
   fireKey: Fire2
+  icon: {fileID: 21300000, guid: 6913422acd76a8e4a893e4d242fda939, type: 3}

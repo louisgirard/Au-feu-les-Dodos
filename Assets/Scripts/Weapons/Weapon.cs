@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
     [Tooltip("0 means unique usage weapon")] [SerializeField] float timeBeforeOverheat = 4f;
     [SerializeField] float overheatingTime = 1f;
     [SerializeField] string fireKey = "Fire2";
+    [SerializeField] Sprite icon = null;
 
     float timer;
     bool isOverheating = false;
@@ -74,5 +75,10 @@ public class Weapon : MonoBehaviour
 
     public virtual void StopFire()
     {
+    }
+
+    public Sprite GetIcon()
+    {
+        return icon;
     }
 }

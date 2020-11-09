@@ -6,10 +6,15 @@ public class Inventory : MonoBehaviour
     [SerializeField] List<Weapon> myWeapons = new List<Weapon>();
     private int index = 0;
 
+    WeaponUI weaponUI;
+
     private void Start()
     {
+        weaponUI = FindObjectOfType<WeaponUI>();
         if (myWeapons.Count == 0) return;
         myWeapons[index].gameObject.SetActive(true);
+
+        weaponUI.UpdateIcon(myWeapons[index].GetIcon());
     }
 
     private void Update()
@@ -17,6 +22,7 @@ public class Inventory : MonoBehaviour
         if (myWeapons.Count == 0) return;
         ProcessKeyInput();
         ProcessScrollWheel();
+        weaponUI.UpdateIcon(myWeapons[index].GetIcon());
     }
 
     private void ProcessKeyInput()
@@ -104,5 +110,8 @@ public class Inventory : MonoBehaviour
         myWeapons.Add(weapon);
     }
 
-
+    public Weapon GetCurrentWeapon()
+    {
+        return myWeapons[index];
+    }
 }
