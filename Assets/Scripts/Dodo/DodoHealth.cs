@@ -10,7 +10,7 @@ public class DodoHealth : MonoBehaviour
     {
         health = maxHealth;
         dodoUI = FindObjectOfType<DodoUI>();
-        dodoUI.UpdateHealth(health);
+        dodoUI.SetupHealthBars((int)health);
     }
 
     private void Update()
