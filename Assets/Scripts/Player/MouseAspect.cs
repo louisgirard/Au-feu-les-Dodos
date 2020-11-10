@@ -11,7 +11,7 @@ public class MouseAspect : MonoBehaviour
 
     private void Update()
     {
-        if (CrossPlatformInputManager.GetButton("Fire1"))
+        if (CrossPlatformInputManager.GetButton("Fire2"))
         {
             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
         }
