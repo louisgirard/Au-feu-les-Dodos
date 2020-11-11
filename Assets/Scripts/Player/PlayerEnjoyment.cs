@@ -32,19 +32,24 @@ public class PlayerEnjoyment : MonoBehaviour
             LoseEnjoyment(5);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-        if (action == "Rodeur")
+        else if (action == "Rodeur")
         {
             LoseEnjoyment(10f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-        if (action == "Burn")
+        else if (action == "Burn")
         {
             LoseEnjoyment(2);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-        if (action == "Time")
+        else if (action == "Time")
         {
             LoseEnjoyment(2);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
+        else if (action == "Ectoplasma proximity explosion")
+        {
+            LoseEnjoyment(0.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
 

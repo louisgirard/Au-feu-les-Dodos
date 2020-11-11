@@ -15,6 +15,7 @@ TagManager:
   - Gun
   - Bucket
   - Stump
+  - Ectoplasma
   layers:
   - Default
   - TransparentFX

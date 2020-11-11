@@ -51,6 +51,10 @@ public class Inventory : MonoBehaviour
         {
             SwitchWeapon(5);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            SwitchWeapon(6);
+        }
     }
 
     private void ProcessScrollWheel()
