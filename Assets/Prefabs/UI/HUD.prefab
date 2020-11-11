@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radar: {fileID: 3601982621052981319}
+  arrowLimit: 20
   pointLimit: 10
   rodeurPointPrefab: {fileID: 5392414074659545667}
   rodeurArrowPrefab: {fileID: 1078854182651725771}

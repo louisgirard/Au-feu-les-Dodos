@@ -4,7 +4,8 @@ using UnityEngine;
 public class RodeurDetector : MonoBehaviour
 {
     [SerializeField] RectTransform radar = null;
-    [SerializeField] float pointLimit = 3f;
+    [SerializeField] float arrowLimit = 20f;
+    [SerializeField] float pointLimit = 10f;
     [SerializeField] GameObject rodeurPointPrefab = null;
     [SerializeField] GameObject rodeurArrowPrefab = null;
     Transform player;
@@ -30,7 +31,12 @@ public class RodeurDetector : MonoBehaviour
                 continue;
             }
             Vector2 direction = (rodeurs[i].transform.position - player.position);
-            if(direction.magnitude > pointLimit)
+            if(direction.magnitude > arrowLimit)
+            {
+                rodeurArrows[i].SetActive(false);
+                rodeurPoints[i].SetActive(false);
+            }
+            else if(direction.magnitude > pointLimit)
             {
                 rodeurPoints[i].SetActive(false);
                 rodeurArrows[i].SetActive(true);
