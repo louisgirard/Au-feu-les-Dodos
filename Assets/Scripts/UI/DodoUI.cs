@@ -23,8 +23,6 @@ public class DodoUI : MonoBehaviour
 
     public void UpdateHealth(float health)
     {
-        print(health);
-
         // Fill or not the bars
         for (int i = 0; i < healthBars.Count; i++)
         {
