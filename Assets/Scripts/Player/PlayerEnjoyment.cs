@@ -52,6 +52,11 @@ public class PlayerEnjoyment : MonoBehaviour
             LoseEnjoyment(0.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
+        else if (action == "Ectoplasma fireball")
+        {
+            LoseEnjoyment(5f);
+            enjoymentBar.SetEnjoyment(currentEnjoyment);
+        }
 
     }
 

@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EctoplasmaWalk : StateMachineBehaviour
+public class Walk : StateMachineBehaviour
 {
     public float speed = 0.7f;
+    public float patterns_pause = 3f;
+
     private GameObject ectoplasma;
     private GameObject player;
+    private float pause_timer;
     private float proximity_timer;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -14,6 +17,7 @@ public class EctoplasmaWalk : StateMachineBehaviour
     {
         ectoplasma = GameObject.FindWithTag("Ectoplasma");
         player = GameObject.FindWithTag("Player");
+        pause_timer = 0;
         proximity_timer = 0;
     }
 
@@ -28,10 +32,18 @@ public class EctoplasmaWalk : StateMachineBehaviour
         else
             proximity_timer = 0;
 
-        if (proximity_timer > 1.5f)
+        pause_timer += Time.deltaTime;
+        if (pause_timer > patterns_pause)
         {
-            animator.SetTrigger("Proximity");
-            proximity_timer = 0;
+            if (proximity_timer > 1.5f)
+            {
+                animator.SetTrigger("Proximity");
+                proximity_timer = 0;
+            }
+            else
+            {
+                animator.SetTrigger("Shoot");
+            }
         }
     }
 

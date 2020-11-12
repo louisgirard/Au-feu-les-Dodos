@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EctoplasmaExplosion : MonoBehaviour
+public class ExplosionDamages : MonoBehaviour
 {
     private PlayerEnjoyment playerEnjoyment;
 
