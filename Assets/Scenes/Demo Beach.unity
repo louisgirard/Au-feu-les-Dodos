@@ -24406,15 +24406,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5412319188662998524, guid: 4724f4720b164fa45b332cd3c280c191,
+        type: 3}
+      propertyPath: arrowLimit
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6780241416763813011, guid: 4724f4720b164fa45b332cd3c280c191,
         type: 3}
       propertyPath: m_Name
       value: HUD
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780241416763813011, guid: 4724f4720b164fa45b332cd3c280c191,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6780241416763813015, guid: 4724f4720b164fa45b332cd3c280c191,
         type: 3}
@@ -31732,10 +31732,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 738162217, guid: 1d31cfac47d23c14a808dd5427a7cc2c, type: 3}
-      propertyPath: offset
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: m_LocalPosition.x

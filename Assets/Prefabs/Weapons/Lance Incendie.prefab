@@ -4797,7 +4797,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBeforeOverheat: 4
   overheatingTime: 1
-  fireKey: Fire2
+  fireKey: Fire1
+  icon: {fileID: 0}
 --- !u!61 &6930652202099331755
 BoxCollider2D:
   m_ObjectHideFlags: 0
