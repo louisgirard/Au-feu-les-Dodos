@@ -7,7 +7,6 @@ public class SavePlayer : MonoBehaviour
 
     private void Awake()
     {
-        PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
         path = "Character_Save_File.json";
 
         if (!File.Exists(path))
@@ -25,15 +24,15 @@ public class SavePlayer : MonoBehaviour
             MySuperPompier mySuperPompier = JsonUtility.FromJson<MySuperPompier>(jsonString);
 
             transform.position = mySuperPompier.position;
+            print("Début de partie Pompier");
         }
     }
 
     private void Update()
     {
-        PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
         path = "Character_Save_File.json";
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.S))
         {
             MySuperPompier mySuperPompier = new MySuperPompier
             {
@@ -41,20 +40,20 @@ public class SavePlayer : MonoBehaviour
             };
             jsonString = JsonUtility.ToJson(mySuperPompier);
             File.WriteAllText(path, jsonString);
-            print("Sauvegarde effectuée");
+            print("Sauvegarde effectuée pour le Joueur");
         }
-        else if (Input.GetKey(KeyCode.L))
+        else if (Input.GetKeyUp(KeyCode.L))
         {
             jsonString = File.ReadAllText(path);
             MySuperPompier mySuperPompier = JsonUtility.FromJson<MySuperPompier>(jsonString);
 
             transform.position = mySuperPompier.position;
-            print("Chargement du fichier de sauvegarde");
+            print("Chargement du fichier de sauvegarde du joueur");
         }
         else if (Input.GetKeyUp(KeyCode.D))
         {
             File.Delete(path);
-            print("Suppression fichier");
+            print("Suppression du fichier de sauvegarde du joueur");
         }
     }
 }
