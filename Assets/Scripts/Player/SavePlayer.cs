@@ -12,7 +12,10 @@ public class SavePlayer : MonoBehaviour
 
         if (!File.Exists(path))
         {
-            MySuperPompier mySuperPompier = new MySuperPompier();
+            MySuperPompier mySuperPompier = new MySuperPompier
+            {
+                position = transform.position
+            };
             jsonString = JsonUtility.ToJson(mySuperPompier);
             File.WriteAllText(path, jsonString);
         }
