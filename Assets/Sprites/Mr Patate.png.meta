@@ -1,0 +1,5048 @@
+fileFormatVersion: 2
+guid: 9619ccb92473bd8458d9a5c8d6a13c7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5413744886668325425
+    second: Mr Patate_0
+  - first:
+      213: -2774179207359516230
+    second: Mr Patate_1
+  - first:
+      213: -6017633592549918071
+    second: Mr Patate_2
+  - first:
+      213: 5427475611247860413
+    second: Mr Patate_3
+  - first:
+      213: 8297252446352385165
+    second: Mr Patate_4
+  - first:
+      213: 4251547771073485825
+    second: Mr Patate_5
+  - first:
+      213: 4762770674090202976
+    second: Mr Patate_6
+  - first:
+      213: 8543595172343057098
+    second: Mr Patate_7
+  - first:
+      213: 5081471226579577024
+    second: Mr Patate_8
+  - first:
+      213: -6631368263229173053
+    second: Mr Patate_9
+  - first:
+      213: 175600589857843473
+    second: Mr Patate_10
+  - first:
+      213: 3813119003997952994
+    second: Mr Patate_11
+  - first:
+      213: 2681372451342746231
+    second: Mr Patate_12
+  - first:
+      213: -4690062074700890941
+    second: Mr Patate_13
+  - first:
+      213: 1425402923527395904
+    second: Mr Patate_14
+  - first:
+      213: 4956883549217260480
+    second: Mr Patate_15
+  - first:
+      213: 1758681216216965266
+    second: Mr Patate_16
+  - first:
+      213: -7186100958605400537
+    second: Mr Patate_17
+  - first:
+      213: -7343792724907437982
+    second: Mr Patate_18
+  - first:
+      213: 8240028297521275404
+    second: Mr Patate_19
+  - first:
+      213: 3969666457110316791
+    second: Mr Patate_20
+  - first:
+      213: -2289041677576032922
+    second: Mr Patate_21
+  - first:
+      213: -6597025689244433310
+    second: Mr Patate_22
+  - first:
+      213: 5049079635119288361
+    second: Mr Patate_23
+  - first:
+      213: -6236946756777476300
+    second: Mr Patate_24
+  - first:
+      213: 8763144923482329082
+    second: Mr Patate_25
+  - first:
+      213: 3119761114102353791
+    second: Mr Patate_26
+  - first:
+      213: 2864369414083803033
+    second: Mr Patate_27
+  - first:
+      213: 7528095109276339375
+    second: Mr Patate_28
+  - first:
+      213: 3763283643643925507
+    second: Mr Patate_29
+  - first:
+      213: -6801591088853030290
+    second: Mr Patate_30
+  - first:
+      213: -1757531271722619956
+    second: Mr Patate_31
+  - first:
+      213: -1088750557432541127
+    second: Mr Patate_32
+  - first:
+      213: -4454420030563360498
+    second: Mr Patate_33
+  - first:
+      213: 3299005345270611505
+    second: Mr Patate_34
+  - first:
+      213: -8022953386016307186
+    second: Mr Patate_35
+  - first:
+      213: -2359478117796948320
+    second: Mr Patate_36
+  - first:
+      213: 583531054659345233
+    second: Mr Patate_37
+  - first:
+      213: 3716210717275492140
+    second: Mr Patate_38
+  - first:
+      213: -1119635695535477892
+    second: Mr Patate_39
+  - first:
+      213: -4868266746336532699
+    second: Mr Patate_40
+  - first:
+      213: -3459711473051354342
+    second: Mr Patate_41
+  - first:
+      213: -7118033367252995683
+    second: Mr Patate_42
+  - first:
+      213: -6308583452082283943
+    second: Mr Patate_43
+  - first:
+      213: -7188289644885578206
+    second: Mr Patate_44
+  - first:
+      213: -4269210912658377130
+    second: Mr Patate_45
+  - first:
+      213: -3763811744315334460
+    second: Mr Patate_46
+  - first:
+      213: -8719795442772271356
+    second: Mr Patate_47
+  - first:
+      213: 5361868858304960038
+    second: Mr Patate_48
+  - first:
+      213: 5846322076941042047
+    second: Mr Patate_49
+  - first:
+      213: -8385895549984604083
+    second: Mr Patate_50
+  - first:
+      213: -3497319783792812777
+    second: Mr Patate_51
+  - first:
+      213: -4126148181717408678
+    second: Mr Patate_52
+  - first:
+      213: -5059577471684841441
+    second: Mr Patate_53
+  - first:
+      213: -4168912755909237557
+    second: Mr Patate_54
+  - first:
+      213: -5121358812992355738
+    second: Mr Patate_55
+  - first:
+      213: -7439814784459530972
+    second: Mr Patate_56
+  - first:
+      213: 3873418971887067743
+    second: Mr Patate_57
+  - first:
+      213: -7468676866394652106
+    second: Mr Patate_58
+  - first:
+      213: 5916944469172431895
+    second: Mr Patate_59
+  - first:
+      213: 9192402287916035449
+    second: Mr Patate_60
+  - first:
+      213: -7490073165307379704
+    second: Mr Patate_61
+  - first:
+      213: -6284313860409805649
+    second: Mr Patate_62
+  - first:
+      213: 3460048007310330404
+    second: Mr Patate_63
+  - first:
+      213: -7379007888416243293
+    second: Mr Patate_64
+  - first:
+      213: 6392074445708025191
+    second: Mr Patate_65
+  - first:
+      213: 279325636956375964
+    second: Mr Patate_66
+  - first:
+      213: -8331682978190768446
+    second: Mr Patate_67
+  - first:
+      213: 8891083950149318608
+    second: Mr Patate_68
+  - first:
+      213: 3010025584538574855
+    second: Mr Patate_69
+  - first:
+      213: 1475912930725887682
+    second: Mr Patate_70
+  - first:
+      213: 8249540754744457024
+    second: Mr Patate_71
+  - first:
+      213: 6761216117887471558
+    second: Mr Patate_72
+  - first:
+      213: -3293250009197849430
+    second: Mr Patate_73
+  - first:
+      213: -1139841471183860482
+    second: Mr Patate_74
+  - first:
+      213: 3638142731789089099
+    second: Mr Patate_75
+  - first:
+      213: 7011211812301373756
+    second: Mr Patate_76
+  - first:
+      213: 1802887909883727290
+    second: Mr Patate_77
+  - first:
+      213: -3817591800882476538
+    second: Mr Patate_78
+  - first:
+      213: -5594020259689313326
+    second: Mr Patate_79
+  - first:
+      213: -6458298329149900120
+    second: Mr Patate_80
+  - first:
+      213: 8015903157119475280
+    second: Mr Patate_81
+  - first:
+      213: -8113060344210851680
+    second: Mr Patate_82
+  - first:
+      213: -7228458358789407935
+    second: Mr Patate_83
+  - first:
+      213: 376950469551122912
+    second: Mr Patate_84
+  - first:
+      213: -1442644285511366691
+    second: Mr Patate_85
+  - first:
+      213: -6640572931554097844
+    second: Mr Patate_86
+  - first:
+      213: -2025642780184792583
+    second: Mr Patate_87
+  - first:
+      213: 4068801099095679853
+    second: Mr Patate_88
+  - first:
+      213: 3117266765381194740
+    second: Mr Patate_89
+  - first:
+      213: 2443423679859975907
+    second: Mr Patate_90
+  - first:
+      213: 3493943458859329876
+    second: Mr Patate_91
+  - first:
+      213: -4955604747427463944
+    second: Mr Patate_92
+  - first:
+      213: -259583431082209323
+    second: Mr Patate_93
+  - first:
+      213: -1448977090309085156
+    second: Mr Patate_94
+  - first:
+      213: 6033428502724211584
+    second: Mr Patate_95
+  - first:
+      213: 6215341215285150953
+    second: Mr Patate_96
+  - first:
+      213: 6297162244151954054
+    second: Mr Patate_97
+  - first:
+      213: -5963297660740663476
+    second: Mr Patate_98
+  - first:
+      213: 5268120477265826751
+    second: Mr Patate_99
+  - first:
+      213: -3901830265869273727
+    second: Mr Patate_100
+  - first:
+      213: 7034801988389961078
+    second: Mr Patate_101
+  - first:
+      213: 1395396412848879829
+    second: Mr Patate_102
+  - first:
+      213: -4953639555797469290
+    second: Mr Patate_103
+  - first:
+      213: 5069868358637372724
+    second: Mr Patate_104
+  - first:
+      213: 1333994544281404875
+    second: Mr Patate_105
+  - first:
+      213: 5455192649620637521
+    second: Mr Patate_106
+  - first:
+      213: 6935515802211992063
+    second: Mr Patate_107
+  - first:
+      213: 2969780405132464401
+    second: Mr Patate_108
+  - first:
+      213: 3476037934886477523
+    second: Mr Patate_109
+  - first:
+      213: -6192024874465556168
+    second: Mr Patate_110
+  - first:
+      213: 6429453859221127150
+    second: Mr Patate_111
+  - first:
+      213: -9208644357594456057
+    second: Mr Patate_112
+  - first:
+      213: -6476740901598741247
+    second: Mr Patate_113
+  - first:
+      213: 5061577284049822080
+    second: Mr Patate_114
+  - first:
+      213: -6191756417351836146
+    second: Mr Patate_115
+  - first:
+      213: -2157204152683173230
+    second: Mr Patate_116
+  - first:
+      213: -849731129541091794
+    second: Mr Patate_117
+  - first:
+      213: 3152662521328007532
+    second: Mr Patate_118
+  - first:
+      213: -1697618437280205192
+    second: Mr Patate_119
+  - first:
+      213: -7857435110170539870
+    second: Mr Patate_120
+  - first:
+      213: 4261649845187415510
+    second: Mr Patate_121
+  - first:
+      213: -1501865274656405175
+    second: Mr Patate_122
+  - first:
+      213: -3135308444443986762
+    second: Mr Patate_123
+  - first:
+      213: 966010176638662
+    second: Mr Patate_124
+  - first:
+      213: -8111640552745795189
+    second: Mr Patate_125
+  - first:
+      213: 6253280584241462047
+    second: Mr Patate_126
+  - first:
+      213: -4624288545345254642
+    second: Mr Patate_127
+  - first:
+      213: -6375937323772825421
+    second: Mr Patate_128
+  - first:
+      213: 3390613161489235856
+    second: Mr Patate_129
+  - first:
+      213: -1396449740397912729
+    second: Mr Patate_130
+  - first:
+      213: -8253112467008874803
+    second: Mr Patate_131
+  - first:
+      213: 1242229123801959047
+    second: Mr Patate_132
+  - first:
+      213: 7417211843997273133
+    second: Mr Patate_133
+  - first:
+      213: 7673845371655644434
+    second: Mr Patate_134
+  - first:
+      213: 2213269463573247516
+    second: Mr Patate_135
+  - first:
+      213: 4195054010290511961
+    second: Mr Patate_136
+  - first:
+      213: 9031798899546353354
+    second: Mr Patate_137
+  - first:
+      213: 4569519377795326958
+    second: Mr Patate_138
+  - first:
+      213: -787734095232511190
+    second: Mr Patate_139
+  - first:
+      213: -6412867302472712681
+    second: Mr Patate_140
+  - first:
+      213: -1558595126440227096
+    second: Mr Patate_141
+  - first:
+      213: 5773084040531465021
+    second: Mr Patate_142
+  - first:
+      213: -2464444794968352095
+    second: Mr Patate_143
+  - first:
+      213: -4544721010851392240
+    second: Mr Patate_144
+  - first:
+      213: -9177297411290546546
+    second: Mr Patate_145
+  - first:
+      213: -810119176482124305
+    second: Mr Patate_146
+  - first:
+      213: 5415399415779367273
+    second: Mr Patate_147
+  - first:
+      213: 7668456256584056709
+    second: Mr Patate_148
+  - first:
+      213: 8235544024166124310
+    second: Mr Patate_149
+  - first:
+      213: -2628820297537690747
+    second: Mr Patate_150
+  - first:
+      213: 1337132016147779294
+    second: Mr Patate_151
+  - first:
+      213: -657042101590819743
+    second: Mr Patate_152
+  - first:
+      213: 1216659046938338691
+    second: Mr Patate_153
+  - first:
+      213: 9193707325504376398
+    second: Mr Patate_154
+  - first:
+      213: 2951932123000751224
+    second: Mr Patate_155
+  - first:
+      213: 7610617322658210950
+    second: Mr Patate_156
+  - first:
+      213: -2953478008427525789
+    second: Mr Patate_157
+  - first:
+      213: -8366785792840629680
+    second: Mr Patate_158
+  - first:
+      213: -759980635283949195
+    second: Mr Patate_159
+  - first:
+      213: -4437153305194003737
+    second: Mr Patate_160
+  - first:
+      213: -2099570402523573952
+    second: Mr Patate_161
+  - first:
+      213: -4995079952334013005
+    second: Mr Patate_162
+  - first:
+      213: 7935042944938026563
+    second: Mr Patate_163
+  - first:
+      213: -6977892928716057656
+    second: Mr Patate_164
+  - first:
+      213: 4625730366505434248
+    second: Mr Patate_165
+  - first:
+      213: -2213380264950588161
+    second: Mr Patate_166
+  - first:
+      213: -1215441410548944468
+    second: Mr Patate_167
+  - first:
+      213: 5127214079627061931
+    second: Mr Patate_168
+  - first:
+      213: -8961462131428664220
+    second: Mr Patate_169
+  - first:
+      213: -2444098726719834467
+    second: Mr Patate_170
+  - first:
+      213: 3681193375394556672
+    second: Mr Patate_171
+  - first:
+      213: -3762665230217978731
+    second: Mr Patate_172
+  - first:
+      213: 5365925054447436617
+    second: Mr Patate_173
+  - first:
+      213: -1294594589812607089
+    second: Mr Patate_174
+  - first:
+      213: 855181458080821372
+    second: Mr Patate_175
+  - first:
+      213: -1450449744019592362
+    second: Mr Patate_176
+  - first:
+      213: -1396267413573682073
+    second: Mr Patate_177
+  - first:
+      213: 9080218647195720672
+    second: Mr Patate_178
+  - first:
+      213: 7179863867182876323
+    second: Mr Patate_179
+  - first:
+      213: 8951098824662143801
+    second: Mr Patate_180
+  - first:
+      213: -3493845787636023073
+    second: Mr Patate_181
+  - first:
+      213: -8496035091161719455
+    second: Mr Patate_182
+  - first:
+      213: -4089756894797405740
+    second: Mr Patate_183
+  - first:
+      213: -6207504494071936991
+    second: Mr Patate_184
+  - first:
+      213: 5696793923429754199
+    second: Mr Patate_185
+  - first:
+      213: -2058925732756443037
+    second: Mr Patate_186
+  - first:
+      213: 8544453912734732256
+    second: Mr Patate_187
+  - first:
+      213: -7738315739390532555
+    second: Mr Patate_188
+  - first:
+      213: -8949374071257994470
+    second: Mr Patate_189
+  - first:
+      213: 1584887009830011522
+    second: Mr Patate_190
+  - first:
+      213: 1929199080795690778
+    second: Mr Patate_191
+  - first:
+      213: -62872517143611391
+    second: Mr Patate_192
+  - first:
+      213: -7451686242559638092
+    second: Mr Patate_193
+  - first:
+      213: 3915106199742454537
+    second: Mr Patate_194
+  - first:
+      213: 7427096050552456768
+    second: Mr Patate_195
+  - first:
+      213: -1394595276117891647
+    second: Mr Patate_196
+  - first:
+      213: -3261886019114000677
+    second: Mr Patate_197
+  - first:
+      213: 4170562666202122222
+    second: Mr Patate_198
+  - first:
+      213: 9089446246577452158
+    second: Mr Patate_199
+  - first:
+      213: -8847422385698694895
+    second: Mr Patate_200
+  - first:
+      213: -8160888071233710584
+    second: Mr Patate_201
+  - first:
+      213: 7180323664019951128
+    second: Mr Patate_202
+  - first:
+      213: -241361954803240389
+    second: Mr Patate_203
+  - first:
+      213: -9144931924392888266
+    second: Mr Patate_204
+  - first:
+      213: 7736240375229235264
+    second: Mr Patate_205
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mr Patate_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 395
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd0c8575b38ed4b0800000000000000
+      internalID: -5413744886668325425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 396
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1bf0a85b22089d0800000000000000
+      internalID: -2774179207359516230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 396
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aba9f51221d7ca0800000000000000
+      internalID: -6017633592549918071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 397
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba568bff44425b40800000000000000
+      internalID: 5427475611247860413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 397
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d842394a323c52370800000000000000
+      internalID: 8297252446352385165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 396
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c50701c28800b30800000000000000
+      internalID: 4251547771073485825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 396
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0675bcf91b2c81240800000000000000
+      internalID: 4762770674090202976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 396
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca00481b82f09670800000000000000
+      internalID: 8543595172343057098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 397
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8e4a46823058640800000000000000
+      internalID: 5081471226579577024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 397
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21d67f2b5a8f3a0800000000000000
+      internalID: -6631368263229173053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 328
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11963dc5ecbdf6200800000000000000
+      internalID: 175600589857843473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 328
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebd697088beae430800000000000000
+      internalID: 3813119003997952994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 329
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7728dc8b906263520800000000000000
+      internalID: 2681372451342746231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 329
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccfbee546d89eeb0800000000000000
+      internalID: -4690062074700890941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 330
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a57a6286c08c310800000000000000
+      internalID: 1425402923527395904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 330
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3821843536ac440800000000000000
+      internalID: 4956883549217260480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 330
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290a3cd8f37186810800000000000000
+      internalID: 1758681216216965266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_17
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 330
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7262b327047d54c90800000000000000
+      internalID: -7186100958605400537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 330
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2605bcffc6b951a90800000000000000
+      internalID: -7343792724907437982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 331
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c022cec34167a5270800000000000000
+      internalID: 8240028297521275404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 261
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f608dc4c96171730800000000000000
+      internalID: 3969666457110316791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 261
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d240cd8b0bb30e0800000000000000
+      internalID: -2289041677576032922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 261
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26485729618a274a0800000000000000
+      internalID: -6597025689244433310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_23
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 261
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b1fd4d2fe11640800000000000000
+      internalID: 5049079635119288361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 261
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ff04f28f9e179a0800000000000000
+      internalID: -6236946756777476300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 261
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff8e67f0e1fc9970800000000000000
+      internalID: 8763144923482329082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 262
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fc52e343e9b4b20800000000000000
+      internalID: 3119761114102353791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_27
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 262
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99775f75ec840c720800000000000000
+      internalID: 2864369414083803033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_28
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 262
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac85c7cd9a297860800000000000000
+      internalID: 7528095109276339375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 262
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041f60098ed93430800000000000000
+      internalID: 3763283643643925507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ae379e0f4eb91a0800000000000000
+      internalID: -6801591088853030290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 191
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb2553ce9efb97e0800000000000000
+      internalID: -1757531271722619956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 190
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930993fe22bf3e0f0800000000000000
+      internalID: -1088750557432541127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_33
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 191
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01e2ed2598be22c0800000000000000
+      internalID: -4454420030563360498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 191
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e38f4f1eb68cd20800000000000000
+      internalID: 3299005345270611505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_35
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 191
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e080bf0276eb8a090800000000000000
+      internalID: -8022953386016307186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 192
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6d7652723714fd0800000000000000
+      internalID: -2359478117796948320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_37
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 192
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b116c076e191800800000000000000
+      internalID: 583531054659345233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_38
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 192
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f84b145f1a29330800000000000000
+      internalID: 3716210717275492140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_39
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 131
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ba2c954414670f0800000000000000
+      internalID: -1119635695535477892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_40
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 131
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a3c8ff21707cb0800000000000000
+      internalID: -4868266746336532699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_41
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 130
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b3e6fdeb2acffc0800000000000000
+      internalID: -3459711473051354342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 130
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91f18d8d5aa73d90800000000000000
+      internalID: -7118033367252995683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_43
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 130
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5abe46c86378a0800000000000000
+      internalID: -6308583452082283943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_44
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 130
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ee9f537a01e3c90800000000000000
+      internalID: -7188289644885578206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_45
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 130
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656b6cf4b47b0c4c0800000000000000
+      internalID: -4269210912658377130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_46
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 130
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c024aaf82144cbc0800000000000000
+      internalID: -3763811744315334460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_47
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 78
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f1d778e301df680800000000000000
+      internalID: -8719795442772271356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 78
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6261f77715f296a40800000000000000
+      internalID: 5361868858304960038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 78
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71489e24fe422150800000000000000
+      internalID: 5846322076941042047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 78
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4083ab7d605f9b80800000000000000
+      internalID: -8385895549984604083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_51
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 78
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d551daf26077fc0800000000000000
+      internalID: -3497319783792812777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_52
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 78
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a542c1a071afcb6c0800000000000000
+      internalID: -4126148181717408678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 78
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10f7a6a815c8c9b0800000000000000
+      internalID: -5059577471684841441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_54
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 79
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc46f64bfeb0526c0800000000000000
+      internalID: -4168912755909237557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_55
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 79
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66246403b474de8b0800000000000000
+      internalID: -5121358812992355738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_56
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 79
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d17911fd770c890800000000000000
+      internalID: -7439814784459530972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_57
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 25
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52669d580621c530800000000000000
+      internalID: 3873418971887067743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_58
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 25
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6328e54f5fde95890800000000000000
+      internalID: -7468676866394652106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_59
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 25
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c2cb835a53d1250800000000000000
+      internalID: 5916944469172431895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 25
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d29bb6d29f19f70800000000000000
+      internalID: 9192402287916035449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_61
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 64
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8000b28e32aed0890800000000000000
+      internalID: -7490073165307379704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_62
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 64
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4b535f6d1a9c8a0800000000000000
+      internalID: -6284313860409805649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 63
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ac78d945f840030800000000000000
+      internalID: 3460048007310330404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_64
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 64
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a10520db6f789990800000000000000
+      internalID: -7379007888416243293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_65
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 63
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d574a77d535b850800000000000000
+      internalID: 6392074445708025191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_66
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 63
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bc177df2d50e300800000000000000
+      internalID: 279325636956375964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_67
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 63
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c645c7797aef5c80800000000000000
+      internalID: -8331682978190768446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_68
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7b3d4eeb9736b70800000000000000
+      internalID: 8891083950149318608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_69
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 63
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70062434252c5c920800000000000000
+      internalID: 3010025584538574855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_70
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 63
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce7253adfe7b7410800000000000000
+      internalID: 1475912930725887682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_71
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 63
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047b6a6cb914c7270800000000000000
+      internalID: 8249540754744457024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_72
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 64
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf045c9c3aa4dd50800000000000000
+      internalID: 6761216117887471558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_73
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 64
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4d535a0960c42d0800000000000000
+      internalID: -3293250009197849430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_74
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 63
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc3d998387e20f0800000000000000
+      internalID: -1139841471183860482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_75
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b493572f9874d7230800000000000000
+      internalID: 3638142731789089099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_76
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 64
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c310f3d0ff3dc4160800000000000000
+      internalID: 7011211812301373756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_77
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 62
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd477e7005250910800000000000000
+      internalID: 1802887909883727290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_78
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 63
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ac4facb70350bc0800000000000000
+      internalID: -3817591800882476538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_79
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 63
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db41e2563c0e52b0800000000000000
+      internalID: -5594020259689313326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_80
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 63
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa758d13e38f56a0800000000000000
+      internalID: -6458298329149900120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_81
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 62
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ed90a83753e3f60800000000000000
+      internalID: 8015903157119475280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_82
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 62
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8f00e0a9e986f80800000000000000
+      internalID: -8113060344210851680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_83
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b77a2bb6b5fab90800000000000000
+      internalID: -7228458358789407935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_84
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 63
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e28374723b3500800000000000000
+      internalID: 376950469551122912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_85
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 62
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd709d07aa2bafbe0800000000000000
+      internalID: -1442644285511366691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_86
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 37
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45c4ad1a12f7d3a0800000000000000
+      internalID: -6640572931554097844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_87
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 40
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1304daf9873e3e0800000000000000
+      internalID: -2025642780184792583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_88
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63215dca09477830800000000000000
+      internalID: 4068801099095679853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_89
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f35dac6b91c24b20800000000000000
+      internalID: 3117266765381194740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_90
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 50
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e4d914e8c8e120800000000000000
+      internalID: 2443423679859975907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_91
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4592c9a601bfc7030800000000000000
+      internalID: 3493943458859329876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_92
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 51
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcb856fcb72a3bb0800000000000000
+      internalID: -4955604747427463944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_93
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 51
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df84c8ae36c56cf0800000000000000
+      internalID: -259583431082209323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_94
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 51
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18a27c630334ebe0800000000000000
+      internalID: -1448977090309085156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_95
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 51
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083f79ab14b0bb350800000000000000
+      internalID: 6033428502724211584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_96
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 50
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e48aeea7e3514650800000000000000
+      internalID: 6215341215285150953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_97
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68acdaf72b3046750800000000000000
+      internalID: 6297162244151954054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_98
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4782a95f5c1e3da0800000000000000
+      internalID: -5963297660740663476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_99
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3146199af1c1940800000000000000
+      internalID: 5268120477265826751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_100
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 52
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1857ef4cb0ae9d9c0800000000000000
+      internalID: -3901830265869273727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_101
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 52
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67df13fe223a0a160800000000000000
+      internalID: 7034801988389961078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_102
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d836b4f4a17d5310800000000000000
+      internalID: 1395396412848879829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_103
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6973e5bc113214bb0800000000000000
+      internalID: -4953639555797469290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_104
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435c29e296acb5640800000000000000
+      internalID: 5069868358637372724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_105
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 52
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c33068fc438210800000000000000
+      internalID: 1333994544281404875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_106
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157c5fddfccb4bb40800000000000000
+      internalID: 5455192649620637521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_107
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 52
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff144fc40e6ef3060800000000000000
+      internalID: 6935515802211992063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_108
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11116dc3b87c63920800000000000000
+      internalID: 2969780405132464401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_109
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 52
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ded0beb51e5d3030800000000000000
+      internalID: 3476037934886477523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_110
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 52
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8390915fe22811aa0800000000000000
+      internalID: -6192024874465556168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_111
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 52
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefb3a268320a3950800000000000000
+      internalID: 6429453859221127150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_112
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7006daa0fb2543080800000000000000
+      internalID: -9208644357594456057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_113
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 41
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10db6f9177efd16a0800000000000000
+      internalID: -6476740901598741247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_114
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 40
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081e9f2f8b55e3640800000000000000
+      internalID: 5061577284049822080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_115
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 40
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9ffff756721aa0800000000000000
+      internalID: -6191756417351836146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_116
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a6253a0421012e0800000000000000
+      internalID: -2157204152683173230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_117
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e9c1d2a062534f0800000000000000
+      internalID: -849731129541091794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_118
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6971701cd180cb20800000000000000
+      internalID: 3152662521328007532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_119
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87672c19609d078e0800000000000000
+      internalID: -1697618437280205192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_120
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 28
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a84a94d568c4f290800000000000000
+      internalID: -7857435110170539870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_121
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 40
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd8e7b74fb642b30800000000000000
+      internalID: 4261649845187415510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_122
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 40
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9494c9b6d7d482be0800000000000000
+      internalID: -1501865274656405175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_123
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b432a3d4952d74d0800000000000000
+      internalID: -3135308444443986762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_124
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce8d65c49e630000800000000000000
+      internalID: 966010176638662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_125
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b810fe305e9ad6f80800000000000000
+      internalID: -8111640552745795189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_126
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b3f806f8d18c650800000000000000
+      internalID: 6253280584241462047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_127
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bc9cb811a33dfb0800000000000000
+      internalID: -4624288545345254642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_128
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 39
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0bd5209ce1487a0800000000000000
+      internalID: -6375937323772825421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_129
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 39
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f7455c4b0ed0f20800000000000000
+      internalID: 3390613161489235856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_130
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d55ec1c50de9ce0800000000000000
+      internalID: -1396449740397912729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_131
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 38
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6969820fd077d80800000000000000
+      internalID: -8253112467008874803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_132
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 39
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a4cd57ec84d3110800000000000000
+      internalID: 1242229123801959047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_133
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 39
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c0741cfda3fe660800000000000000
+      internalID: 7417211843997273133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_134
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2156fce25b9fe7a60800000000000000
+      internalID: 7673845371655644434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_135
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 40
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16b088c9dc17be10800000000000000
+      internalID: 2213269463573247516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_136
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a1f06563d73a30800000000000000
+      internalID: 4195054010290511961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_137
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 40
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace69322f35675d70800000000000000
+      internalID: 9031798899546353354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_138
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 28
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee321cbe9a13a6f30800000000000000
+      internalID: 4569519377795326958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_139
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23d33493086115f0800000000000000
+      internalID: -787734095232511190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_140
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e756c4a2be007a0800000000000000
+      internalID: -6412867302472712681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_141
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 28
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee00e38df1ce5ae0800000000000000
+      internalID: -1558595126440227096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_142
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33da56095d1e1050800000000000000
+      internalID: 5773084040531465021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_143
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aad95324888ccdd0800000000000000
+      internalID: -2464444794968352095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_144
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015d2f0d158ede0c0800000000000000
+      internalID: -4544721010851392240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_145
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 28
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e3ae9b0a0b3a080800000000000000
+      internalID: -9177297411290546546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_146
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed0d04b6e0e1c4f0800000000000000
+      internalID: -810119176482124305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_147
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969136e931d572b40800000000000000
+      internalID: 5415399415779367273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_148
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 28
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f705d0654db6a60800000000000000
+      internalID: 7668456256584056709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_149
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 28
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b438cf7a78a4270800000000000000
+      internalID: 8235544024166124310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_150
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 27
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583ede21edd848bd0800000000000000
+      internalID: -2628820297537690747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_151
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede4a48fb727e8210800000000000000
+      internalID: 1337132016147779294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_152
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 27
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cf33490b7b1e6f0800000000000000
+      internalID: -657042101590819743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_153
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 28
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385668105f072e010800000000000000
+      internalID: 1216659046938338691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_154
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 27
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e48992a1c969f70800000000000000
+      internalID: 9193707325504376398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_155
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 28
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874468830ae57f820800000000000000
+      internalID: 2951932123000751224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_156
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 28
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842a76d1285e9960800000000000000
+      internalID: 7610617322658210950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_157
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 28
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369cfb746632307d0800000000000000
+      internalID: -2953478008427525789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_158
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 28
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05203f986a433eb80800000000000000
+      internalID: -8366785792840629680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_159
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 28
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57979b583a10475f0800000000000000
+      internalID: -759980635283949195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_160
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 27
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e206f5f3901c62c0800000000000000
+      internalID: -4437153305194003737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_161
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04198a8c7d3dcd2e0800000000000000
+      internalID: -2099570402523573952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_162
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdb4789f39edaab0800000000000000
+      internalID: -4995079952334013005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_163
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346208a448fee1e60800000000000000
+      internalID: 7935042944938026563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_164
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 16
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35b2f0a5b892f90800000000000000
+      internalID: -6977892928716057656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_165
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 15
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c3b4a9245e13040800000000000000
+      internalID: 4625730366505434248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_166
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc92c2406e7841e0800000000000000
+      internalID: -2213380264950588161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_167
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca13eee0a72e12fe0800000000000000
+      internalID: -1215441410548944468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_168
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 16
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa6d8f4a06872740800000000000000
+      internalID: 5127214079627061931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_169
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 16
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c541cdbad72a380800000000000000
+      internalID: -8961462131428664220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_170
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9631ed4821d41ed0800000000000000
+      internalID: -2444098726719834467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_171
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00be9e10fd9361330800000000000000
+      internalID: 3681193375394556672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_172
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 16
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd42898e358cbc0800000000000000
+      internalID: -3762665230217978731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_173
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94345b93868977a40800000000000000
+      internalID: 5365925054447436617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_174
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87b312641da80ee0800000000000000
+      internalID: -1294594589812607089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_175
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 16
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70786351073edb00800000000000000
+      internalID: 855181458080821372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_176
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be72384a7fedbe0800000000000000
+      internalID: -1450449744019592362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_177
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cbc726f267f9ce0800000000000000
+      internalID: -1396267413573682073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_178
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 16
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb9af420ca630e70800000000000000
+      internalID: 9080218647195720672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_179
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6091b852004a360800000000000000
+      internalID: 7179863867182876323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_180
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9335761c4f0b83c70800000000000000
+      internalID: 8951098824662143801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_181
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0c5ff64cd538fc0800000000000000
+      internalID: -3493845787636023073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_182
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 16
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d5d083915081a80800000000000000
+      internalID: -8496035091161719455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_183
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d165ebc5c34e37c0800000000000000
+      internalID: -4089756894797405740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_184
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12883392d838ad9a0800000000000000
+      internalID: -6207504494071936991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_185
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 16
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75562a4f3e31f0f40800000000000000
+      internalID: 5696793923429754199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_186
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 4
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360342864f93d63e0800000000000000
+      internalID: -2058925732756443037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_187
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef004c209ff39670800000000000000
+      internalID: 8544453912734732256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_188
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53420d995dafb9490800000000000000
+      internalID: -7738315739390532555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_189
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b6390b2bf6dc380800000000000000
+      internalID: -8949374071257994470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_190
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 4
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2828c0e9656aef510800000000000000
+      internalID: 1584887009830011522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_191
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1756d7b754e5ca10800000000000000
+      internalID: 1929199080795690778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_192
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 4
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108358d57c1a02ff0800000000000000
+      internalID: -62872517143611391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_193
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b54196d7da469890800000000000000
+      internalID: -7451686242559638092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_194
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b14957850455630800000000000000
+      internalID: 3915106199742454537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_195
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046c2ede188521760800000000000000
+      internalID: 7427096050552456768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_196
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c52e893cf665ace0800000000000000
+      internalID: -1394595276117891647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_197
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 4
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde95e4a2f37bb2d0800000000000000
+      internalID: -3261886019114000677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_198
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7cb78f5a0d0e930800000000000000
+      internalID: 4170562666202122222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_199
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74b14c0433342e70800000000000000
+      internalID: 9089446246577452158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_200
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11917924734a73580800000000000000
+      internalID: -8847422385698694895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_201
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 4
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80654669983bebe80800000000000000
+      internalID: -8160888071233710584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_202
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 3
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e8d365452a5a360800000000000000
+      internalID: 7180323664019951128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_203
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32b8a5b49286acf0800000000000000
+      internalID: -241361954803240389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_204
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638be6fdddca61180800000000000000
+      internalID: -9144931924392888266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mr Patate_205
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c29602a5ac5b60800000000000000
+      internalID: 7736240375229235264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
