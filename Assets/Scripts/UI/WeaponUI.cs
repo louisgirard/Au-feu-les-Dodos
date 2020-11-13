@@ -3,15 +3,12 @@ using UnityEngine.UI;
 
 public class WeaponUI : MonoBehaviour
 {
-    Image image;
+    [SerializeField] Image weaponImage = null;
+    [SerializeField] Image timerImage = null;
 
-    private void Awake()
+    public void Display(Weapon weapon)
     {
-        image = GetComponent<Image>();
-    }
-
-    public void UpdateIcon(Sprite icon)
-    {
-        image.sprite = icon;
+        weaponImage.sprite = weapon.GetIcon();
+        timerImage.fillAmount = weapon.GetOverheatingTimerRatio();
     }
 }

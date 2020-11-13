@@ -81,4 +81,10 @@ public class Weapon : MonoBehaviour
     {
         return icon;
     }
+
+    public float GetOverheatingTimerRatio()
+    {
+        if (!isOverheating) return 0;
+        return 1 - (timer / overheatingTime);
+    }
 }

@@ -14,7 +14,7 @@ public class Inventory : MonoBehaviour
         if (myWeapons.Count == 0) return;
         myWeapons[index].gameObject.SetActive(true);
 
-        weaponUI.UpdateIcon(myWeapons[index].GetIcon());
+        weaponUI.Display(myWeapons[index]);
     }
 
     private void Update()
@@ -22,7 +22,7 @@ public class Inventory : MonoBehaviour
         if (myWeapons.Count == 0) return;
         ProcessKeyInput();
         ProcessScrollWheel();
-        weaponUI.UpdateIcon(myWeapons[index].GetIcon());
+        weaponUI.Display(myWeapons[index]);
     }
 
     private void ProcessKeyInput()

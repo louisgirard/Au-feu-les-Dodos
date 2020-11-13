@@ -32,7 +32,7 @@ public class SavePlayer : MonoBehaviour
     {
         path = "Character_Save_File.json";
 
-        if (Input.GetKeyUp(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.E))
         {
             MySuperPompier mySuperPompier = new MySuperPompier
             {
@@ -50,7 +50,7 @@ public class SavePlayer : MonoBehaviour
             transform.position = mySuperPompier.position;
             print("Chargement du fichier de sauvegarde du joueur");
         }
-        else if (Input.GetKeyUp(KeyCode.D))
+        else if (Input.GetKeyUp(KeyCode.R))
         {
             File.Delete(path);
             print("Suppression du fichier de sauvegarde du joueur");
