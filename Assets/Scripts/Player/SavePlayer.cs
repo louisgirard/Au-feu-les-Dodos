@@ -5,7 +5,7 @@ public class SavePlayer : MonoBehaviour
 {
     string path, jsonString;
 
-    private void Awake()
+    private void Start()
     {
         path = "Character_Save_File.json";
 

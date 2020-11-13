@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 8696777628580303610}
   - component: {fileID: 4130932191179825551}
   - component: {fileID: 8008326174411417669}
+  - component: {fileID: 8906231233920987444}
   m_Layer: 0
   m_Name: Dodo
   m_TagString: Dodo
@@ -129,7 +130,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.46}
+    oldSize: {x: 0.28, y: 0.53}
     newSize: {x: 0.28, y: 0.46}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -244,6 +245,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackRange: 0.8
   power: 1
+--- !u!114 &8906231233920987444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969294475806599677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f8a092650ada84195cf7c3df06ac62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4443464784599693320
 GameObject:
   m_ObjectHideFlags: 0

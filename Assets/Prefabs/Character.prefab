@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 8150371894536663991}
   - component: {fileID: 3324189293395322454}
   - component: {fileID: 522630289}
-  - component: {fileID: 2369741169441963127}
+  - component: {fileID: 1876282834848547505}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -308,6 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxEnjoyment: 100
+  currentEnjoyment: 0
   waitTime: 1
   enjoymentBar: {fileID: 0}
 --- !u!114 &3324189293395322454
@@ -388,7 +389,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &2369741169441963127
+--- !u!114 &1876282834848547505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
