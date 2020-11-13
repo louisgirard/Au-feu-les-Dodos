@@ -5,7 +5,7 @@ using UnityEngine;
 public class Walk : StateMachineBehaviour
 {
     public float speed = 0.7f;
-    public float patterns_pause = 3f;
+    public float patterns_pause = 5f;
 
     private GameObject ectoplasma;
     private GameObject player;
@@ -27,7 +27,7 @@ public class Walk : StateMachineBehaviour
         Vector3 move = (player.transform.position - ectoplasma.transform.position);
         ectoplasma.transform.Translate(move.normalized * speed * Time.deltaTime);
 
-        if (move.magnitude < 1.5f) // trigger range for proximity explosion
+        if (move.magnitude < 1f) // trigger range for proximity explosion
             proximity_timer += Time.deltaTime;
         else
             proximity_timer = 0;
@@ -35,14 +35,17 @@ public class Walk : StateMachineBehaviour
         pause_timer += Time.deltaTime;
         if (pause_timer > patterns_pause)
         {
-            if (proximity_timer > 1.5f)
+            if (proximity_timer > 1f)
             {
                 animator.SetTrigger("Proximity");
                 proximity_timer = 0;
             }
             else
             {
-                animator.SetTrigger("Shoot");
+                if (Random.value > 0.5f)
+                    animator.SetTrigger("Shoot");
+                else
+                    animator.SetTrigger("Frontal attack");
             }
         }
     }
@@ -50,7 +53,9 @@ public class Walk : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
+        animator.ResetTrigger("Shoot");
+        animator.ResetTrigger("Frontal attack");
+        animator.ResetTrigger("Proximity");
     }
 
 }

@@ -8,6 +8,18 @@ TextureImporter:
   - first:
       213: 2179645317157695077
     second: Ectoplasma_1
+  - first:
+      213: -1310396813497261744
+    second: Ectoplasma_0
+  - first:
+      213: 8777880403758116356
+    second: Ectoplasma_1
+  - first:
+      213: 8670862246860143457
+    second: Ectoplasma_2
+  - first:
+      213: 5049744437444579543
+    second: Ectoplasma_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,6 +121,48 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 227
+        width: 235
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05121b87a0980dde0800000000000000
+      internalID: -1310396813497261744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ectoplasma_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 227
+        width: 235
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e6dd258bb41d970800000000000000
+      internalID: 8777880403758116356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ectoplasma_2
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 235
         height: 227
@@ -119,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e2d72d536fb189b0800000000000000
-      internalID: -5079568471211650329
+      spriteID: 16bb178f547155870800000000000000
+      internalID: 8670862246860143457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ectoplasma_1
+      name: Ectoplasma_3
       rect:
         serializedVersion: 2
         x: 235
@@ -140,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56e27812ed7af3e10800000000000000
-      internalID: 2179645317157695077
+      spriteID: 7d09368afcb441640800000000000000
+      internalID: 5049744437444579543
       vertices: []
       indices: 
       edges: []

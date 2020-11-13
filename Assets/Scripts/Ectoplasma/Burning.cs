@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExplosionDamages : MonoBehaviour
+public class Burning : MonoBehaviour
 {
     private PlayerEnjoyment playerEnjoyment;
 
@@ -14,7 +14,7 @@ public class ExplosionDamages : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-            playerEnjoyment.TakeDamage("Ectoplasma proximity explosion");
+            playerEnjoyment.TakeDamage("Burn");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

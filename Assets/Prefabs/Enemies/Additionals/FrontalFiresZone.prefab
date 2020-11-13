@@ -1,0 +1,4212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6445634299124554976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6445634299124554977}
+  m_Layer: 0
+  m_Name: FrontalFiresZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6445634299124554977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445634299124554976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.324, y: -0.869, z: -27.277832}
+  m_LocalScale: {x: 1.25, y: 1.2, z: 1}
+  m_Children:
+  - {fileID: 1937460867070394049}
+  - {fileID: 4613729811115041694}
+  - {fileID: 9124734831764207025}
+  - {fileID: 5188263763894994165}
+  - {fileID: 556816513394218855}
+  - {fileID: 3449520415565450173}
+  - {fileID: 258415232267211794}
+  - {fileID: 2043594404775014052}
+  - {fileID: 5412603150769386331}
+  - {fileID: 2297025558673793030}
+  - {fileID: 1452219430704862117}
+  - {fileID: 9074051339067121091}
+  - {fileID: 6936210003901083831}
+  - {fileID: 5853881832853672550}
+  - {fileID: 876960347490681219}
+  - {fileID: 8568546742755016180}
+  - {fileID: 8333787420528899285}
+  - {fileID: 1579552846423372260}
+  - {fileID: 3514190527782069771}
+  - {fileID: 6477267589069817820}
+  - {fileID: 1755225260438764494}
+  - {fileID: 9220573812554042360}
+  - {fileID: 2672740452712236583}
+  - {fileID: 1218372360538297287}
+  - {fileID: 2468080926588949462}
+  - {fileID: 5466095890934405851}
+  - {fileID: 5791014981783962103}
+  - {fileID: 5206566823106560888}
+  - {fileID: 7052918782965574394}
+  - {fileID: 4753320447450406384}
+  - {fileID: 3838149170475499910}
+  - {fileID: 7006731396580183233}
+  - {fileID: 3136108392560747245}
+  - {fileID: 5011947396527557157}
+  - {fileID: 1995039175707900397}
+  - {fileID: 6149129243100547927}
+  - {fileID: 3504367023026906051}
+  - {fileID: 1292085313163751495}
+  - {fileID: 4817499213189112549}
+  - {fileID: 7180057378659174334}
+  - {fileID: 448089397992704816}
+  - {fileID: 1878116514109908710}
+  - {fileID: 2285099594927806564}
+  - {fileID: 4606044957587901829}
+  - {fileID: 10395816734325765}
+  - {fileID: 2346700357663788694}
+  - {fileID: 5766999787943325260}
+  - {fileID: 3942424129692958928}
+  - {fileID: 8814054602929922493}
+  - {fileID: 3698324459118892172}
+  - {fileID: 3481158117779302555}
+  - {fileID: 4252018147434308194}
+  - {fileID: 8064924898584672467}
+  - {fileID: 2845667151135397017}
+  - {fileID: 6398016829778199686}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &11581670677363383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.214
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.446
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3136108392560747245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 11581670677363383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &320806753537741799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.428
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.185
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3449520415565450173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 320806753537741799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &715216950624848780
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2468080926588949462 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 715216950624848780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &810000367583516364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.821
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.852
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2346700357663788694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 810000367583516364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &923593830932483267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4549999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.902
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2845667151135397017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 923593830932483267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1061705777866055293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.514
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2672740452712236583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1061705777866055293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1202082294412835384
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3799999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.778
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &4252018147434308194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1202082294412835384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1461244340701812191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.486
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.718
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &4606044957587901829 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1461244340701812191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1801301312701123798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.522
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.438
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3698324459118892172 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1801301312701123798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1949662530444589977
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3504367023026906051 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1949662530444589977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1974966059373657681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7879999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3514190527782069771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1974966059373657681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2009478847420346561
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0549998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3481158117779302555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2009478847420346561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2097227565139908746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.017
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3942424129692958928 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2097227565139908746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2229084820434213340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.069
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &3838149170475499910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2229084820434213340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2848247807920069081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.201
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &876960347490681219 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2848247807920069081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2898778605758909512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &258415232267211794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2898778605758909512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3136891766189073503
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &10395816734325765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3136891766189073503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3176903795241799485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.939
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &556816513394218855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3176903795241799485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3286354969181819754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &448089397992704816 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3286354969181819754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3459706860382970295
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.471
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.157
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1995039175707900397 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3459706860382970295}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3553246531390154395
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.311
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1937460867070394049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3553246531390154395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3584018149462621884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.358
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1878116514109908710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3584018149462621884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3744537015080444820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2979999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1755225260438764494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3744537015080444820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3754552356522082366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4459999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.397
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2285099594927806564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3754552356522082366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3768448642955606108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.638
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2297025558673793030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3768448642955606108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4030962222992881406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.628
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &2043594404775014052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4030962222992881406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4198195151577458717
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.719
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.695
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1292085313163751495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4198195151577458717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4270560013272959901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.762
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.599
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1218372360538297287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4270560013272959901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4487597823257274814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.705
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.509
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1579552846423372260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4487597823257274814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4578970464575032319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.181
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.834
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &1452219430704862117 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4578970464575032319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4918153956993196169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0219998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.273
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &8064924898584672467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4918153956993196169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5190438860507733988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.827
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.278
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &7180057378659174334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5190438860507733988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5354099100159750816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.96199995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.215
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &7052918782965574394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5354099100159750816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5372932433092564123
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.648
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &7006731396580183233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5372932433092564123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5471533523135211757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.803
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.273
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &6936210003901083831 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5471533523135211757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5907978849275984359
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.7689999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.083
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &8814054602929922493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5907978849275984359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6078341655232566178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.664
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.909
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &9220573812554042360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6078341655232566178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6128560699160735211
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.57199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &9124734831764207025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6128560699160735211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6215272177727800729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.049
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &9074051339067121091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6215272177727800729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6344194193323928719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.545
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.881
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &8333787420528899285 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6344194193323928719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6720781716990682542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.545
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.881
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &8568546742755016180 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6720781716990682542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6951285962018865793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.0289998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.112
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5466095890934405851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6951285962018865793}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6967624302700112641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.60099995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.432
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5412603150769386331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6967624302700112641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7182395777512856751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.854
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.681
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5188263763894994165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7182395777512856751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7200662552874621730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.79599994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5206566823106560888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7200662552874621730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7599725977090472639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &4817499213189112549 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7599725977090472639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7663925087488476586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1259999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.049
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &4753320447450406384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7663925087488476586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7758530430150720452
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &4613729811115041694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7758530430150720452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7936071631438172799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4039999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.116
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5011947396527557157 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7936071631438172799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8236929845565398918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7979999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &6477267589069817820 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8236929845565398918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8315552465360772316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.739
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.093
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &6398016829778199686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8315552465360772316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8832049265574300220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1209998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.469
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5853881832853672550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8832049265574300220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8909504626597312022
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.966
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5766999787943325260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8909504626597312022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8930996440984426925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.615
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &5791014981783962103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8930996440984426925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9149780589097571085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6445634299124554977}
+    m_Modifications:
+    - target: {fileID: 3147053518395103319, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaFire (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.116
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.277832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83bb110bb6b021e45b1680aea04e1e4a, type: 3}
+--- !u!4 &6149129243100547927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3147053518395103322, guid: 83bb110bb6b021e45b1680aea04e1e4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 9149780589097571085}
+  m_PrefabAsset: {fileID: 0}

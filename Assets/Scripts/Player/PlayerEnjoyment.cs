@@ -39,17 +39,12 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         else if (action == "Burn")
         {
-            LoseEnjoyment(2);
+            LoseEnjoyment(0.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         else if (action == "Time")
         {
             LoseEnjoyment(2);
-            enjoymentBar.SetEnjoyment(currentEnjoyment);
-        }
-        else if (action == "Ectoplasma proximity explosion")
-        {
-            LoseEnjoyment(0.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         else if (action == "Ectoplasma fireball")
