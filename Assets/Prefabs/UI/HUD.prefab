@@ -126,6 +126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circularBarPrefab: {fileID: 3868262709803748682, guid: 901804ee79a479d4d879fb939b832d3f,
     type: 3}
+  dodoHead: {fileID: 2953859438770557941}
+  chicken: {fileID: 21300000, guid: 4768a475e87c6ce40897ae0aedc0df6b, type: 3}
 --- !u!1 &723965882433015695
 GameObject:
   m_ObjectHideFlags: 0

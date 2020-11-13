@@ -3,6 +3,7 @@
 public class DodoHealth : MonoBehaviour
 {
     [SerializeField] float maxHealth = 4;
+    [SerializeField] Sprite[] heads = null;
     float health;
     DodoUI dodoUI;
 
@@ -11,6 +12,7 @@ public class DodoHealth : MonoBehaviour
         health = maxHealth;
         dodoUI = FindObjectOfType<DodoUI>();
         dodoUI.SetupHealthBars((int)health);
+        dodoUI.SetupHead(heads);
     }
 
     private void Update()
@@ -29,7 +31,7 @@ public class DodoHealth : MonoBehaviour
         {
             print("dodo dead, game over");
         }
-        dodoUI.UpdateHealth(health);
+        dodoUI.UpdateHealth(health, true);
     }
 
     public void Heal(float points)
