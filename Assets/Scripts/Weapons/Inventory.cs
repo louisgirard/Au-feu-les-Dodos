@@ -12,14 +12,12 @@ public class Inventory : MonoBehaviour
     {
         weaponUI = FindObjectOfType<WeaponUI>();
         if (myWeapons.Count == 0) return;
-        myWeapons[index].gameObject.SetActive(true);
-
-        weaponUI.Display(myWeapons[index]);
     }
 
     private void Update()
     {
         if (myWeapons.Count == 0) return;
+        myWeapons[index].gameObject.SetActive(true);
         ProcessKeyInput();
         ProcessScrollWheel();
         weaponUI.Display(myWeapons[index]);
