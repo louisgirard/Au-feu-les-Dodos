@@ -16,6 +16,7 @@ TagManager:
   - Bucket
   - Stump
   - Ectoplasma
+  - MrPatate
   layers:
   - Default
   - TransparentFX

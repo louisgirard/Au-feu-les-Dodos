@@ -56,6 +56,7 @@ public class Walk : StateMachineBehaviour
         animator.ResetTrigger("Shoot");
         animator.ResetTrigger("Frontal attack");
         animator.ResetTrigger("Proximity");
+        animator.ResetTrigger("Meteorite");
     }
 
 }

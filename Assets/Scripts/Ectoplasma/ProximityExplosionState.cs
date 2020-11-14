@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProximityExplosion : StateMachineBehaviour
+public class ProximityExplosionState : StateMachineBehaviour
 {
     public GameObject explosion_prefab;
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireballDamages : MonoBehaviour
+public class Fireball : MonoBehaviour
 {
     public float speed = 5;
     public GameObject explosion_prefab;
