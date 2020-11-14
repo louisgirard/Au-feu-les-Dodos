@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireballsShoot : StateMachineBehaviour
+public class FireballsShootState : StateMachineBehaviour
 {
     public GameObject fireball_prefab;
     public float walking_speed = 0.7f;
