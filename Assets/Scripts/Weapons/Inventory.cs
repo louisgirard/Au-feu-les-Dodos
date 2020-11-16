@@ -109,31 +109,9 @@ public class Inventory : MonoBehaviour
 
     public void AddWeapon(Weapon weapon)
     {
-        if(myWeapons.Count == 0)
+        if(!myWeapons.Contains(weapon))
         {
             myWeapons.Add(weapon);
-            print("L'arme " + weapon + " a été ajoutée à l'inventaire");
         }
-        else if(myWeapons.Count > 0)
-        {
-            int testWeapon = 0;
-            for (int i = 0 ; i < myWeapons.Count ; i++)
-            {
-               if(myWeapons[i] != weapon)
-               {
-                    testWeapon++;
-               }
-            }
-            if (testWeapon == myWeapons.Count)
-            {
-                myWeapons.Add(weapon);
-                print("L'arme " + weapon + " a été ajoutée à l'inventaire");
-            }
-        }
-    }
-
-    public Weapon GetCurrentWeapon()
-    {
-        return myWeapons[index];
     }
 }

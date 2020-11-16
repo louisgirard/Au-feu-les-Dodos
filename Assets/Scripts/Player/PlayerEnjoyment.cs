@@ -6,6 +6,7 @@ public class PlayerEnjoyment : MonoBehaviour
     public float currentEnjoyment;
     private float timer = 0.0f;
     public float waitTime = 5.0f;
+    public bool timerEnabled = true;
 
     public EnjoymentBar enjoymentBar;
     
@@ -17,6 +18,8 @@ public class PlayerEnjoyment : MonoBehaviour
 
     private void Update()
     {
+        if (!timerEnabled) return;
+
         timer += Time.deltaTime;
         if(timer > waitTime)
         {
@@ -52,7 +55,6 @@ public class PlayerEnjoyment : MonoBehaviour
             LoseEnjoyment(5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-
     }
 
     public void TakePleasure(string action)
@@ -77,8 +79,6 @@ public class PlayerEnjoyment : MonoBehaviour
             AddEnjoyment(0.01f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-
-
     }
 
     private void AddEnjoyment(float enjoyment)
