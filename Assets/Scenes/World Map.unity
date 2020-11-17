@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 1354367980}
   - component: {fileID: 1354367979}
   m_Layer: 0
-  m_Name: World Map
+  m_Name: World Map Launcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   - {fileID: 620923210}
   - {fileID: 1989565119}
   - {fileID: 361694451}
-  menu: {fileID: 689618427}
+  menu: {fileID: 689618431}
   levelName: {fileID: 1658818330}
 --- !u!4 &1354367980
 Transform:

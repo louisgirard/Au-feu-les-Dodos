@@ -5,13 +5,13 @@ using UnityEngine.UI;
 public class WorldMapLauncher : MonoBehaviour
 {
     [SerializeField] PlayableDirector[] toLevel = null;
-    [SerializeField] GameObject menu = null;
+    [SerializeField] WorldMapMenu menu = null;
     [SerializeField] Text levelName = null;
 
     private void Start()
     {
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
-        menu.SetActive(false);
+        menu.gameObject.SetActive(false);
         LevelName(CrossSceneInformation.nextLevel - 1);
         MoveToNextLevel();
     }
@@ -24,7 +24,7 @@ public class WorldMapLauncher : MonoBehaviour
 
     private void DisplayMenu(PlayableDirector director)
     {
-        menu.SetActive(true);
+        menu.gameObject.SetActive(true);
         LevelName(CrossSceneInformation.nextLevel);
     }
 
