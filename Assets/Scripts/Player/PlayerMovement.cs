@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDisable()
     {
-        playerAnimation.Move(Vector2.zero);
+        if(gameObject.activeSelf)
+            playerAnimation.Move(Vector2.zero);
     }
 }
