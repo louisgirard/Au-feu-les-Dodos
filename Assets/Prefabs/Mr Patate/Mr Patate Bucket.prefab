@@ -14,7 +14,8 @@ PrefabInstance:
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: weaponToGive
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 726693612651966693, guid: 54054cd2763bd2d4aa2640232c30d2fc,
+        type: 3}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
       value: Bonjour Super Pompier !

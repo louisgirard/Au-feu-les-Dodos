@@ -14,7 +14,8 @@ PrefabInstance:
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: weaponToGive
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 437803250, guid: 4568919be0957844e89276e754633a49,
+        type: 3}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
       value: Bonjour Super Pompier !
@@ -27,7 +28,7 @@ PrefabInstance:
     - target: {fileID: 2854879970613809668, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
       propertyPath: m_Name
-      value: Mr Patate Bomb
+      value: Mr Patate TimeBomb
       objectReference: {fileID: 0}
     - target: {fileID: 3041587151943905937, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}

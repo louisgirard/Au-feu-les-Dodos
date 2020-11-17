@@ -20,6 +20,11 @@ PrefabInstance:
       value: "Voici une nouvelle arme qui te servira \xE0 couper des troncs d'arbre
         : la hache !"
       objectReference: {fileID: 0}
+    - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
+      propertyPath: weaponToGive
+      value: 
+      objectReference: {fileID: 4799358981118081578, guid: 62e6f3afef807904eb04c08fd154e1d7,
+        type: 3}
     - target: {fileID: 2854879970613809668, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
       propertyPath: m_Name
