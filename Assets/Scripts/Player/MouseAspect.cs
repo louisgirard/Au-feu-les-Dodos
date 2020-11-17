@@ -1,23 +1,31 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof(BoxCollider2D))]
 public class MouseAspect : MonoBehaviour
 {
-    public Texture2D cursorTexture;
-    public Texture2D defaultTexture;
-    private CursorMode cursorMode = CursorMode.Auto;
-    private Vector2 hotSpot = Vector2.zero;
+    public enum Aspect { Fire, Default, Mouse };
 
-    private void Update()
+    [SerializeField] Texture2D fireTexture = null;
+    [SerializeField] Texture2D defaultTexture = null;
+    [SerializeField] Texture2D mouseTexture = null;
+
+    private void Start()
     {
-        if (CrossPlatformInputManager.GetButton("Fire2"))
+        ChangeAspect(Aspect.Default);
+    }
+
+    public void ChangeAspect(Aspect texture)
+    {
+        switch (texture)
         {
-            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
-        }
-        else
-        {
-            Cursor.SetCursor(defaultTexture, hotSpot, cursorMode);
+            case Aspect.Default:
+                Cursor.SetCursor(defaultTexture, Vector2.zero, CursorMode.Auto);
+                break;
+            case Aspect.Fire:
+                Cursor.SetCursor(fireTexture, Vector2.zero, CursorMode.Auto);
+                break;
+            case Aspect.Mouse:
+                Cursor.SetCursor(mouseTexture, Vector2.zero, CursorMode.Auto);
+                break;
         }
     }
 }

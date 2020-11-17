@@ -6,22 +6,20 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] GameObject hud = null;
-    [SerializeField] GameObject dialogueInterface = null;
+    [SerializeField] GameObject dialogueBox = null;
     [SerializeField] Text dialogueName = null;
     [SerializeField] Text dialogueText = null;
 
-    Queue<string> sentences = new Queue<string>();
+    readonly Queue<string> sentences = new Queue<string>();
     DialogueTrigger currentDialogueTrigger;
 
     GameObject player;
-    LanceIncendie lanceIncendie;
     Inventory inventory;
 
     private void Start()
     {
-        dialogueInterface.SetActive(false);
+        dialogueBox.SetActive(false);
         player = GameObject.FindGameObjectWithTag("Player");
-        lanceIncendie = FindObjectOfType<LanceIncendie>();
         inventory = FindObjectOfType<Inventory>();
     }
 
@@ -37,7 +35,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         hud.SetActive(false);
-        dialogueInterface.SetActive(true);
+        dialogueBox.SetActive(true);
         dialogueName.text = dialogueTrigger.dialogue.name;
 
         NextSentence();
@@ -55,38 +53,32 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = sentence;
     }
 
-    IEnumerator DisplayDialogue()
-    {
-        while(sentences.Count > 0)
-        {
-            NextSentence();
-            yield return new WaitForSeconds(2f);
-        }
-        EndDialogue();
-    }
-
     private void EndDialogue()
     {
         EnableControl();
         hud.SetActive(true);
-        dialogueInterface.SetActive(false);
+        dialogueBox.SetActive(false);
 
         currentDialogueTrigger.DialogueEnd();
     }
 
     private void EnableControl()
     {
-        player.GetComponent<PlayerMovement>().EnableControl();
-        player.GetComponent<PlayerEnjoyment>().timerEnabled = true;
-        lanceIncendie.gameObject.SetActive(true);
+        player.GetComponent<PlayerMovement>().enabled = true;
+        player.GetComponent<PlayerEnjoyment>().enabled = true;
+        player.GetComponent<PlayerOrientation>().enabled = true;
+        player.GetComponentInChildren<LanceIncendie>().enabled = true;
         inventory.gameObject.SetActive(true);
+        player.GetComponent<MouseAspect>().ChangeAspect(MouseAspect.Aspect.Default);
     }
 
     private void DisableControl()
     {
-        player.GetComponent<PlayerMovement>().DisableControl();
-        player.GetComponent<PlayerEnjoyment>().timerEnabled = false;
-        lanceIncendie.gameObject.SetActive(false);
+        player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<PlayerEnjoyment>().enabled = false;
+        player.GetComponent<PlayerOrientation>().enabled = false;
+        player.GetComponentInChildren<LanceIncendie>().enabled = false;
         inventory.gameObject.SetActive(false);
+        player.GetComponent<MouseAspect>().ChangeAspect(MouseAspect.Aspect.Mouse);
     }
 }

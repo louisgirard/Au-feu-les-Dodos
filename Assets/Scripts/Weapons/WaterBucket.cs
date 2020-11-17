@@ -16,6 +16,7 @@ public class WaterBucket : Weapon
 
     public override void Fire()
     {
+        base.Fire();
         ps.Play();
         polygonCollider2D.enabled = true;
         StartCoroutine(DisableWater());

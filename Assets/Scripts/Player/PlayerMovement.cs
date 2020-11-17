@@ -9,8 +9,6 @@ public class PlayerMovement : MonoBehaviour
     new Rigidbody2D rigidbody;
     CharacterAnimation playerAnimation;
 
-    bool controlDisabled = false;
-
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -19,12 +17,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (controlDisabled)
-        {
-            playerAnimation.Move(Vector2.zero);
-            return;
-        }
-
         xInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
         yInput = CrossPlatformInputManager.GetAxisRaw("Vertical");
         Vector2 moveVector = new Vector2(xInput, yInput).normalized;
@@ -36,13 +28,8 @@ public class PlayerMovement : MonoBehaviour
         playerAnimation.Move(moveVector);
     }
 
-    public void DisableControl()
+    public void OnDisable()
     {
-        controlDisabled = true;
-    }
-
-    public void EnableControl()
-    {
-        controlDisabled = false;
+        playerAnimation.Move(Vector2.zero);
     }
 }

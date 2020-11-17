@@ -6,6 +6,7 @@ public class Bazookeau : Weapon
 
     public override void Fire()
     {
+        base.Fire();
         Projectile projectile;
 
         projectile = Instantiate(projectilePrefab, transform.position, transform.rotation);

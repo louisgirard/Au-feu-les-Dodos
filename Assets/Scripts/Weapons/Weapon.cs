@@ -11,9 +11,14 @@ public class Weapon : MonoBehaviour
     float timer;
     bool isOverheating = false;
 
+    bool usingWeapon = false;
+
+    MouseAspect mouse;
+
     private void Awake()
     {
         timer = timeBeforeOverheat;
+        mouse = FindObjectOfType<MouseAspect>();
     }
 
     void Update()
@@ -71,10 +76,17 @@ public class Weapon : MonoBehaviour
 
     public virtual void Fire()
     {
+        usingWeapon = true;
+        mouse.ChangeAspect(MouseAspect.Aspect.Fire);
     }
 
     public virtual void StopFire()
     {
+        if(usingWeapon)
+        {
+            mouse.ChangeAspect(MouseAspect.Aspect.Default);
+        }
+        usingWeapon = false;
     }
 
     public Sprite GetIcon()
@@ -86,5 +98,10 @@ public class Weapon : MonoBehaviour
     {
         if (!isOverheating) return 0;
         return 1 - (timer / overheatingTime);
+    }
+
+    private void OnDisable()
+    {
+        StopFire();
     }
 }
