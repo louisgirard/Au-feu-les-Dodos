@@ -13,12 +13,9 @@ public class Weapon : MonoBehaviour
 
     bool usingWeapon = false;
 
-    MouseAspect mouse;
-
     private void Awake()
     {
         timer = timeBeforeOverheat;
-        mouse = FindObjectOfType<MouseAspect>();
     }
 
     void Update()
@@ -77,14 +74,14 @@ public class Weapon : MonoBehaviour
     public virtual void Fire()
     {
         usingWeapon = true;
-        mouse.ChangeAspect(MouseAspect.Aspect.Fire);
+        MouseAspect.ChangeAspect(MouseAspect.Aspect.Fire);
     }
 
     public virtual void StopFire()
     {
         if(usingWeapon)
         {
-            mouse.ChangeAspect(MouseAspect.Aspect.Default);
+            MouseAspect.ChangeAspect(MouseAspect.Aspect.Default);
         }
         usingWeapon = false;
     }

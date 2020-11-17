@@ -24,6 +24,7 @@ public class WorldMapMenu : MonoBehaviour
     public void LaunchNextLevel()
     {
         SceneManager.LoadScene(CrossSceneInformation.nextLevel);
+        MouseAspect.ChangeAspect(MouseAspect.Aspect.Default);
         CrossSceneInformation.nextLevel++;
     }
 }

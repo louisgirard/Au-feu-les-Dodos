@@ -4,16 +4,23 @@ public class MouseAspect : MonoBehaviour
 {
     public enum Aspect { Fire, Default, Mouse };
 
-    [SerializeField] Texture2D fireTexture = null;
-    [SerializeField] Texture2D defaultTexture = null;
-    [SerializeField] Texture2D mouseTexture = null;
+    [SerializeField] Texture2D refToFireTexture = null;
+    [SerializeField] Texture2D refToDefaultTexture = null;
+    [SerializeField] Texture2D refToMouseTexture = null;
 
-    private void Start()
+    static Texture2D fireTexture = null;
+    static Texture2D defaultTexture = null;
+    static Texture2D mouseTexture = null;
+
+    private void Awake()
     {
+        fireTexture = refToFireTexture;
+        defaultTexture = refToDefaultTexture;
+        mouseTexture = refToMouseTexture;
         ChangeAspect(Aspect.Default);
     }
 
-    public void ChangeAspect(Aspect texture)
+    public static void ChangeAspect(Aspect texture)
     {
         switch (texture)
         {

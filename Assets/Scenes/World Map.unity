@@ -1072,7 +1072,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Commencer
+  m_Text: Start Level
 --- !u!222 &873822252
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1468,6 +1468,7 @@ MonoBehaviour:
   - {fileID: 1989565119}
   - {fileID: 361694451}
   menu: {fileID: 689618427}
+  levelName: {fileID: 1658818330}
 --- !u!4 &1354367980
 Transform:
   m_ObjectHideFlags: 0
@@ -1782,7 +1783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Montagne
+  m_Text: Test
 --- !u!222 &1658818331
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2439,8 +2440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.89438635}
   m_AnchorMax: {x: 0.5, y: 0.89438635}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.0000085831, y: 0}
+  m_SizeDelta: {x: 190.05896, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082710338
 MonoBehaviour:
@@ -2474,7 +2475,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choix du Dodo
+  m_Text: Choose your Dodo
 --- !u!222 &2082710339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2562,3 +2563,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119781844}
   m_CullTransparentMesh: 0
+--- !u!1001 &5514222330350633350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175842794628559540, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222655821174078303, guid: cb5cdc3300024294280b26a121af4887,
+        type: 3}
+      propertyPath: m_Name
+      value: Mouse Aspect
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb5cdc3300024294280b26a121af4887, type: 3}
