@@ -3,24 +3,23 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    [SerializeField] List<Weapon> myWeapons = new List<Weapon>();
-    private int index = 0;
+    List<Weapon> myWeapons = new List<Weapon>();
+    private int currentWeapon = 0;
 
     WeaponUI weaponUI;
 
     private void Start()
     {
         weaponUI = FindObjectOfType<WeaponUI>();
-        if (myWeapons.Count == 0) return;
     }
 
     private void Update()
     {
         if (myWeapons.Count == 0) return;
-        myWeapons[index].gameObject.SetActive(true);
+        myWeapons[currentWeapon].gameObject.SetActive(true);
         ProcessKeyInput();
         ProcessScrollWheel();
-        weaponUI.Display(myWeapons[index]);
+        weaponUI.Display(myWeapons[currentWeapon]);
     }
 
     private void ProcessKeyInput()
@@ -69,42 +68,42 @@ public class Inventory : MonoBehaviour
 
     private void NextWeapon()
     {
-        if(index + 1 < myWeapons.Count)
+        if(currentWeapon + 1 < myWeapons.Count)
         {
-            myWeapons[index].gameObject.SetActive(false);
-            myWeapons[index + 1].gameObject.SetActive(true);
-            index++;
+            myWeapons[currentWeapon].gameObject.SetActive(false);
+            myWeapons[currentWeapon + 1].gameObject.SetActive(true);
+            currentWeapon++;
         }
         else
         {
-            myWeapons[index].gameObject.SetActive(false);
-            index = 0;
-            myWeapons[index].gameObject.SetActive(true);
+            myWeapons[currentWeapon].gameObject.SetActive(false);
+            currentWeapon = 0;
+            myWeapons[currentWeapon].gameObject.SetActive(true);
         }
     }
 
     private void PreviousWeapon()
     {
-        if (index - 1 >= 0)
+        if (currentWeapon - 1 >= 0)
         {
-            myWeapons[index].gameObject.SetActive(false);
-            myWeapons[index - 1].gameObject.SetActive(true);
-            index--;
+            myWeapons[currentWeapon].gameObject.SetActive(false);
+            myWeapons[currentWeapon - 1].gameObject.SetActive(true);
+            currentWeapon--;
         }
         else
         {
-            myWeapons[index].gameObject.SetActive(false);
-            index = myWeapons.Count - 1;
-            myWeapons[index].gameObject.SetActive(true);
+            myWeapons[currentWeapon].gameObject.SetActive(false);
+            currentWeapon = myWeapons.Count - 1;
+            myWeapons[currentWeapon].gameObject.SetActive(true);
         }
     }
 
     private void SwitchWeapon(int weapon)
     {
         if (weapon >= myWeapons.Count) return;
-        myWeapons[index].gameObject.SetActive(false);
-        index = weapon;
-        myWeapons[index].gameObject.SetActive(true);
+        myWeapons[currentWeapon].gameObject.SetActive(false);
+        currentWeapon = weapon;
+        myWeapons[currentWeapon].gameObject.SetActive(true);
     }
 
     public void AddWeapon(Weapon weapon)
