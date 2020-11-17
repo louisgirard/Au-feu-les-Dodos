@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class WorldMapMenu : MonoBehaviour
 {
     [SerializeField] GameObject[] dodoHeads = null;
+    [SerializeField] Color buttonSelectedColor = default;
 
     private void Start()
     {
@@ -18,7 +20,9 @@ public class WorldMapMenu : MonoBehaviour
 
     public void SetDodoSelected(int dodo)
     {
+        dodoHeads[CrossSceneInformation.dodoSelected].GetComponent<Image>().color = Color.white;
         CrossSceneInformation.dodoSelected = dodo;
+        dodoHeads[CrossSceneInformation.dodoSelected].GetComponent<Image>().color = buttonSelectedColor;
     }
 
     public void LaunchNextLevel()
