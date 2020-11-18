@@ -89,23 +89,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!114 &-6427213870740729693
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2973813148521e34480beffd64e38af8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireball_prefab: {fileID: 4385674145269130741, guid: 2cc2393f370e8fb48a2c6b2fa53f47e4,
-    type: 3}
-  walking_speed: 0.7
-  shooting_speed: 3
-  fireballs_count: 5
 --- !u!114 &-4930562948105602158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,7 +119,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-  m_ExitTime: 2
+  m_ExitTime: 6
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -307,7 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9df9c4edb0483f34ba26b7c8168ddae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeteoriteRain_prefab: {fileID: 0}
+  MeteoriteRain_prefab: {fileID: 3775234498068645815, guid: 65bdfba2fd70906469f49f08893bf449,
+    type: 3}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -509,7 +493,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.5
   m_TransitionOffset: 0
   m_ExitTime: 0.75
   m_HasExitTime: 0
@@ -530,11 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.7
-  patterns_pause: 5
-  ectoplasma: {fileID: 0}
-  player: {fileID: 0}
-  pause_timer: 0
-  proximity_timer: 0
+  patterns_pause: 10
 --- !u!1101 &4330859133683574671
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -587,7 +567,6 @@ AnimatorState:
   m_Transitions:
   - {fileID: -4816789776833209408}
   m_StateMachineBehaviours:
-  - {fileID: -6427213870740729693}
   - {fileID: -304491440684483866}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0

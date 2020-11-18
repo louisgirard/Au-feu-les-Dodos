@@ -6,13 +6,14 @@ public class MeteoriteRainState : StateMachineBehaviour
 {
     public GameObject MeteoriteRain_prefab;
 
+    private GameObject rain;
+
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         Transform ectoplasma = GameObject.FindWithTag("Ectoplasma").transform;
 
-        GameObject rain = Instantiate(MeteoriteRain_prefab, ectoplasma.position, Quaternion.identity);
-        Destroy(rain, 5f);
+        rain = Instantiate(MeteoriteRain_prefab, ectoplasma.transform);
 
     }
 
@@ -25,6 +26,6 @@ public class MeteoriteRainState : StateMachineBehaviour
     //OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
+        Destroy(rain);
     }
 }

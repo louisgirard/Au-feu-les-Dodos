@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Walk : StateMachineBehaviour
+public class WalkState : StateMachineBehaviour
 {
     public float speed = 0.7f;
     public float patterns_pause = 5f;
@@ -27,7 +27,7 @@ public class Walk : StateMachineBehaviour
         Vector3 move = (player.transform.position - ectoplasma.transform.position);
         ectoplasma.transform.Translate(move.normalized * speed * Time.deltaTime);
 
-        if (move.magnitude < 1f) // trigger range for proximity explosion
+        if (move.magnitude < 1.2f) // trigger range for proximity explosion
             proximity_timer += Time.deltaTime;
         else
             proximity_timer = 0;
@@ -42,10 +42,13 @@ public class Walk : StateMachineBehaviour
             }
             else
             {
-                if (Random.value > 0.5f)
+                float r = Random.value;
+                if (r < 1f / 3f)
                     animator.SetTrigger("Shoot");
-                else
+                else if (r < 2f / 3f)
                     animator.SetTrigger("Frontal attack");
+                else
+                    animator.SetTrigger("Meteorites");
             }
         }
     }
@@ -56,7 +59,7 @@ public class Walk : StateMachineBehaviour
         animator.ResetTrigger("Shoot");
         animator.ResetTrigger("Frontal attack");
         animator.ResetTrigger("Proximity");
-        animator.ResetTrigger("Meteorite");
+        animator.ResetTrigger("Meteorites");
     }
 
 }

@@ -25,13 +25,14 @@ public class FireballsShootState : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Vector3 move = (player.transform.position - ectoplasma.transform.position);
-        ectoplasma.transform.Translate(move.normalized * walking_speed * Time.deltaTime);
+        Vector3 direction = (player.transform.position - ectoplasma.transform.position).normalized;
+        ectoplasma.transform.Translate(direction * walking_speed * Time.deltaTime);
 
         shooting_timer += Time.deltaTime;
         if (shooting_timer > 1/shooting_speed)
         {
-            Instantiate(fireball_prefab, ectoplasma.transform.position, Quaternion.identity);
+            GameObject fireball = Instantiate(fireball_prefab, ectoplasma.transform.position, Quaternion.identity);
+            Destroy(fireball, 10f);
             shooting_timer = 0;
             fireball_counter++;
         }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6723716707579475356}
   - component: {fileID: 6723716707579475357}
   - component: {fileID: 6723716707579475353}
+  - component: {fileID: 217652228899407126}
   m_Layer: 0
   m_Name: Ectoplasma
   m_TagString: Ectoplasma
@@ -119,3 +120,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.11}
   serializedVersion: 2
   m_Radius: 0.65
+--- !u!114 &217652228899407126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723716707579475358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ea51b3e2611074eb1d2bfe26e5d573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
