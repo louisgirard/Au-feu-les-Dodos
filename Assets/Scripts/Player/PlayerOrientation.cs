@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 [RequireComponent(typeof(CharacterAnimation))]
 public class PlayerOrientation : MonoBehaviour

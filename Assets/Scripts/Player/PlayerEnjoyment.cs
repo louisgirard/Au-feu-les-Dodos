@@ -52,7 +52,6 @@ public class PlayerEnjoyment : MonoBehaviour
             LoseEnjoyment(5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-
     }
 
     public void TakePleasure(string action)
@@ -77,8 +76,6 @@ public class PlayerEnjoyment : MonoBehaviour
             AddEnjoyment(0.01f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-
-
     }
 
     private void AddEnjoyment(float enjoyment)

@@ -6,6 +6,7 @@ public class TimeBombLauncher : Weapon
 
     public override void Fire()
     {
+        base.Fire();
         WaterBombExplosion timeBomb = Instantiate(timeBombPrefab, transform.position, Quaternion.identity);
         timeBomb.StartTimer();
     }

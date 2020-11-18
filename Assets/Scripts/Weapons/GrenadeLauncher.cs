@@ -12,6 +12,7 @@ public class GrenadeLauncher : Weapon
 
     public override void Fire()
     {
+        base.Fire();
         Projectile projectile;
 
         projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);

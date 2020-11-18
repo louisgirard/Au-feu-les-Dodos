@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2ceef1f330de8e458249c49202797d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - refToFireTexture: {fileID: 2800000, guid: f228a4a8cf46abd4796611a44125c2b5, type: 3}
+  - refToDefaultTexture: {fileID: 2800000, guid: 96096dc737a89984787278b8d3bfa316,
+      type: 3}
+  - refToMouseTexture: {fileID: 2800000, guid: 0272c2975fbdf394e91b3faf59c1c374, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

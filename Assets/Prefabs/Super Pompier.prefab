@@ -101,11 +101,10 @@ GameObject:
   - component: {fileID: 1854859846}
   - component: {fileID: 738162217}
   - component: {fileID: 8150371894536663991}
-  - component: {fileID: 3324189293395322454}
   - component: {fileID: 522630289}
   - component: {fileID: 1876282834848547505}
   m_Layer: 0
-  m_Name: Character
+  m_Name: Super Pompier
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,20 +310,6 @@ MonoBehaviour:
   currentEnjoyment: 0
   waitTime: 1
   enjoymentBar: {fileID: 0}
---- !u!114 &3324189293395322454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3749985317117988090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2ceef1f330de8e458249c49202797d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: f228a4a8cf46abd4796611a44125c2b5, type: 3}
-  defaultTexture: {fileID: 2800000, guid: 96096dc737a89984787278b8d3bfa316, type: 3}
 --- !u!199 &522630289
 ParticleSystemRenderer:
   serializedVersion: 6

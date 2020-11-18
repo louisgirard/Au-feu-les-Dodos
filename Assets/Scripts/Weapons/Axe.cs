@@ -7,6 +7,7 @@ public class Axe : Weapon
 
     public override void Fire()
     {
+        base.Fire();
         int layerMask = 1 << 8;
 
         Vector2 cursorPosition = CursorPosition.Position();

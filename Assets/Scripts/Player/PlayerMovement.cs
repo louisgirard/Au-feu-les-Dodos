@@ -27,4 +27,10 @@ public class PlayerMovement : MonoBehaviour
         // Update Animation
         playerAnimation.Move(moveVector);
     }
+
+    public void OnDisable()
+    {
+        if(gameObject.activeSelf)
+            playerAnimation.Move(Vector2.zero);
+    }
 }

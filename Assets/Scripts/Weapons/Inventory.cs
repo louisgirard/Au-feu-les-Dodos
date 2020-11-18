@@ -3,26 +3,29 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    [SerializeField] List<Weapon> myWeapons = new List<Weapon>();
-    private int index = 0;
+    readonly List<GameObject> weapons = new List<GameObject>();
+    private int currentWeapon = 0;
 
     WeaponUI weaponUI;
 
     private void Start()
     {
         weaponUI = FindObjectOfType<WeaponUI>();
-        if (myWeapons.Count == 0) return;
-        myWeapons[index].gameObject.SetActive(true);
-
-        weaponUI.Display(myWeapons[index]);
+        foreach(GameObject weapon in CrossSceneInformation.weaponsInInventory)
+        {
+            GameObject weaponObject = Instantiate(weapon, transform);
+            weaponObject.SetActive(false);
+            weapons.Add(weaponObject);
+        }
     }
 
     private void Update()
     {
-        if (myWeapons.Count == 0) return;
+        if (weapons.Count == 0) return;
+        weapons[currentWeapon].SetActive(true);
         ProcessKeyInput();
         ProcessScrollWheel();
-        weaponUI.Display(myWeapons[index]);
+        weaponUI.Display(weapons[currentWeapon].GetComponent<Weapon>());
     }
 
     private void ProcessKeyInput()
@@ -51,10 +54,6 @@ public class Inventory : MonoBehaviour
         {
             SwitchWeapon(5);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha7))
-        {
-            SwitchWeapon(6);
-        }
     }
 
     private void ProcessScrollWheel()
@@ -71,51 +70,52 @@ public class Inventory : MonoBehaviour
 
     private void NextWeapon()
     {
-        if(index + 1 < myWeapons.Count)
+        if(currentWeapon + 1 < weapons.Count)
         {
-            myWeapons[index].gameObject.SetActive(false);
-            myWeapons[index + 1].gameObject.SetActive(true);
-            index++;
+            weapons[currentWeapon].SetActive(false);
+            weapons[currentWeapon + 1].SetActive(true);
+            currentWeapon++;
         }
         else
         {
-            myWeapons[index].gameObject.SetActive(false);
-            index = 0;
-            myWeapons[index].gameObject.SetActive(true);
+            weapons[currentWeapon].SetActive(false);
+            currentWeapon = 0;
+            weapons[currentWeapon].SetActive(true);
         }
     }
 
     private void PreviousWeapon()
     {
-        if (index - 1 >= 0)
+        if (currentWeapon - 1 >= 0)
         {
-            myWeapons[index].gameObject.SetActive(false);
-            myWeapons[index - 1].gameObject.SetActive(true);
-            index--;
+            weapons[currentWeapon].SetActive(false);
+            weapons[currentWeapon - 1].SetActive(true);
+            currentWeapon--;
         }
         else
         {
-            myWeapons[index].gameObject.SetActive(false);
-            index = myWeapons.Count - 1;
-            myWeapons[index].gameObject.SetActive(true);
+            weapons[currentWeapon].SetActive(false);
+            currentWeapon = weapons.Count - 1;
+            weapons[currentWeapon].SetActive(true);
         }
     }
 
     private void SwitchWeapon(int weapon)
     {
-        if (weapon >= myWeapons.Count) return;
-        myWeapons[index].gameObject.SetActive(false);
-        index = weapon;
-        myWeapons[index].gameObject.SetActive(true);
+        if (weapon >= weapons.Count) return;
+        weapons[currentWeapon].SetActive(false);
+        currentWeapon = weapon;
+        weapons[currentWeapon].SetActive(true);
     }
 
     public void AddWeapon(Weapon weapon)
     {
-        myWeapons.Add(weapon);
-    }
-
-    public Weapon GetCurrentWeapon()
-    {
-        return myWeapons[index];
+        if(!CrossSceneInformation.weaponsInInventory.Contains(weapon.gameObject))
+        {
+            CrossSceneInformation.weaponsInInventory.Add(weapon.gameObject);
+            GameObject weaponObject = Instantiate(weapon.gameObject, transform);
+            weaponObject.SetActive(false);
+            weapons.Add(weaponObject);
+        }
     }
 }

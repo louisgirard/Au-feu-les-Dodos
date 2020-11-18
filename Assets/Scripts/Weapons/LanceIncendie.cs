@@ -15,6 +15,7 @@ public class LanceIncendie : Weapon
 
     public override void Fire()
     {
+        base.Fire();
         var emission = ps.emission;
         emission.enabled = true;
         boxCollider2D.enabled = true;
@@ -22,6 +23,7 @@ public class LanceIncendie : Weapon
 
     public override void StopFire()
     {
+        base.StopFire();
         var emission = ps.emission;
         emission.enabled = false;
         boxCollider2D.enabled = false;
