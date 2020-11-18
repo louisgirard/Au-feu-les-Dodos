@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using UnityEngine;
 
-public class SavePlayer : MonoBehaviour
+public class SavePlayerSystem : MonoBehaviour
 {
     string path, jsonString;
 
@@ -32,17 +32,7 @@ public class SavePlayer : MonoBehaviour
     {
         path = "Character_Save_File.json";
 
-        if (Input.GetKeyUp(KeyCode.E))
-        {
-            MySuperPompier mySuperPompier = new MySuperPompier
-            {
-                position = transform.position
-            };
-            jsonString = JsonUtility.ToJson(mySuperPompier);
-            File.WriteAllText(path, jsonString);
-            print("Sauvegarde effectuée pour le Joueur");
-        }
-        else if (Input.GetKeyUp(KeyCode.L))
+        if (Input.GetKeyUp(KeyCode.L))
         {
             jsonString = File.ReadAllText(path);
             MySuperPompier mySuperPompier = JsonUtility.FromJson<MySuperPompier>(jsonString);
@@ -55,6 +45,19 @@ public class SavePlayer : MonoBehaviour
             File.Delete(path);
             print("Suppression du fichier de sauvegarde du joueur");
         }
+    }
+
+    public void SavePlayer()
+    {
+        path = "Character_Save_File.json";
+
+        MySuperPompier mySuperPompier = new MySuperPompier
+        {
+            position = transform.position
+        };
+        jsonString = JsonUtility.ToJson(mySuperPompier);
+        File.WriteAllText(path, jsonString);
+        print("Sauvegarde effectuée pour le Joueur");
     }
 }
 

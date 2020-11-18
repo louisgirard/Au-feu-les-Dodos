@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using UnityEngine;
 
-public class SaveDodo : MonoBehaviour
+public class SaveDodoSystem : MonoBehaviour
 {
     string path, jsonString;
 
@@ -32,17 +32,7 @@ public class SaveDodo : MonoBehaviour
     {
         path = "Dodo_Save_File.json";
 
-        if (Input.GetKeyUp(KeyCode.E))
-        {
-            MyDodo myDodo = new MyDodo
-            {
-                position = transform.position
-            };
-            jsonString = JsonUtility.ToJson(myDodo);
-            File.WriteAllText(path, jsonString);
-            print("Sauvegarde effectuée pour le Dodo");
-        }
-        else if (Input.GetKeyUp(KeyCode.L))
+        if (Input.GetKeyUp(KeyCode.L))
         {
             jsonString = File.ReadAllText(path);
             MyDodo myDodo = JsonUtility.FromJson<MyDodo>(jsonString);
@@ -55,6 +45,19 @@ public class SaveDodo : MonoBehaviour
             File.Delete(path);
             print("Suppression du fichier de sauvegarde du Dodo");
         }
+    }
+
+    public void SaveDodo()
+    {
+        path = "Dodo_Save_File.json";
+
+        MyDodo myDodo = new MyDodo
+        {
+            position = transform.position
+        };
+        jsonString = JsonUtility.ToJson(myDodo);
+        File.WriteAllText(path, jsonString);
+        print("Sauvegarde effectuée pour le Dodo");
     }
 }
 

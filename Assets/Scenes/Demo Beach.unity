@@ -39517,6 +39517,85 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60cfa12a69ad06e4c81ac15b2c3defce, type: 3}
+--- !u!1001 &1892269308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 699035925921093192, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1204819871
+      objectReference: {fileID: 0}
+    - target: {fileID: 699035925921093192, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.8667796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.80604
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.127087
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8784258933173700288, guid: 8f2a31e008d0e1845907940cccce4ada,
+        type: 3}
+      propertyPath: m_Name
+      value: Checkpoint
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f2a31e008d0e1845907940cccce4ada, type: 3}
 --- !u!1001 &1894668927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43923,10 +44002,10 @@ BoxCollider2D:
   m_Offset: {x: 0.19968152, y: 0.103306055}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
