@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class WalkState : StateMachineBehaviour
 {
-    public float speed = 0.7f;
-    public float patterns_pause = 5f;
-
-    private GameObject ectoplasma;
-    private GameObject player;
-    private float pause_timer;
-    private float proximity_timer;
+    float speed;
+    float patterns_pause;
+    GameObject ectoplasma;
+    GameObject player;
+    float pause_timer;
+    float proximity_timer;
+    List<string> patterns;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -19,6 +19,17 @@ public class WalkState : StateMachineBehaviour
         player = GameObject.FindWithTag("Player");
         pause_timer = 0;
         proximity_timer = 0;
+
+        patterns = new List<string>();
+        EctoplasmaPatternsSetUp paramaters = GameObject.FindWithTag("Ectoplasma").GetComponent<EctoplasmaPatternsSetUp>();
+        speed = paramaters.walking_speed;
+        patterns_pause = paramaters.pause_between_patterns;
+        if (paramaters.fireball_shoot_pattern)
+            patterns.Add("Shoot");
+        if (paramaters.WideFrontalAttackPattern)
+            patterns.Add("Frontal attack");
+        if (paramaters.MeteoriteRainPattern)
+            patterns.Add("Meteorites");
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -42,13 +53,8 @@ public class WalkState : StateMachineBehaviour
             }
             else
             {
-                float r = Random.value;
-                if (r < 1f / 3f)
-                    animator.SetTrigger("Shoot");
-                else if (r < 2f / 3f)
-                    animator.SetTrigger("Frontal attack");
-                else
-                    animator.SetTrigger("Meteorites");
+                int choice = (int) (Random.value * patterns.Count);
+                animator.SetTrigger(patterns[choice]);
             }
         }
     }

@@ -19,6 +19,6 @@ public class WideFrontalAttackState : StateMachineBehaviour
         {
             fire.rotation = Quaternion.identity;
         }
-        Destroy(fires, 5f);
+        Destroy(fires, ectoplasma.GetComponent<EctoplasmaPatternsSetUp>().fire_duration);
     }
 }

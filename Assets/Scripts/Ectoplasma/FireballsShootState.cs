@@ -5,13 +5,15 @@ using UnityEngine;
 public class FireballsShootState : StateMachineBehaviour
 {
     public GameObject fireball_prefab;
-    public float walking_speed = 0.7f;
-    public float shooting_speed = 3;
-    public int fireballs_count = 5;
-    private GameObject ectoplasma;
-    private GameObject player;
-    private float shooting_timer;
-    private int fireball_counter;
+
+    float walking_speed;
+    float shooting_speed = 3;
+    int fireballs_count = 5;
+
+    GameObject ectoplasma;
+    GameObject player;
+    float shooting_timer;
+    int fireball_counter;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -20,6 +22,11 @@ public class FireballsShootState : StateMachineBehaviour
         player = GameObject.FindWithTag("Player");
         shooting_timer = 100;
         fireball_counter = 0;
+        
+        EctoplasmaPatternsSetUp paramaters = ectoplasma.GetComponent<EctoplasmaPatternsSetUp>();
+        walking_speed = paramaters.walking_speed;
+        shooting_speed = paramaters.shooting_speed;
+        fireballs_count = paramaters.fireballs_count;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
