@@ -33,13 +33,13 @@ public class WorldMapLauncher : MonoBehaviour
         switch (level)
         {
             case 1:
-                levelName.text = "Beach";
+                levelName.text = "Plage";
                 break;
             case 2:
                 levelName.text = "Jungle";
                 break;
             case 3:
-                levelName.text = "Moutains";
+                levelName.text = "Montagnes";
                 break;
             default:
                 levelName.text = "";

@@ -18,14 +18,6 @@ public class SaveDodoSystem : MonoBehaviour
             jsonString = JsonUtility.ToJson(myDodo);
             File.WriteAllText(path, jsonString);
         }
-        else
-        {
-            jsonString = File.ReadAllText(path);
-            MyDodo myDodo = JsonUtility.FromJson<MyDodo>(jsonString);
-            
-            transform.position = myDodo.position;
-            print("Début de partie Dodo");
-        }
     }
 
     private void Update()

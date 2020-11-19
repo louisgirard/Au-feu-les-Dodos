@@ -18,14 +18,6 @@ public class SavePlayerSystem : MonoBehaviour
             jsonString = JsonUtility.ToJson(mySuperPompier);
             File.WriteAllText(path, jsonString);
         }
-        else
-        {
-            jsonString = File.ReadAllText(path);
-            MySuperPompier mySuperPompier = JsonUtility.FromJson<MySuperPompier>(jsonString);
-
-            transform.position = mySuperPompier.position;
-            print("Début de partie Pompier");
-        }
     }
 
     private void Update()

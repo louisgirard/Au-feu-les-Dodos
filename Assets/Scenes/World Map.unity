@@ -1073,7 +1073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Level
+  m_Text: Commencer
 --- !u!222 &873822252
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2476,7 +2476,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choose your Dodo
+  m_Text: Choix du Dodo
 --- !u!222 &2082710339
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ public class WorldMapMenu : MonoBehaviour
                 dodoHeads[i].SetActive(false);
             }
         }
+        dodoHeads[CrossSceneInformation.dodoSelected].GetComponent<Image>().color = buttonSelectedColor;
     }
 
     public void SetDodoSelected(int dodo)
