@@ -6,7 +6,7 @@ public class Extinguishment : MonoBehaviour
     public float health;
     public float rekindle_speed;
 
-    private float max_health;
+    protected float max_health;
     private Vector3 start_scale;
 
     private void Start()

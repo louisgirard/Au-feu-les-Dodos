@@ -9,10 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6723716707579475355}
+  - component: {fileID: 7163902956538881673}
+  - component: {fileID: 217652228899407126}
   - component: {fileID: 6723716707579475356}
   - component: {fileID: 6723716707579475357}
   - component: {fileID: 6723716707579475353}
-  - component: {fileID: 217652228899407126}
+  - component: {fileID: 5794981463741650599}
   m_Layer: 0
   m_Name: Ectoplasma
   m_TagString: Ectoplasma
@@ -34,6 +36,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7163902956538881673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723716707579475358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa751b70e58e1554c8f90b71bd8180ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
+  rekindle_speed: 0.1
+--- !u!114 &217652228899407126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723716707579475358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36ea51b3e2611074eb1d2bfe26e5d573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.7
+  active_fireballs: 1
+  shooting_speed: 3
+  fireballs_count: 5
+  MeteoriteRainPattern: 1
+  WideFrontalAttackPattern: 1
 --- !u!212 &6723716707579475356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -120,7 +154,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.11}
   serializedVersion: 2
   m_Radius: 0.65
---- !u!114 &217652228899407126
+--- !u!114 &5794981463741650599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,6 +163,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6723716707579475358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ea51b3e2611074eb1d2bfe26e5d573, type: 3}
+  m_Script: {fileID: 11500000, guid: 516429d96ada9cc4f89f1e9914f5381c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -17,6 +17,7 @@ TagManager:
   - Stump
   - Ectoplasma
   - MrPatate
+  - EctoplasmaLifeSlider
   layers:
   - Default
   - TransparentFX

@@ -2271,6 +2271,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 12328719}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &352690469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5929846721846713133, guid: 4724f4720b164fa45b332cd3c280c191,
+    type: 3}
+  m_PrefabInstance: {fileID: 1405606405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &355201188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20504,6 +20510,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1912865309619114550, guid: 4724f4720b164fa45b332cd3c280c191,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912865309619114550, guid: 4724f4720b164fa45b332cd3c280c191,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5929846721846713133, guid: 4724f4720b164fa45b332cd3c280c191,
+        type: 3}
+      propertyPath: m_Name
+      value: EctoplasmaLife
+      objectReference: {fileID: 0}
+    - target: {fileID: 5929846721846713133, guid: 4724f4720b164fa45b332cd3c280c191,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5929846721846713133, guid: 4724f4720b164fa45b332cd3c280c191,
+        type: 3}
+      propertyPath: m_TagString
+      value: EctoplasmaLifeSlider
+      objectReference: {fileID: 0}
     - target: {fileID: 6148719641982597474, guid: 4724f4720b164fa45b332cd3c280c191,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -27574,26 +27605,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e07d60e7a961f564e9523b24d1ed7b26, type: 3}
---- !u!1 &2133005086 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6723716707579475358, guid: 5b21c337bd0c4e041970dc1d9a876fc1,
-    type: 3}
-  m_PrefabInstance: {fileID: 6723716706965795735}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2133005087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2133005086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa751b70e58e1554c8f90b71bd8180ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  rekindle_speed: 0
 --- !u!4 &2135274982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3471914841249673605, guid: 7be6a914e54cdf4489f74e32cf691e45,
@@ -28010,5 +28021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ectoplasma
       objectReference: {fileID: 0}
+    - target: {fileID: 7163902956538881673, guid: 5b21c337bd0c4e041970dc1d9a876fc1,
+        type: 3}
+      propertyPath: LifeSlider
+      value: 
+      objectReference: {fileID: 352690469}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b21c337bd0c4e041970dc1d9a876fc1, type: 3}
