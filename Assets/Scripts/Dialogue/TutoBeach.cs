@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class TutoBeach : DialogueTrigger
 {
@@ -8,7 +6,7 @@ public class TutoBeach : DialogueTrigger
 
     void Start()
     {
-        Invoke("StartDialogue", .1f);
+        Invoke(nameof(StartDialogue), .1f);
     }
 
     private void StartDialogue()
@@ -17,6 +15,9 @@ public class TutoBeach : DialogueTrigger
         {
             DialogueStart();
             dialogueStarted = true;
+            CharacterAnimation player = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterAnimation>();
+            player.SetOrientation(Vector2.up);
+            player.Move(Vector2.zero);
         }
     }
 

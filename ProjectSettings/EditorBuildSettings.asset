@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/World Map.unity
     guid: f495931557aaa4648971de254c755207
   - enabled: 1
-    path: Assets/Scenes/Demo Beach.unity
+    path: Assets/Scenes/Level Beach.unity
     guid: fc4a43c52cc1a394e81a9271e80f6b41
   - enabled: 1
     path: Assets/Scenes/Demo Jungle.unity
