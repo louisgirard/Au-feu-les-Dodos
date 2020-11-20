@@ -3,39 +3,26 @@ using UnityEngine;
 
 public class SavePlayerSystem : MonoBehaviour
 {
-    string path, jsonString;
+    string path = "Character_Save_File.json"; 
+    string jsonString;
 
     private void Start()
     {
-        path = "Character_Save_File.json";
-
         if (!File.Exists(path))
         {
-            MySuperPompier mySuperPompier = new MySuperPompier
-            {
-                position = transform.position
-            };
-            jsonString = JsonUtility.ToJson(mySuperPompier);
-            File.WriteAllText(path, jsonString);
+            SavePlayer();
         }
     }
 
     private void Update()
-    {
-        path = "Character_Save_File.json";
-
+    {        
         if (Input.GetKeyUp(KeyCode.L))
         {
-            jsonString = File.ReadAllText(path);
-            MySuperPompier mySuperPompier = JsonUtility.FromJson<MySuperPompier>(jsonString);
-
-            transform.position = mySuperPompier.position;
-            print("Chargement du fichier de sauvegarde du joueur");
+            LoadPlayer();
         }
         else if (Input.GetKeyUp(KeyCode.R))
         {
-            File.Delete(path);
-            print("Suppression du fichier de sauvegarde du joueur");
+            DeletePlayerSave();
         }
     }
 
@@ -50,6 +37,23 @@ public class SavePlayerSystem : MonoBehaviour
         jsonString = JsonUtility.ToJson(mySuperPompier);
         File.WriteAllText(path, jsonString);
         print("Sauvegarde effectuée pour le Joueur");
+    }
+    
+    public void LoadPlayer()
+    {
+        path = "Character_Save_File.json";
+
+        jsonString = File.ReadAllText(path);
+        MySuperPompier mySuperPompier = JsonUtility.FromJson<MySuperPompier>(jsonString);
+
+        transform.position = mySuperPompier.position;
+        print("Chargement du fichier de sauvegarde du joueur");
+    }
+
+    public void DeletePlayerSave()
+    {
+        File.Delete(path);
+        print("Suppression du fichier de sauvegarde du joueur");
     }
 }
 

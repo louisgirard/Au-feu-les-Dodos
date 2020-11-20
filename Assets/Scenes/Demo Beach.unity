@@ -1251,7 +1251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &128685075
 Transform:
   m_ObjectHideFlags: 0
@@ -5699,6 +5699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FireSprinter
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126417631513321171, guid: b75cc448fbcc83646800f65472691d80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2126417631513321182, guid: b75cc448fbcc83646800f65472691d80,
         type: 3}
@@ -39421,12 +39426,12 @@ PrefabInstance:
     - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2470186
+      value: -3.48
       objectReference: {fileID: 0}
     - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0986204
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}

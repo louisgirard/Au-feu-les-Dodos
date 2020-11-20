@@ -2,9 +2,9 @@
 
 public class DodoHealth : MonoBehaviour
 {
-    [SerializeField] float maxHealth = 4;
+    public float maxHealth = 4;
+    public float health;
     [SerializeField] Sprite[] heads = null;
-    float health;
     DodoUI dodoUI;
 
     private void Start()
