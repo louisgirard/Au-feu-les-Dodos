@@ -4,7 +4,7 @@ public class InstantiateDodo : MonoBehaviour
 {
     [SerializeField] GameObject[] dodos = null;
 
-    private void Start()
+    private void Awake()
     {
         Instantiate(dodos[CrossSceneInformation.dodoSelected], transform);
     }
