@@ -80,7 +80,10 @@ public class Extinguishment : MonoBehaviour
             playerEnjoyment.TakePleasure("Rodeur Death");
             Death();
         }
-       
+        if (health == 0 && gameObject.CompareTag("Ectoplasma"))
+        {
+            Death();
+        }
     }
 
     public void Heal(float value)

@@ -22,4 +22,8 @@ public class EctoplasmaLife : Extinguishment
         slider.SetActive(true);
     }
 
+    private void Death()
+    {
+        print("ECtoplasma mort");
+    }
 }
