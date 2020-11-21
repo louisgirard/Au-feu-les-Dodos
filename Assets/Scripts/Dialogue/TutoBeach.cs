@@ -6,7 +6,7 @@ public class TutoBeach : DialogueTrigger
 
     void Start()
     {
-        Invoke(nameof(StartDialogue), .1f);
+        Invoke(nameof(StartDialogue), .05f);
     }
 
     private void StartDialogue()
