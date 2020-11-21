@@ -91,7 +91,7 @@ public class Extinguishment : MonoBehaviour
         health = Mathf.Min(health + value, max_health);
     }
 
-    private void Death()
+    protected virtual void Death()
     {
         Destroy(gameObject);
     }

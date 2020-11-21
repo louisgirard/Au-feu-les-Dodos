@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: weaponToGive
@@ -25,6 +25,11 @@ PrefabInstance:
       value: "Voici une nouvelle arme qui te servira \xE0 \xE9teindre le feu : le
         lance bombe \xE0 eau !"
       objectReference: {fileID: 0}
+    - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "Tu peux la lancer autour de toi et elle va te permettre de toucher
+        plus de feu en m\xEAme temps."
+      objectReference: {fileID: 0}
     - target: {fileID: 2854879970613809668, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
       propertyPath: m_Name
@@ -33,12 +38,12 @@ PrefabInstance:
     - target: {fileID: 3041587151943905937, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -30.48
       objectReference: {fileID: 0}
     - target: {fileID: 3041587151943905937, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 39.93
       objectReference: {fileID: 0}
     - target: {fileID: 3041587151943905937, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
