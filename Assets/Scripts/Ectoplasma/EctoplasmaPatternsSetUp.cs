@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EctoplasmaPatternsSetUp : MonoBehaviour
 {    
@@ -21,22 +19,35 @@ public class EctoplasmaPatternsSetUp : MonoBehaviour
     [Space(15)]
     public bool WideFrontalAttackPattern = true;
     public float fire_duration = 5f;
-    
+
+    [Space(15)]
+    public GameObject blockFire;
+
     public bool fighting { get; set; }
+
 
     void Start()
     {
         fighting = false;
+        if (blockFire) blockFire.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (!fighting && other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
+        {
+            StartFight();
+        }
+    }
+
+    public void StartFight()
+    {
+        if (!fighting)
         {
             fighting = true;
+            if (blockFire) blockFire.SetActive(true);
             GetComponent<EctoplasmaLife>().StartFight();
             GetComponent<Animator>().SetTrigger("Start");
         }
     }
-
 }

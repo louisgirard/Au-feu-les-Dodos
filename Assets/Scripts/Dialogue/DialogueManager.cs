@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] Text dialogueText = null;
 
     readonly Queue<string> sentences = new Queue<string>();
+    readonly Queue<Dialogue.sentenceAction> sentenceActions = new Queue<Dialogue.sentenceAction>();
     DialogueTrigger currentDialogueTrigger;
 
     GameObject player;
@@ -28,10 +28,16 @@ public class DialogueManager : MonoBehaviour
         DisableControl();
         currentDialogueTrigger = dialogueTrigger;
         sentences.Clear();
+        sentenceActions.Clear();
 
         foreach (string sentence in dialogueTrigger.dialogue.sentences)
         {
             sentences.Enqueue(sentence);
+        }
+
+        foreach (Dialogue.sentenceAction action in dialogueTrigger.dialogue.sentenceActions)
+        {
+            sentenceActions.Enqueue(action);
         }
 
         hud.SetActive(false);
@@ -43,14 +49,30 @@ public class DialogueManager : MonoBehaviour
 
     public void NextSentence()
     {
-        if(sentences.Count == 0)
-        {
-            EndDialogue();
-            return;
-        }
 
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+        if(currentDialogueTrigger.dialogue.actionsEnabled)
+        {
+            if (sentenceActions.Count == 0)
+            {
+                EndDialogue();
+                return;
+            }
+
+            Dialogue.sentenceAction action = sentenceActions.Dequeue();
+            dialogueText.text = action.sentence;
+            action.sentenceEvent.Invoke();
+        }
+        else
+        {
+            if (sentences.Count == 0)
+            {
+                EndDialogue();
+                return;
+            }
+
+            string sentence = sentences.Dequeue();
+            dialogueText.text = sentence;
+        }
     }
 
     private void EndDialogue()

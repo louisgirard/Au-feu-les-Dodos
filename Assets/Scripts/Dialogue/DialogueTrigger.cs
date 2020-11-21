@@ -9,5 +9,7 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManager>().StartDialogue(this);
     }
 
+    public virtual void NextSentence(int sentence) { }
+
     public virtual void DialogueEnd() { }
 }
