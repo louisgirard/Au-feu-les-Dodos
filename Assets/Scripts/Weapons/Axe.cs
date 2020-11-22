@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Axe : Weapon
 {
@@ -15,10 +16,18 @@ public class Axe : Weapon
 
         if (hit.collider != null)
         {
-            hit.collider.GetComponent<StumpDestruction>().TakeDamage(1);
             GameObject axeHit = Instantiate(axeHitPrefab, hit.transform.position, axeHitPrefab.transform.rotation);
-            axeHit.GetComponent<SpriteRenderer>().sortingOrder = hit.collider.GetComponent<SpriteRenderer>().sortingOrder + 1;
+            if(hit.collider.GetComponent<SpriteRenderer>())
+            {
+                axeHit.GetComponent<SpriteRenderer>().sortingOrder = hit.collider.GetComponent<SpriteRenderer>().sortingOrder + 1;
+            }
+            else if (hit.collider.GetComponent<SortingGroup>())
+            {
+                axeHit.GetComponent<SpriteRenderer>().sortingOrder = hit.collider.GetComponent<SortingGroup>().sortingOrder + 1;
+            }
             Destroy(axeHit, 0.2f);
+
+            hit.collider.GetComponent<StumpDestruction>().TakeDamage(1);
         }
     }
 }

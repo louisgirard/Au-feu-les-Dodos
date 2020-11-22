@@ -78,6 +78,8 @@ public class DodoUI : MonoBehaviour
 
     IEnumerator HeadBlink()
     {
+        if (!isActiveAndEnabled) yield return null;
+
         float timeBetweenBlink = 0.2f;
         isBlinking = true;
         for (int i = 0; i < 3; i++)
