@@ -44,4 +44,13 @@ public class GlobalSaveSystem : MonoBehaviour
             dodoHealth.Heal(dodoHealth.maxHealth);
         }
     }
+
+    public void LoadSaveData()
+    {
+        savePlayer.LoadPlayer();
+        saveDodo.LoadDodo();
+
+        playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
+        dodoHealth.Heal(dodoHealth.maxHealth);
+    }
 }
