@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
+[ExecuteInEditMode]
 public class PositionRendererSorter : MonoBehaviour
 {
     public float offset = 0f;
