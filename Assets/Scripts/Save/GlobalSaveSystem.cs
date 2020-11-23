@@ -37,11 +37,7 @@ public class GlobalSaveSystem : MonoBehaviour
     {
         if (playerEnjoyment.currentEnjoyment == 0 || dodoHealth.health == 0)
         {
-            savePlayer.LoadPlayer();
-            saveDodo.LoadDodo();
-
-            playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
-            dodoHealth.Heal(dodoHealth.maxHealth);
+            LoadSaveData();
         }
     }
 
@@ -49,6 +45,7 @@ public class GlobalSaveSystem : MonoBehaviour
     {
         savePlayer.LoadPlayer();
         saveDodo.LoadDodo();
+        FindObjectOfType<EctoplasmaPatternsSetUp>().ResetBattle();
 
         playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
         dodoHealth.Heal(dodoHealth.maxHealth);

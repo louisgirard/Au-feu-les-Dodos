@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6723716707579475357}
   - component: {fileID: 6723716707579475353}
   - component: {fileID: 5794981463741650599}
+  - component: {fileID: 3578902111680206453}
   m_Layer: 0
   m_Name: Ectoplasma
   m_TagString: Ectoplasma
@@ -62,12 +63,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ea51b3e2611074eb1d2bfe26e5d573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.7
-  active_fireballs: 1
+  walking_speed: 0.7
+  pause_between_patterns: 5
+  fireball_shoot_pattern: 1
   shooting_speed: 3
   fireballs_count: 5
   MeteoriteRainPattern: 1
+  meteorites_count: 10
+  rain_duration: 2
   WideFrontalAttackPattern: 1
+  fire_duration: 5
+  blockFire: {fileID: 0}
 --- !u!212 &6723716707579475356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -166,3 +172,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516429d96ada9cc4f89f1e9914f5381c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3578902111680206453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723716707579475358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85d4e040ecd3c543ab6f165099d09dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    actionsEnabled: 0
+    name: Ectoplasma
+    sentences:
+    - Argh...
+    - "Tu m'as peut-\xEAtre battu cette fois Super Pompier, mais je reviendrai plus
+      fort !"
+    sentenceActions: []

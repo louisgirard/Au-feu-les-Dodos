@@ -13650,32 +13650,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 499425890}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &499539807 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6723716707579475358, guid: 5b21c337bd0c4e041970dc1d9a876fc1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1033672696}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &499539808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499539807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b85d4e040ecd3c543ab6f165099d09dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    actionsEnabled: 0
-    name: Ectoplasma
-    sentences:
-    - Argh...
-    - "Tu m'as peut-\xEAtre battu cette fois Super Pompier, mais je reviendrai plus
-      fort !"
-    sentenceActions: []
 --- !u!1001 &504987414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79339,11 +79313,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ectoplasma
       objectReference: {fileID: 0}
-    - target: {fileID: 7163902956538881673, guid: 5b21c337bd0c4e041970dc1d9a876fc1,
-        type: 3}
-      propertyPath: health
-      value: 25
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b21c337bd0c4e041970dc1d9a876fc1, type: 3}
 --- !u!1001 &1036439590
@@ -88395,12 +88364,12 @@ PrefabInstance:
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.650002
+      value: -30.58
       objectReference: {fileID: 0}
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 53.729996
+      value: 54.55
       objectReference: {fileID: 0}
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
@@ -109375,12 +109344,12 @@ PrefabInstance:
     - target: {fileID: 551953581637815391, guid: fbf10adb3d5cc784aae07293dab66d6e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.7
+      value: -30.63
       objectReference: {fileID: 0}
     - target: {fileID: 551953581637815391, guid: fbf10adb3d5cc784aae07293dab66d6e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 54.4
+      value: 55.220005
       objectReference: {fileID: 0}
     - target: {fileID: 551953581637815391, guid: fbf10adb3d5cc784aae07293dab66d6e,
         type: 3}

@@ -28,8 +28,7 @@ public class EctoplasmaPatternsSetUp : MonoBehaviour
 
     void Start()
     {
-        fighting = false;
-        if (blockFire) blockFire.SetActive(false);
+        ResetBattle();
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
@@ -49,5 +48,13 @@ public class EctoplasmaPatternsSetUp : MonoBehaviour
             GetComponent<EctoplasmaLife>().StartFight();
             GetComponent<Animator>().SetTrigger("Start");
         }
+    }
+
+    public void ResetBattle()
+    {
+        GetComponent<Animator>().SetTrigger("Stop");
+        if (blockFire) blockFire.SetActive(false);
+        GetComponent<EctoplasmaLife>().StopFight();
+        fighting = false;
     }
 }
