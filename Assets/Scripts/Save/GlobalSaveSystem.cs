@@ -6,6 +6,7 @@ public class GlobalSaveSystem : MonoBehaviour
 
     SavePlayerSystem savePlayer;
     SaveDodoSystem saveDodo;
+    SaveEctoplasmaSystem saveEctoplasma;
 
     PlayerEnjoyment playerEnjoyment;
     DodoHealth dodoHealth;
@@ -14,6 +15,7 @@ public class GlobalSaveSystem : MonoBehaviour
     {
         savePlayer = FindObjectOfType<SavePlayerSystem>();
         saveDodo = FindObjectOfType<SaveDodoSystem>();
+        saveEctoplasma = FindObjectOfType<SaveEctoplasmaSystem>();
         playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
         dodoHealth = FindObjectOfType<DodoHealth>();
     }
@@ -37,11 +39,18 @@ public class GlobalSaveSystem : MonoBehaviour
     {
         if (playerEnjoyment.currentEnjoyment == 0 || dodoHealth.health == 0)
         {
-            savePlayer.LoadPlayer();
-            saveDodo.LoadDodo();
-
-            playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
-            dodoHealth.Heal(dodoHealth.maxHealth);
+            LoadSaveData();
         }
+    }
+
+    public void LoadSaveData()
+    {
+        savePlayer.LoadPlayer();
+        saveDodo.LoadDodo();
+        saveEctoplasma.LoadEctoplasma();
+        FindObjectOfType<EctoplasmaPatternsSetUp>().ResetBattle();
+
+        playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
+        dodoHealth.Heal(dodoHealth.maxHealth);
     }
 }

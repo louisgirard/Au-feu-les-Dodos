@@ -22,8 +22,14 @@ public class EctoplasmaLife : Extinguishment
         slider.SetActive(true);
     }
 
+    public void StopFight()
+    {
+        slider.SetActive(false);
+    }
+
     protected override void Death()
     {
+        StopFight();
         GetComponent<EctoplasmaEndLevel>().StartDialogue();
     }
 }

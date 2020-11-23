@@ -15,6 +15,11 @@ public class StumpDestruction : MonoBehaviour
 
     private void Death()
     {
+        Extinguishment[] fires = GetComponentsInChildren<Extinguishment>();
+        foreach(Extinguishment fire in fires)
+        {
+            fire.TakeDamage(10);
+        }
         Destroy(gameObject);
     }
 }
