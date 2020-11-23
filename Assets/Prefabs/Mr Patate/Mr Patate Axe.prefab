@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -32,6 +32,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
+      value: Tu pourras te servir de la hache pour couper des arbres aussi.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
       value: Tous tes objets secondaires sont utilisables avec Clic Droit. Pour changer
         d'arme utilise la molette.
       objectReference: {fileID: 0}
