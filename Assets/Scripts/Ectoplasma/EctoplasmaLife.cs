@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class EctoplasmaLife : Extinguishment
 {
-    GameObject slider;
+    GameObject slider = null;
 
     void Start()
     {
@@ -24,7 +24,8 @@ public class EctoplasmaLife : Extinguishment
 
     public void StopFight()
     {
-        slider.SetActive(false);
+        if (slider != null)
+            slider.SetActive(false);
     }
 
     protected override void Death()
