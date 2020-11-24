@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5794981463741650599}
   - component: {fileID: 3578902111680206453}
   - component: {fileID: 8738988843121504114}
+  - component: {fileID: 8696740031520108872}
   m_Layer: 0
   m_Name: Ectoplasma
   m_TagString: Ectoplasma
@@ -50,8 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa751b70e58e1554c8f90b71bd8180ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 50
   rekindle_speed: 0.1
+  is_scale_world_fixed: 0
+  world_fixed_scale: {x: 0.17, y: 0.17, z: 0.17}
 --- !u!114 &217652228899407126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,7 +77,6 @@ MonoBehaviour:
   rain_duration: 2
   WideFrontalAttackPattern: 1
   fire_duration: 5
-  blockFire: {fileID: 0}
 --- !u!212 &6723716707579475356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -205,3 +207,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b696f98d231aff439a7aee01d7b8edb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8696740031520108872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723716707579475358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f52fec3ffb0ccb4e9937a30fd6177bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    actionsEnabled: 0
+    name: Ectoplasma
+    sentences:
+    - "Haha ! tu crois pouvoir t'en sortir comme \xE7a ? Tu vas bruler comme les
+      autres !"
+    sentenceActions: []
+  dodo_waiting_position: {x: 38.05, y: -32.37}
+  blockFire: {fileID: 0}

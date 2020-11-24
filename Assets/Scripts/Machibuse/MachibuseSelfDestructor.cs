@@ -4,7 +4,7 @@ public class MachibuseSelfDestructor : MonoBehaviour
 {
     [SerializeField] GameObject explosionPrefab = null;
     float dodoDamage = 1f;
-    float rodeurHeal = 0.6f;
+    float rodeurHeal = 4f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

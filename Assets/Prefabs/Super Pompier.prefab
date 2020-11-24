@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69441a4b5fedb0d4b8387af1aa099098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxEnjoyment: 100
+  maxEnjoyment: 90
   currentEnjoyment: 0
   waitTime: 1
   enjoymentBar: {fileID: 0}

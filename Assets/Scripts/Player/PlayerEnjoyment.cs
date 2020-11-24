@@ -6,9 +6,10 @@ public class PlayerEnjoyment : MonoBehaviour
     public float currentEnjoyment;
     private float timer = 0.0f;
     public float waitTime = 5.0f;
+    private bool timeOn = true;
 
     public EnjoymentBar enjoymentBar;
-    
+
     void Start()
     {
         currentEnjoyment = maxEnjoyment;
@@ -18,7 +19,7 @@ public class PlayerEnjoyment : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if(timer > waitTime)
+        if (timer > waitTime)
         {
             TakeDamage("Time");
             timer = 0.0f;
@@ -42,7 +43,7 @@ public class PlayerEnjoyment : MonoBehaviour
             LoseEnjoyment(0.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
-        else if (action == "Time")
+        else if (timeOn && action == "Time")
         {
             LoseEnjoyment(2);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
@@ -58,22 +59,22 @@ public class PlayerEnjoyment : MonoBehaviour
     {
         if (action == "Fire")
         {
-            AddEnjoyment(5);
+            AddEnjoyment(2.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Machibuse Death")
         {
-            AddEnjoyment(2);
+            AddEnjoyment(1f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur Death")
         {
-            AddEnjoyment(10);
+            AddEnjoyment(13);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur Damage")
         {
-            AddEnjoyment(0.01f);
+            AddEnjoyment(0.015f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
     }
@@ -86,5 +87,10 @@ public class PlayerEnjoyment : MonoBehaviour
     private void LoseEnjoyment(float enjoyment)
     {
         currentEnjoyment = Mathf.Max(currentEnjoyment - enjoyment, 0);
+    }
+
+    public void ActiveTime(bool val)
+    {
+        timeOn = val;
     }
 }

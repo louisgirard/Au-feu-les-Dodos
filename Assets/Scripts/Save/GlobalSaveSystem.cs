@@ -24,6 +24,7 @@ public class GlobalSaveSystem : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            GetComponent<SpriteRenderer>().color = new Color(0f, 0.6f, 0.7f);
             savePlayer.SavePlayer();
             saveDodo.SaveDodo();
             if (testCheckpoint == 0)
@@ -48,7 +49,7 @@ public class GlobalSaveSystem : MonoBehaviour
         savePlayer.LoadPlayer();
         saveDodo.LoadDodo();
         saveEctoplasma.LoadEctoplasma();
-        FindObjectOfType<EctoplasmaPatternsSetUp>().ResetBattle();
+        FindObjectOfType<EctoplasmaStartFight>().ResetBattle();
 
         playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
         dodoHealth.Heal(dodoHealth.maxHealth);

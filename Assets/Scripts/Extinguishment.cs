@@ -5,6 +5,8 @@ public class Extinguishment : MonoBehaviour
 {
     public float health;
     public float rekindle_speed;
+    public bool is_scale_world_fixed = false;
+    public Vector3 world_fixed_scale = new Vector3(0.17f, 0.17f, 0.17f);
 
     protected float max_health;
     private Vector3 start_scale;
@@ -12,7 +14,10 @@ public class Extinguishment : MonoBehaviour
     private void Start()
     {
         max_health = health;
-        start_scale = transform.localScale;
+        if (is_scale_world_fixed)
+            start_scale = transform.parent.InverseTransformVector(world_fixed_scale);
+        else
+            start_scale = transform.localScale;
     }
 
     private void Update()
@@ -41,19 +46,19 @@ public class Extinguishment : MonoBehaviour
     {
         if (collision.CompareTag("GrenadeExplosion"))
         {
-            TakeDamage(2);
+            TakeDamage(0.5f);
         }
         else if (collision.CompareTag("TimeBombExplosion"))
         {
-            TakeDamage(3);
+            TakeDamage(1);
         }
         else if (collision.CompareTag("MissileExplosion"))
         {
-            TakeDamage(3);
+            TakeDamage(2);
         }
         else if (collision.CompareTag("Bucket"))
         {
-            TakeDamage(1);
+            TakeDamage(1f);
         }
     }
 

@@ -4,7 +4,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class Weapon : MonoBehaviour
 {
     [Tooltip("0 means unique usage weapon")] [SerializeField] float timeBeforeOverheat = 4f;
-    [SerializeField] float overheatingTime = 1f;
+    [SerializeField] float overheatingTime = 4f;
     [SerializeField] string fireKey = "Fire2";
     [SerializeField] Sprite icon = null;
 

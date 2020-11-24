@@ -7,6 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896305928398523720, guid: ea38cef62c6da364882f0652150b4317,
+        type: 3}
+      propertyPath: fixed_scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 896305928398523720, guid: ea38cef62c6da364882f0652150b4317,
+        type: 3}
+      propertyPath: is_scale_world_fixed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1737597923737477896, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
       propertyPath: machibuse

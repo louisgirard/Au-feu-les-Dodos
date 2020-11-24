@@ -17,6 +17,7 @@ TagManager:
   - Ectoplasma
   - MrPatate
   - EctoplasmaLifeSlider
+  - DodoToSave
   layers:
   - Default
   - TransparentFX

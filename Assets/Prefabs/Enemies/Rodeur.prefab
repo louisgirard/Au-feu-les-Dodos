@@ -185,8 +185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fa9851818f579945a6e9f19cd737c80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 35
   rekindle_speed: 0.2
+  is_scale_world_fixed: 0
+  world_fixed_scale: {x: 0.17, y: 0.17, z: 0.17}
 --- !u!114 &3274551243886420562
 MonoBehaviour:
   m_ObjectHideFlags: 0

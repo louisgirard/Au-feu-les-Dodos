@@ -20,41 +20,4 @@ public class EctoplasmaPatternsSetUp : MonoBehaviour
     public bool WideFrontalAttackPattern = true;
     public float fire_duration = 5f;
 
-    [Space(15)]
-    public GameObject blockFire;
-
-    public bool fighting { get; set; }
-
-
-    void Start()
-    {
-        ResetBattle();
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        if (other.CompareTag("Player"))
-        {
-            StartFight();
-        }
-    }
-
-    public void StartFight()
-    {
-        if (!fighting)
-        {
-            fighting = true;
-            if (blockFire) blockFire.SetActive(true);
-            GetComponent<EctoplasmaLife>().StartFight();
-            GetComponent<Animator>().SetTrigger("Start");
-        }
-    }
-
-    public void ResetBattle()
-    {
-        GetComponent<Animator>().SetTrigger("Stop");
-        if (blockFire) blockFire.SetActive(false);
-        GetComponent<EctoplasmaLife>().StopFight();
-        fighting = false;
-    }
 }
