@@ -8,22 +8,11 @@ public class SavePlayerSystem : MonoBehaviour
 
     private void Start()
     {
-        if (!File.Exists(path))
-        {
-            SavePlayer();
-        }
-    }
-
-    private void Update()
-    {        
-        if (Input.GetKeyUp(KeyCode.L))
-        {
-            LoadPlayer();
-        }
-        else if (Input.GetKeyUp(KeyCode.R))
+        if (File.Exists(path))
         {
             DeletePlayerSave();
         }
+        SavePlayer();
     }
 
     public void SavePlayer()

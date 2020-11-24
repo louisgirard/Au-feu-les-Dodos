@@ -7,22 +7,11 @@ public class SaveDodoSystem : MonoBehaviour
     string jsonString;
     private void Start()
     {
-        if (!File.Exists(path))
-        {
-            SaveDodo();
-        }
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.L))
-        {
-            LoadDodo();
-        }
-        else if (Input.GetKeyUp(KeyCode.R))
+        if (File.Exists(path))
         {
             DeleteDodoSave();
         }
+        SaveDodo();
     }
 
     public void SaveDodo()
