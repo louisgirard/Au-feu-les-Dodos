@@ -50,8 +50,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa751b70e58e1554c8f90b71bd8180ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 50
   rekindle_speed: 0.1
+  is_scale_world_fixed: 0
+  world_fixed_scale: {x: 0.17, y: 0.17, z: 0.17}
 --- !u!114 &217652228899407126
 MonoBehaviour:
   m_ObjectHideFlags: 0

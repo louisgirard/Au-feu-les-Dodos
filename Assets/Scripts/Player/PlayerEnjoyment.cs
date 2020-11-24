@@ -58,22 +58,22 @@ public class PlayerEnjoyment : MonoBehaviour
     {
         if (action == "Fire")
         {
-            AddEnjoyment(5);
+            AddEnjoyment(2.5f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Machibuse Death")
         {
-            AddEnjoyment(2);
+            AddEnjoyment(1f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur Death")
         {
-            AddEnjoyment(10);
+            AddEnjoyment(13);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur Damage")
         {
-            AddEnjoyment(0.01f);
+            AddEnjoyment(0.015f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
     }

@@ -46,19 +46,19 @@ public class Extinguishment : MonoBehaviour
     {
         if (collision.CompareTag("GrenadeExplosion"))
         {
-            TakeDamage(2);
+            TakeDamage(0.5f);
         }
         else if (collision.CompareTag("TimeBombExplosion"))
         {
-            TakeDamage(3);
+            TakeDamage(1);
         }
         else if (collision.CompareTag("MissileExplosion"))
         {
-            TakeDamage(3);
+            TakeDamage(2);
         }
         else if (collision.CompareTag("Bucket"))
         {
-            TakeDamage(1);
+            TakeDamage(1f);
         }
     }
 
