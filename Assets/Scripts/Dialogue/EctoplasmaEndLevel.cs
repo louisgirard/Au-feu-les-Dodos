@@ -23,7 +23,7 @@ public class EctoplasmaEndLevel : DialogueTrigger
 
     private void NextLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     private void DisableControl()

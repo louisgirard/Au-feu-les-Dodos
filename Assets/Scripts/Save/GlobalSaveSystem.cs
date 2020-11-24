@@ -49,7 +49,7 @@ public class GlobalSaveSystem : MonoBehaviour
         savePlayer.LoadPlayer();
         saveDodo.LoadDodo();
         saveEctoplasma.LoadEctoplasma();
-        FindObjectOfType<EctoplasmaPatternsSetUp>().ResetBattle();
+        FindObjectOfType<EctoplasmaStartFight>().ResetBattle();
 
         playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
         dodoHealth.Heal(dodoHealth.maxHealth);

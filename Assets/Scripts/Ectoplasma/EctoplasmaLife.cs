@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class EctoplasmaLife : Extinguishment
 {
+
     GameObject slider = null;
 
     void Start()
@@ -10,6 +11,8 @@ public class EctoplasmaLife : Extinguishment
         max_health = health;
         slider = GameObject.FindWithTag("EctoplasmaLifeSlider");
         slider.SetActive(false);
+        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<Burning>().enabled = false;
     }
 
     void Update()
@@ -20,6 +23,7 @@ public class EctoplasmaLife : Extinguishment
     public void StartFight() 
     {
         slider.SetActive(true);
+        GetComponent<SpriteRenderer>().enabled = true;
     }
 
     public void StopFight()
