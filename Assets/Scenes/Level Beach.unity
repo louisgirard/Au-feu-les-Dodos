@@ -109460,11 +109460,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dodo Instance
       objectReference: {fileID: 0}
-    - target: {fileID: 551953581637815389, guid: fbf10adb3d5cc784aae07293dab66d6e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 551953581637815391, guid: fbf10adb3d5cc784aae07293dab66d6e,
         type: 3}
       propertyPath: m_LocalPosition.x
