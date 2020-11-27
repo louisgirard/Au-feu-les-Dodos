@@ -46,7 +46,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 1204819871
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 455
 --- !u!114 &3422728304932172158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,7 +421,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8328211
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5641064141022488247, guid: 4b4bbddf3f07ffa4a91b96baa5b8bba6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4b4bbddf3f07ffa4a91b96baa5b8bba6, type: 3}
 --- !u!4 &7320418302676777593 stripped
 Transform:
