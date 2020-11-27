@@ -4796,7 +4796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBeforeOverheat: 4
-  overheatingTime: 1
+  overheatingTime: 0
   fireKey: Fire1
   icon: {fileID: 0}
 --- !u!61 &6930652202099331755
