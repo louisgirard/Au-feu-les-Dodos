@@ -86,9 +86,7 @@ public class DialogueManager : MonoBehaviour
 
     private void EnableControl()
     {
-        player.GetComponent<PlayerMovement>().enabled = true;
-        player.GetComponent<PlayerEnjoyment>().enabled = true;
-        player.GetComponent<PlayerOrientation>().enabled = true;
+        Time.timeScale = 1;
         player.GetComponentInChildren<LanceIncendie>().enabled = true;
         inventory.gameObject.SetActive(true);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Default);
@@ -96,9 +94,7 @@ public class DialogueManager : MonoBehaviour
 
     private void DisableControl()
     {
-        player.GetComponent<PlayerMovement>().enabled = false;
-        player.GetComponent<PlayerEnjoyment>().enabled = false;
-        player.GetComponent<PlayerOrientation>().enabled = false;
+        Time.timeScale = 0;
         player.GetComponentInChildren<LanceIncendie>().enabled = false;
         inventory.gameObject.SetActive(false);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);

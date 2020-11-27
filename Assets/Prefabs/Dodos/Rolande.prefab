@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05398014ca4e83649b605046e1a86228, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 0.8
+  attackRange: 1
   power: 1
 --- !u!1001 &7851655112866112037
 PrefabInstance:
@@ -21,6 +21,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 433748874383898476, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: m_Speed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1572841800166863054, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: heads.Array.size
@@ -56,11 +61,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4768a475e87c6ce40897ae0aedc0df6b,
         type: 3}
+    - target: {fileID: 1572841800166863054, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2609259116890333455, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6fd96920f109c754b9feb7d86b007b6d, type: 2}
+      objectReference: {fileID: 9100000, guid: 111225a9930877844aad348f77c462dd, type: 2}
     - target: {fileID: 3969294475806599674, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -120,7 +130,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2893727692163940154, guid: c3c9b933ffbe1b44e84b42bc07978434,
+      objectReference: {fileID: -567370631771516284, guid: 261c7971c94991e4b9c1b1e444f6f495,
         type: 3}
     - target: {fileID: 3969294475806599675, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
@@ -135,12 +145,17 @@ PrefabInstance:
     - target: {fileID: 3969294475806599677, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_Name
-      value: Maurice
+      value: Rolande
       objectReference: {fileID: 0}
     - target: {fileID: 7905290180993431586, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905290180993431586, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.47
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 899ebc3df8f84c042bf50b3ea674caa8, type: 3}

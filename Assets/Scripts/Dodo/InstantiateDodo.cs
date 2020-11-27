@@ -6,6 +6,7 @@ public class InstantiateDodo : MonoBehaviour
 
     private void Awake()
     {
-        Instantiate(dodos[CrossSceneInformation.dodoSelected], transform);
+        Instantiate(dodos[CrossSceneInformation.dodoSelected], transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

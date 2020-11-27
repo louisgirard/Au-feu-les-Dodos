@@ -29,7 +29,7 @@ public class GlobalSaveSystem : MonoBehaviour
             saveDodo.SaveDodo();
             if (testCheckpoint == 0)
             {
-                playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
+                playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);
                 dodoHealth.Heal(dodoHealth.maxHealth);
             }
             testCheckpoint++;
@@ -38,7 +38,7 @@ public class GlobalSaveSystem : MonoBehaviour
 
     private void Update()
     {
-        if (playerEnjoyment.currentEnjoyment == 0 || dodoHealth.health == 0)
+        if (playerEnjoyment.IsDead() || dodoHealth.IsDead())
         {
             LoadSaveData();
         }
@@ -51,7 +51,7 @@ public class GlobalSaveSystem : MonoBehaviour
         saveEctoplasma.LoadEctoplasma();
         FindObjectOfType<EctoplasmaStartFight>().ResetBattle();
 
-        playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
+        playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);
         dodoHealth.Heal(dodoHealth.maxHealth);
     }
 }

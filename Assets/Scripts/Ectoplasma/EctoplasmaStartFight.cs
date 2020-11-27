@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 public class EctoplasmaStartFight : DialogueTrigger
@@ -26,8 +24,7 @@ public class EctoplasmaStartFight : DialogueTrigger
             GetComponent<Animator>().SetTrigger("Start");
             GetComponent<Burning>().enabled = true;
 
-            PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
-            playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
+            PlayerEnjoyment playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
             playerEnjoyment.ActiveTime(false);
 
             GameObject.FindWithTag("Dodo").transform.position = dodo_waiting_position;
@@ -50,8 +47,8 @@ public class EctoplasmaStartFight : DialogueTrigger
 
         SetDodoActive(true);
 
-        PlayerEnjoyment playerEnjoyment = (PlayerEnjoyment)FindObjectOfType(typeof(PlayerEnjoyment));
-        playerEnjoyment.currentEnjoyment = playerEnjoyment.maxEnjoyment;
+        PlayerEnjoyment playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
+        playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);
         playerEnjoyment.ActiveTime(true);
     }
 

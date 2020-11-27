@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SaveDodoSystem : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class SaveDodoSystem : MonoBehaviour
         MyDodo myDodo = JsonUtility.FromJson<MyDodo>(jsonString);
 
         transform.position = myDodo.position;
+        GetComponent<NavMeshAgent>().Warp(myDodo.position);
         print("Chargement du fichier de sauvegarde du Dodo");
     }  
     
