@@ -108186,6 +108186,11 @@ MonoBehaviour:
       sentenceEvent:
         m_PersistentCalls:
           m_Calls: []
+    - sentence: "Mon fr\xE8re Th\xE9odore est s\xFBrement en haut de la plage, il
+        a l'habitude de s'y balader."
+      sentenceEvent:
+        m_PersistentCalls:
+          m_Calls: []
 --- !u!4 &2096478086
 Transform:
   m_ObjectHideFlags: 0
@@ -109829,17 +109834,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 551953581637815388, guid: fbf10adb3d5cc784aae07293dab66d6e,
-        type: 3}
-      propertyPath: dodos.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 551953581637815388, guid: fbf10adb3d5cc784aae07293dab66d6e,
-        type: 3}
-      propertyPath: dodos.Array.data[0]
-      value: 
-      objectReference: {fileID: 6621253464949050328, guid: 5b5ee8c51f9ecb54bb37bf37aaf459a3,
-        type: 3}
     - target: {fileID: 551953581637815389, guid: fbf10adb3d5cc784aae07293dab66d6e,
         type: 3}
       propertyPath: m_Name
