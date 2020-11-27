@@ -3,7 +3,7 @@
 public class PlayerEnjoyment : MonoBehaviour
 {
     public float maxEnjoyment = 100;
-    public float currentEnjoyment;
+    float currentEnjoyment;
     private float timer = 0.0f;
     public float waitTime = 5.0f;
     private bool timeOn = true;
@@ -80,6 +80,11 @@ public class PlayerEnjoyment : MonoBehaviour
     {
         currentEnjoyment = Mathf.Max(currentEnjoyment - enjoyment, 0);
         enjoymentBar.SetEnjoyment(currentEnjoyment);
+    }
+
+    public bool IsDead()
+    {
+        return currentEnjoyment == 0;
     }
 
     public void ActiveTime(bool val)

@@ -68,7 +68,6 @@ public class DodoUI : MonoBehaviour
 
     private void UpdateCircle(float health)
     {
-        print(health / healthBars.Count);
         circle.color = circleGradient.Evaluate(1 - health / healthBars.Count);
     }
 

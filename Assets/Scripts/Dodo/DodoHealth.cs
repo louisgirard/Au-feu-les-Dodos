@@ -3,7 +3,7 @@
 public class DodoHealth : MonoBehaviour
 {
     public float maxHealth = 4;
-    public float health;
+    float health;
     [SerializeField] Sprite[] heads = null;
     DodoUI dodoUI;
 
@@ -45,6 +45,11 @@ public class DodoHealth : MonoBehaviour
     public bool IsDying()
     {
         return (health <= 1);
+    }
+
+    public bool IsDead()
+    {
+        return health == 0;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
