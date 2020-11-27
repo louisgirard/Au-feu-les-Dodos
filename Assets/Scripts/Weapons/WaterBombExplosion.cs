@@ -21,6 +21,7 @@ public class WaterBombExplosion : MonoBehaviour
             if(timer <= 0)
             {
                 ParticleSystem waterExplosion = Instantiate(waterExplosionPrefab, transform.position, Quaternion.identity);
+                waterExplosion.transform.localScale = transform.localScale;
                 Destroy(gameObject);
                 Destroy(waterExplosion.gameObject, waterExplosion.main.duration);
             }

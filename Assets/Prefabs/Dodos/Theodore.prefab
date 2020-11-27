@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &8369945556083517026
+--- !u!114 &-1286034725674471525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6621253464949050328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05398014ca4e83649b605046e1a86228, type: 3}
+  m_Script: {fileID: 11500000, guid: f475d5379b10b5d49a5ff4e14f8729c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 0.8
-  power: 1
+  attackRange: 1
+  timeBetweenAttacks: 1
+  projectilePrefab: {fileID: -2908479488200296261, guid: b6e42d004ab626f41a9187c5837293a6,
+    type: 3}
 --- !u!1001 &7851655112866112037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56,11 +58,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4768a475e87c6ce40897ae0aedc0df6b,
         type: 3}
+    - target: {fileID: 1572841800166863054, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: maxHealth
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2609259116890333455, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6fd96920f109c754b9feb7d86b007b6d, type: 2}
+      objectReference: {fileID: 9100000, guid: c76396e461e90ac499ea6e8d28f6866b, type: 2}
     - target: {fileID: 3969294475806599674, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -120,7 +127,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2893727692163940154, guid: c3c9b933ffbe1b44e84b42bc07978434,
+      objectReference: {fileID: 8247054461539698866, guid: 1a34690ae1f537e4097ec459f9ad3fc4,
         type: 3}
     - target: {fileID: 3969294475806599675, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
@@ -135,12 +142,17 @@ PrefabInstance:
     - target: {fileID: 3969294475806599677, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_Name
-      value: Maurice
+      value: Theodore
       objectReference: {fileID: 0}
     - target: {fileID: 7905290180993431586, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905290180993431586, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.49
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 899ebc3df8f84c042bf50b3ea674caa8, type: 3}

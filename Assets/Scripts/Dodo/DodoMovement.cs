@@ -29,5 +29,6 @@ public class DodoMovement : MonoBehaviour
     public void Stop()
     {
         agent.isStopped = true;
+        animator.Move(agent.velocity.normalized);
     }
 }
