@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605d6ed4b34b52042b6dc40e93d0488f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
 --- !u!1001 &7672700295775395618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33,7 +33,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f712515510a5cdf41a2df21658bafc9a,
+      objectReference: {fileID: 21300000, guid: 95234a0fb11b81a4389562b3f0d07f83,
         type: 3}
     - target: {fileID: 1881695994351409275, guid: bf5a79e75d14a634cb4521d6bf7a7c35,
         type: 3}
@@ -113,7 +113,7 @@ PrefabInstance:
     - target: {fileID: 1881695994351409277, guid: bf5a79e75d14a634cb4521d6bf7a7c35,
         type: 3}
       propertyPath: m_Name
-      value: MiniGrenade
+      value: Bullet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf5a79e75d14a634cb4521d6bf7a7c35, type: 3}
