@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 1
+  timeBetweenAttacks: 0
   power: 1
 --- !u!1001 &7851655112866112037
 PrefabInstance:
@@ -146,6 +147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rolande
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367741749019274849, guid: 899ebc3df8f84c042bf50b3ea674caa8,
+        type: 3}
+      propertyPath: canAttackRodeur
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7905290180993431586, guid: 899ebc3df8f84c042bf50b3ea674caa8,
         type: 3}

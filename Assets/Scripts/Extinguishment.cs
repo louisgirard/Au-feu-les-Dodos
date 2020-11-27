@@ -60,7 +60,7 @@ public class Extinguishment : MonoBehaviour
         {
             TakeDamage(1f);
         }
-        else if (collision.CompareTag("Quill") && CompareTag("Machibuse"))
+        else if (collision.CompareTag("Quill") && !CompareTag("Fire"))
         {
             TakeDamage(1);
         }
