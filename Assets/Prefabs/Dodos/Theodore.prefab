@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f475d5379b10b5d49a5ff4e14f8729c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 1
-  timeBetweenAttacks: 1
-  projectilePrefab: {fileID: -2908479488200296261, guid: b6e42d004ab626f41a9187c5837293a6,
+  attackRange: 2
+  timeBetweenAttacks: 0.5
+  projectilePrefab: {fileID: -2908479488200296261, guid: 6f086ab449fea90438de0f80c66e74c9,
     type: 3}
 --- !u!1001 &7851655112866112037
 PrefabInstance:

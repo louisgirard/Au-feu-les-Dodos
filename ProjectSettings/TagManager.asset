@@ -18,6 +18,7 @@ TagManager:
   - MrPatate
   - EctoplasmaLifeSlider
   - DodoToSave
+  - Quill
   layers:
   - Default
   - TransparentFX
