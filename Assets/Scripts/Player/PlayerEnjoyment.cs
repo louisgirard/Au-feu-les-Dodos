@@ -45,7 +45,7 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         else if (timeOn && action == "Time")
         {
-            LoseEnjoyment(2);
+            LoseEnjoyment(1);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         else if (action == "Ectoplasma fireball")
@@ -69,7 +69,7 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         if (action == "Rodeur Death")
         {
-            AddEnjoyment(13);
+            AddEnjoyment(15);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         if (action == "Rodeur Damage")

@@ -6,10 +6,10 @@ public class TutoBeach : DialogueTrigger
 
     void Start()
     {
-        StartDialogue();
+        Invoke("StartDialogue", 1.5f);
     }
 
-    private void StartDialogue()
+    void StartDialogue()
     {
         if (!dialogueStarted)
         {
