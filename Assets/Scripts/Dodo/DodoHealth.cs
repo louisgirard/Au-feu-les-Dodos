@@ -26,6 +26,8 @@ public class DodoHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (dodoUI.isBlinking && health > 1) return;
+
         health = Mathf.Max(health - damage, 0);
         if (health == 0)
         {

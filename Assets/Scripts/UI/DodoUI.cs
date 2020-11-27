@@ -10,7 +10,7 @@ public class DodoUI : MonoBehaviour
 
     Sprite[] heads = null;
     readonly List<CircularBar> healthBars = new List<CircularBar>();
-    bool isBlinking = false;
+    public bool isBlinking = false;
 
     public void SetupHealthBars(int health)
     {
