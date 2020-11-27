@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class DodoUI : MonoBehaviour
 {
     [SerializeField] CircularBar circularBarPrefab = null;
+    [SerializeField] Image circle = null;
+    [SerializeField] Gradient circleGradient = null;
     [SerializeField] Image dodoHead = null;
 
     Sprite[] heads = null;
     readonly List<CircularBar> healthBars = new List<CircularBar>();
-    public bool isBlinking = false;
+    bool isBlinking = false;
 
     public void SetupHealthBars(int health)
     {
@@ -40,6 +42,7 @@ public class DodoUI : MonoBehaviour
             StartCoroutine(HeadBlink());
         }
         UpdateBars(health);
+        UpdateCircle(health);
         UpdateHead(health);
     }
 
@@ -61,6 +64,12 @@ public class DodoUI : MonoBehaviour
                 healthBars[i].SetAmount(1);
             }
         }
+    }
+
+    private void UpdateCircle(float health)
+    {
+        print(health / healthBars.Count);
+        circle.color = circleGradient.Evaluate(1 - health / healthBars.Count);
     }
 
     private void UpdateHead(float health)
@@ -90,5 +99,10 @@ public class DodoUI : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenBlink);
         }
         isBlinking = false;
+    }
+
+    public bool IsBlinking()
+    {
+        return isBlinking;
     }
 }
