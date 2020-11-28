@@ -9,16 +9,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Bonjour Super Pompier !
+      value: "Bonjour Super Pompier, je me pr\xE9sente, Mr Patate."
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Comme tu peux le constater, tu fais face \xE0 un tronc d'arbre qui
-        te bloque le passage."
+      value: "Je suis pr\xE9sent \xE0 plusieurs endroits dans les niveaux et c'est
+        moi qui vais te donner des armes."
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: weaponToGive
@@ -27,17 +27,30 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "Je vais te donner une nouvelle arme qui va te permettre de te lib\xE9rer
-        facilement le passage : la hache !"
+      value: "Tu pourras voir \xE0 l'\xE9cran l'arme que tu utilises actuellement."
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Tu pourras te servir de la hache pour couper des arbres aussi.
+      value: "Comme tu peux le constater, tu fais face \xE0 un tronc d'arbre qui
+        te bloque le passage."
       objectReference: {fileID: 0}
     - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: Tous tes objets secondaires sont utilisables avec Clic Droit. Pour changer
-        d'arme utilise la molette.
+      value: "Je vais te donner une nouvelle arme qui va te permettre de te lib\xE9rer
+        la voie : la hache !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Tu pourras aussi t'en servir pour couper des arbres.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: Tous tes armes sont utilisables avec Clic Droit et pour en changer utilise
+        la molette.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089261051, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Bonne chance !
       objectReference: {fileID: 0}
     - target: {fileID: 2854879970613809668, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
         type: 3}
@@ -98,6 +111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983557350139387535, guid: dbac47e3ba5ea4d4d86e44667a4171cc,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1456
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbac47e3ba5ea4d4d86e44667a4171cc, type: 3}

@@ -3541,6 +3541,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 111863772}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &114790625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8784258933173700288, guid: 8f2a31e008d0e1845907940cccce4ada,
+    type: 3}
+  m_PrefabInstance: {fileID: 1067631909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &114790630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114790625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d853e5803bc60449f16522336b7d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    actionsEnabled: 0
+    name: Maurice
+    sentences:
+    - Tu viens de marcher sur un checkpoint.
+    - A chaque fois que tu perds un niveau tu reviendras au dernier checkpoint.
+    - Tu peux aussi mettre le jeu en pause (Echap) et choisir de revenir au dernier
+      checkpoint.
+    sentenceActions: []
 --- !u!1001 &116426834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80006,7 +80033,7 @@ PrefabInstance:
     - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.48
+      value: -9.49
       objectReference: {fileID: 0}
     - target: {fileID: 1694641689424391207, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
@@ -108108,8 +108135,8 @@ MonoBehaviour:
       sentenceEvent:
         m_PersistentCalls:
           m_Calls: []
-    - sentence: "Au cours des niveaux tu pourras rencontrer Mr Patate qui te donnera
-        de nouvelles armes, visibles \xE0 l'\xE9cran."
+    - sentence: "Au cours des niveaux tu pourras d\xE9bloquer de nouvelles armes,
+        visibles \xE0 l'\xE9cran."
       sentenceEvent:
         m_PersistentCalls:
           m_Calls:
@@ -108140,9 +108167,8 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-    - sentence: "Ta jauge d'amusement (coin haut-gauche) diminue si tu ne fais rien,
-        donc penses \xE0 \xE9teindre le feu et les ennemis pour qu'elle augmente
-        !"
+    - sentence: "Ta jauge d'amusement diminue si tu ne fais rien, donc penses \xE0
+        \xE9teindre le feu et les ennemis pour qu'elle augmente !"
       sentenceEvent:
         m_PersistentCalls:
           m_Calls:
@@ -108177,11 +108203,6 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-    - sentence: "Une derni\xE8re chose, les cercles rouges sont des points de sauvegarde,
-        en passant dessus tu y reviendras si jamais tu perds."
-      sentenceEvent:
-        m_PersistentCalls:
-          m_Calls: []
     - sentence: En route, allons sauver ma famille !
       sentenceEvent:
         m_PersistentCalls:
