@@ -23,6 +23,6 @@ public class TutoBeach : DialogueTrigger
 
     public override void DialogueEnd()
     {
-
+        Destroy(gameObject);
     }
 }

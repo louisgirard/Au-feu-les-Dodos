@@ -104,4 +104,10 @@ public class DodoUI : MonoBehaviour
     {
         return isBlinking;
     }
+
+    public void ResetHead()
+    {
+        isBlinking = false;
+        dodoHead.enabled = true;
+    }
 }

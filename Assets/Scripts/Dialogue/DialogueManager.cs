@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     readonly Queue<string> sentences = new Queue<string>();
     readonly Queue<Dialogue.sentenceAction> sentenceActions = new Queue<Dialogue.sentenceAction>();
     DialogueTrigger currentDialogueTrigger;
+    static bool inDialogue = false;
 
     GameObject player;
     Inventory inventory;
@@ -26,6 +27,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(DialogueTrigger dialogueTrigger)
     {
         DisableControl();
+        inDialogue = true;
         currentDialogueTrigger = dialogueTrigger;
         sentences.Clear();
         sentenceActions.Clear();
@@ -80,6 +82,7 @@ public class DialogueManager : MonoBehaviour
         EnableControl();
         hud.SetActive(true);
         dialogueBox.SetActive(false);
+        inDialogue = false;
 
         currentDialogueTrigger.DialogueEnd();
     }
@@ -98,5 +101,10 @@ public class DialogueManager : MonoBehaviour
         player.GetComponentInChildren<LanceIncendie>().enabled = false;
         inventory.gameObject.SetActive(false);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
+    }
+
+    public static bool IsInDialogue()
+    {
+        return inDialogue;
     }
 }
