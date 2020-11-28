@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour {
 
@@ -23,7 +23,7 @@ public class Pause : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		if (DialogueManager.IsInDialogue()) return;
+		if (DialogueManager.IsInDialogue() || SceneManager.GetActiveScene().name.Equals("World Map")) return;
 
 		//Check if the Cancel button in Input Manager is down this frame (default is Escape key) and that game is not paused, and that we're not in main menu
 		if (Input.GetButtonDown ("Cancel") && !isPaused && !startScript.inMainMenu) 
