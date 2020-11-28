@@ -4857,6 +4857,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBeforeOverheat: 0
-  overheatingTime: 5
+  overheatingTime: 2.5
   fireKey: Fire2
   icon: {fileID: 21300000, guid: fd76d2255e2ffda44aa1e02999df46fc, type: 3}

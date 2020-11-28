@@ -42,7 +42,7 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         else if (timeOn && action == "Time")
         {
-            LoseEnjoyment(1);
+            LoseEnjoyment(1.8f);
             enjoymentBar.SetEnjoyment(currentEnjoyment);
         }
         else if (action == "Ectoplasma fireball")
