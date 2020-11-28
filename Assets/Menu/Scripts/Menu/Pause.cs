@@ -16,14 +16,14 @@ public class Pause : MonoBehaviour {
 		showPanels = GetComponent<ShowPanels> ();
 		//Get a component reference to StartButton attached to this object, store in startScript variable
 		startScript = GetComponent<StartOptions> ();
-		if(startScript.inMainMenu)
-        {
-			MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
-        }
+		//Change mouse aspect
+		MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
+		if (DialogueManager.IsInDialogue()) return;
 
 		//Check if the Cancel button in Input Manager is down this frame (default is Escape key) and that game is not paused, and that we're not in main menu
 		if (Input.GetButtonDown ("Cancel") && !isPaused && !startScript.inMainMenu) 
