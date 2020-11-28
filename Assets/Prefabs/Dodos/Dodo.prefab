@@ -312,7 +312,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 4
-  health: 0
   heads: []
 --- !u!1 &4607016250387350417
 GameObject:
