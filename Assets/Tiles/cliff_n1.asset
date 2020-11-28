@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: clay_tile_256_11
+  m_Name: cliff_n1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 84bfdcf520db940eea8855780dc9ed25, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e142675eff93e942a2a181d0a4923a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
