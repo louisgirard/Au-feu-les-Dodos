@@ -12,6 +12,8 @@ public class MouseAspect : MonoBehaviour
     static Texture2D defaultTexture = null;
     static Texture2D mouseTexture = null;
 
+    static Aspect currentAspect;
+
     private void Awake()
     {
         fireTexture = refToFireTexture;
@@ -22,6 +24,7 @@ public class MouseAspect : MonoBehaviour
 
     public static void ChangeAspect(Aspect texture)
     {
+        currentAspect = texture;
         switch (texture)
         {
             case Aspect.Default:
@@ -34,5 +37,10 @@ public class MouseAspect : MonoBehaviour
                 Cursor.SetCursor(mouseTexture, Vector2.zero, CursorMode.Auto);
                 break;
         }
+    }
+
+    public static Aspect CurrentAspect()
+    {
+        return currentAspect;
     }
 }
