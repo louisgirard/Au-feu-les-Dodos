@@ -4,7 +4,7 @@ public class LoadSaveMenu : MonoBehaviour
 {
     public void LoadData()
     {
-        GlobalSaveSystem saveSystem = FindObjectOfType<GlobalSaveSystem>();
+        LoadSystem saveSystem = FindObjectOfType<LoadSystem>();
         if(saveSystem)
             saveSystem.LoadSaveData();
     }
