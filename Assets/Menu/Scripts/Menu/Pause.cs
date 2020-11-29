@@ -18,6 +18,7 @@ public class Pause : MonoBehaviour {
 		startScript = GetComponent<StartOptions> ();
 		//Change mouse aspect
 		MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
+		savedAspect = MouseAspect.CurrentAspect();
 	}
 
 	// Update is called once per frame
