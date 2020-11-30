@@ -12,10 +12,8 @@ public class PlayMusic : MonoBehaviour {
 	public AudioMixerSnapshot volumeDown;			//Reference to Audio mixer snapshot in which the master volume of main mixer is turned down
 	public AudioMixerSnapshot volumeUp;				//Reference to Audio mixer snapshot in which the master volume of main mixer is turned up
 
-
 	private AudioSource musicSource;				//Reference to the AudioSource which plays music
-	private float resetTime = .01f;					//Very short time used to fade in near instantly without a click
-
+	private float resetTime = .01f;                 //Very short time used to fade in near instantly without a click
 
 	void Awake () 
 	{
@@ -36,10 +34,21 @@ public class PlayMusic : MonoBehaviour {
 				break;
 			//If scene index is 1 (usually main scene) assign the clip mainMusic to musicSource
 			case 1:
-                Debug.Log("Scene index is 1, setting music to " + menuSettings.musicLoopToChangeTo);
-				musicSource.clip = menuSettings.musicLoopToChangeTo;
+                Debug.Log("Scene index is 1, setting music to " + menuSettings.musicWorldMap);
+				musicSource.clip = menuSettings.musicWorldMap;
 				break;
-
+			case 2:
+				Debug.Log("Scene index is 2, setting music to " + menuSettings.musicLevel1);
+				musicSource.clip = menuSettings.musicLevel1;
+				break;
+			case 3:
+				Debug.Log("Scene index is 3, setting music to " + menuSettings.musicLevel2);
+				musicSource.clip = menuSettings.musicLevel2;
+				break;
+			case 4:
+				Debug.Log("Scene index is 4, setting music to " + menuSettings.musicLevel3);
+				musicSource.clip = menuSettings.musicLevel3;
+				break;
 		}
 
 
@@ -49,12 +58,19 @@ public class PlayMusic : MonoBehaviour {
 		musicSource.Play ();
 	}
 	
+	public void StopMusic()
+    {
+		FadeDown(resetTime);
+		musicSource.Stop();
+    }
+
 	//Used if running the game in a single scene, takes an integer music source allowing you to choose a clip by number and play.
 	public void PlaySelectedMusic(AudioClip clipToPlay)
 	{
         musicSource.clip = clipToPlay;
 
 		//Play the selected clip
+		FadeUp(resetTime);
 		musicSource.Play ();
 	}
 

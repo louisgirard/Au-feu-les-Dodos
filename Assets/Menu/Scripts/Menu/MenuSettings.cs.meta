@@ -1,11 +1,18 @@
 fileFormatVersion: 2
 guid: 187aa6f51e61a3c45badb2915cfa1a85
-timeCreated: 1515349482
-licenseType: Store
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mainMenuMusicLoop: {instanceID: 0}
+  - musicWorldMap: {instanceID: 0}
+  - musicLevel1: {instanceID: 0}
+  - musicLevel2: {instanceID: 0}
+  - musicLevel3: {instanceID: 0}
+  - musicEctoplasmaFight: {instanceID: 0}
+  - musicRodeurIsClose: {instanceID: 0}
+  - musicEndLevel: {instanceID: 0}
+  - musicGameOver: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

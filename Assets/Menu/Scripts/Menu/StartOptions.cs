@@ -44,7 +44,7 @@ public class StartOptions : MonoBehaviour {
 	{
 		//If changeMusicOnStart is true, fade out volume of music group of AudioMixer by calling FadeDown function of PlayMusic
 		//To change fade time, change length of animation "FadeToColor"
-		if (menuSettingsData.musicLoopToChangeTo != null) 
+		if (menuSettingsData.musicWorldMap != null) 
 		{
 			playMusic.FadeDown(menuSettingsData.menuFadeTime);
 		}
@@ -82,7 +82,7 @@ public class StartOptions : MonoBehaviour {
     void SceneWasLoaded(Scene scene, LoadSceneMode mode)
     {
 		//if changeMusicOnStart is true, call the PlayLevelMusic function of playMusic
-		if (menuSettingsData.musicLoopToChangeTo != null)
+		if (menuSettingsData.musicWorldMap != null)
 		{
 			playMusic.PlayLevelMusic ();
 		}	
@@ -113,7 +113,7 @@ public class StartOptions : MonoBehaviour {
 		inMainMenu = false;
 
 		//If there is a second music clip in MenuSettings, fade out volume of music group of AudioMixer by calling FadeDown function of PlayMusic 
-		if (menuSettingsData.musicLoopToChangeTo != null) 
+		if (menuSettingsData.musicWorldMap != null) 
 		{
 			//Wait until game has started, then play new music
 			Invoke ("PlayNewMusic", menuSettingsData.menuFadeTime);
@@ -146,6 +146,6 @@ public class StartOptions : MonoBehaviour {
 		//Fade up music nearly instantly without a click 
 		playMusic.FadeUp (fastFadeIn);
 		//Play second music clip from MenuSettings
-		playMusic.PlaySelectedMusic (menuSettingsData.musicLoopToChangeTo);
+		playMusic.PlaySelectedMusic (menuSettingsData.musicWorldMap);
 	}
 }

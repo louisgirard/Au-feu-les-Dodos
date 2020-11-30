@@ -16,4 +16,12 @@ MonoBehaviour:
   sceneChangeFadeColor: {r: 0, g: 0, b: 0, a: 1}
   nextSceneIndex: 1
   mainMenuMusicLoop: {fileID: 8300000, guid: 7db0c87ec4fdb0e48af04349c4f14df9, type: 3}
-  musicLoopToChangeTo: {fileID: 0}
+  musicWorldMap: {fileID: 8300000, guid: d3be130010ff3e040bec75160cfcd05a, type: 3}
+  musicLevel1: {fileID: 8300000, guid: 7db0c87ec4fdb0e48af04349c4f14df9, type: 3}
+  musicLevel2: {fileID: 0}
+  musicLevel3: {fileID: 0}
+  musicEctoplasmaFight: {fileID: 8300000, guid: d3be130010ff3e040bec75160cfcd05a,
+    type: 3}
+  musicRodeurIsClose: {fileID: 0}
+  musicEndLevel: {fileID: 0}
+  musicGameOver: {fileID: 0}

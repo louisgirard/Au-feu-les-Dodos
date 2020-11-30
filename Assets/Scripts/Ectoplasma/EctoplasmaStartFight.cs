@@ -8,13 +8,19 @@ public class EctoplasmaStartFight : DialogueTrigger
 
     public bool fighting { get; set; }
 
+    public MenuSettings menuSettings;
+    private PlayMusic playMusic;
+
     void Start()
     {
+        playMusic = FindObjectOfType<PlayMusic>();
         ResetBattle();
     }
 
     public void StartFight()
     {
+        
+
         if (!fighting)
         {
             fighting = true;
@@ -30,6 +36,8 @@ public class EctoplasmaStartFight : DialogueTrigger
             GameObject.FindWithTag("Dodo").transform.position = dodo_waiting_position;
             GameObject.FindWithTag("DodoToSave").transform.position = dodo_waiting_position + new Vector2(0.5f, 0.2f);
             SetDodoActive(false);
+
+            StartMusicFight();
         }
     }
 
@@ -66,5 +74,12 @@ public class EctoplasmaStartFight : DialogueTrigger
     public void StartDialogue()
     {
         DialogueStart();
+    }
+
+    private void StartMusicFight()
+    {
+        playMusic.StopMusic();
+        Debug.Log(menuSettings.musicEctoplasmaFight);
+        playMusic.PlaySelectedMusic(menuSettings.musicEctoplasmaFight);
     }
 }
