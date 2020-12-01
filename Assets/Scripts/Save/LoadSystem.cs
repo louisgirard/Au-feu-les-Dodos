@@ -45,11 +45,12 @@ public class LoadSystem : MonoBehaviour
     {
         loadingData = true;
 
-        yield return new WaitForSecondsRealtime(1f);
         Time.timeScale = 0;
         gameOverBox.gameObject.SetActive(true);
         gameOverBox.ShowBox(dodoHealth.IsDead());
+
         yield return new WaitForSecondsRealtime(3f);
+
         LoadSaveData();
         Time.timeScale = 1;
         gameOverBox.gameObject.SetActive(false);
