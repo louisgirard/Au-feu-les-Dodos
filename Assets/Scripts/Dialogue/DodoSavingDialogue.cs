@@ -2,13 +2,10 @@
 
 public class DodoSavingDialogue : DialogueTrigger
 {
-    private bool saved = false;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!saved && collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            saved = true;
             DialogueStart();
         }
     }

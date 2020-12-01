@@ -110162,6 +110162,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 1832050663595804825, guid: bc6ab8d35bdca13498aaac3ca5f59ae2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc6ab8d35bdca13498aaac3ca5f59ae2, type: 3}
 --- !u!4 &5465227344928019357 stripped

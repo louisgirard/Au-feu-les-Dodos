@@ -3,7 +3,6 @@ using UnityEngine.AI;
 
 public class EctoplasmaStartFight : DialogueTrigger
 {
-    public Vector2 dodo_waiting_position;
     public GameObject blockFire;
 
     public bool fighting { get; set; }
@@ -11,21 +10,26 @@ public class EctoplasmaStartFight : DialogueTrigger
     public MenuSettings menuSettings;
     private PlayMusic playMusic;
 
+    private GameObject dodo;
+    private GameObject dodoToSave;
+
     void Start()
     {
         playMusic = FindObjectOfType<PlayMusic>();
+        dodo = GameObject.FindGameObjectWithTag("Dodo");
+        dodoToSave = GameObject.FindGameObjectWithTag("DodoToSave");
         ResetBattle();
     }
 
     public void StartFight()
     {
-        
-
         if (!fighting)
         {
             fighting = true;
             if (blockFire) blockFire.SetActive(true);
 
+            GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<Burning>().enabled = true;
             GetComponent<EctoplasmaLife>().StartFight();
             GetComponent<Animator>().SetTrigger("Start");
             GetComponent<Burning>().enabled = true;
@@ -33,9 +37,8 @@ public class EctoplasmaStartFight : DialogueTrigger
             PlayerEnjoyment playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
             playerEnjoyment.ActiveTime(false);
 
-            GameObject.FindWithTag("Dodo").transform.position = dodo_waiting_position;
-            GameObject.FindWithTag("DodoToSave").transform.position = dodo_waiting_position + new Vector2(0.5f, 0.2f);
             SetDodoActive(false);
+            dodoToSave.SetActive(false);
 
             StartMusicFight();
         }
@@ -48,12 +51,15 @@ public class EctoplasmaStartFight : DialogueTrigger
 
     public void ResetBattle()
     {
+        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<Burning>().enabled = false;
         GetComponent<Animator>().SetTrigger("Stop");
         if (blockFire) blockFire.SetActive(false);
         GetComponent<EctoplasmaLife>().StopFight();
         fighting = false;
 
         SetDodoActive(true);
+        dodoToSave.SetActive(true);
 
         PlayerEnjoyment playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
         playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);
@@ -62,7 +68,7 @@ public class EctoplasmaStartFight : DialogueTrigger
 
     void SetDodoActive(bool val)
     {
-        GameObject dodo = GameObject.FindWithTag("Dodo");
+        dodo.GetComponent<SpriteRenderer>().enabled = val;
         dodo.GetComponent<DodoAI>().enabled = val;
         dodo.GetComponent<DodoMovement>().enabled = val;
         dodo.GetComponent<NavMeshAgent>().enabled = val;

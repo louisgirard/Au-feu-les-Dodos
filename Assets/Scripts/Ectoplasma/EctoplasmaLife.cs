@@ -11,8 +11,6 @@ public class EctoplasmaLife : Extinguishment
         max_health = health;
         slider = GameObject.FindWithTag("EctoplasmaLifeSlider");
         slider.SetActive(false);
-        GetComponent<SpriteRenderer>().enabled = false;
-        GetComponent<Burning>().enabled = false;
     }
 
     void Update()
@@ -20,8 +18,9 @@ public class EctoplasmaLife : Extinguishment
         slider.GetComponent<Slider>().value = health/max_health;
     }
 
-    public void StartFight() 
+    public void StartFight()
     {
+        Heal(max_health);
         slider.SetActive(true);
         GetComponent<SpriteRenderer>().enabled = true;
     }
