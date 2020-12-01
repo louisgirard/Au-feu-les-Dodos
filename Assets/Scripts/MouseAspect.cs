@@ -24,6 +24,8 @@ public class MouseAspect : MonoBehaviour
 
     public static void ChangeAspect(Aspect texture)
     {
+        if (Pause.IsPaused()) return;
+
         currentAspect = texture;
         switch (texture)
         {

@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Pause : MonoBehaviour {
-
-
+public class Pause : MonoBehaviour
+{
 	private ShowPanels showPanels;						//Reference to the ShowPanels script used to hide and show UI panels
-	private bool isPaused;								//Boolean to check if the game is paused or not
+	private static bool isPaused;								//Boolean to check if the game is paused or not
 	private StartOptions startScript;                   //Reference to the StartButton script
 	MouseAspect.Aspect savedAspect;
 	
@@ -13,9 +12,9 @@ public class Pause : MonoBehaviour {
 	void Awake()
 	{
 		//Get a component reference to ShowPanels attached to this object, store in showPanels variable
-		showPanels = GetComponent<ShowPanels> ();
+		showPanels = GetComponent<ShowPanels>();
 		//Get a component reference to StartButton attached to this object, store in startScript variable
-		startScript = GetComponent<StartOptions> ();
+		startScript = GetComponent<StartOptions>();
 		//Change mouse aspect
 		MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
 		savedAspect = MouseAspect.CurrentAspect();
@@ -38,11 +37,9 @@ public class Pause : MonoBehaviour {
 		{
 			Debug.Log("unpausing");
 			//Call the UnPause function to unpause the game
-			UnPause ();
-		}
-	
+			UnPause();
+		}	
 	}
-
 
 	public void DoPause()
 	{
@@ -54,21 +51,23 @@ public class Pause : MonoBehaviour {
 		//Set time.timescale to 0, this will cause animations and physics to stop updating
 		Time.timeScale = 0;
 		//call the ShowPausePanel function of the ShowPanels script
-		showPanels.ShowPausePanel ();
+		showPanels.ShowPausePanel();
 	}
-
 
 	public void UnPause()
 	{
-		//Change mouse aspect
-		MouseAspect.ChangeAspect(savedAspect);
 		//Set isPaused to false
 		isPaused = false;
 		//Set time.timescale to 1, this will cause animations and physics to continue updating at regular speed
 		Time.timeScale = 1;
 		//call the HidePausePanel function of the ShowPanels script
-		showPanels.HidePausePanel ();
+		showPanels.HidePausePanel();
+		//Change mouse aspect
+		MouseAspect.ChangeAspect(savedAspect);
 	}
 
-
+	public static bool IsPaused()
+    {
+		return isPaused;
+    }
 }
