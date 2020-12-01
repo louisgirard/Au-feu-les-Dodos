@@ -388,6 +388,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3471914841249673605}
     m_Modifications:
+    - target: {fileID: 2086149402334541122, guid: 4b4bbddf3f07ffa4a91b96baa5b8bba6,
+        type: 3}
+      propertyPath: average_per_minute
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2126417631513321171, guid: 4b4bbddf3f07ffa4a91b96baa5b8bba6,
         type: 3}
       propertyPath: m_Name

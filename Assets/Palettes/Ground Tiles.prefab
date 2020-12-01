@@ -281,7 +281,7 @@ Tilemap:
       m_TileIndex: 170
       m_TileSpriteIndex: 170
       m_TileMatrixIndex: 0
-      m_TileColorIndex: 12
+      m_TileColorIndex: 13
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741827
   - first: {x: 12, y: -15, z: 0}
@@ -2745,12 +2745,12 @@ Tilemap:
     m_Data: {r: 0, g: 0, b: 0, a: 0}
   - m_RefCount: 0
     m_Data: {r: 0, g: 0, b: 0, a: 0}
-  - m_RefCount: 1
-    m_Data: {r: 0.87377185, g: 0.610175, b: 0.6752037, a: 1}
   - m_RefCount: 0
     m_Data: {r: 0, g: 0, b: 0, a: 0}
   - m_RefCount: 1
-    m_Data: {r: 0.9938483, g: 0.687993, b: 0.7831339, a: 1}
+    m_Data: {r: 0.7299264, g: 0.41287062, b: 0.49196494, a: 1}
+  - m_RefCount: 1
+    m_Data: {r: 0.73382133, g: 0.40327042, b: 0.4399619, a: 1}
   - m_RefCount: 203
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
