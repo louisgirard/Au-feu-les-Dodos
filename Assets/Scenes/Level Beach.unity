@@ -86465,6 +86465,11 @@ PrefabInstance:
       propertyPath: waypoint
       value: 
       objectReference: {fileID: 2078724980}
+    - target: {fileID: 3288634331341299937, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1406
+      objectReference: {fileID: 0}
     - target: {fileID: 6133941204658471718, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: m_Name
@@ -90253,6 +90258,11 @@ PrefabInstance:
       propertyPath: waypoint
       value: 
       objectReference: {fileID: 2132605267}
+    - target: {fileID: 3288634331341299937, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -3413
+      objectReference: {fileID: 0}
     - target: {fileID: 6133941204658471718, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: m_Name
@@ -109982,11 +109992,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dialogue Interface
-      objectReference: {fileID: 0}
-    - target: {fileID: 5403657501981710469, guid: b0712077e212c1048b463845b6969242,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5403657501981710473, guid: b0712077e212c1048b463845b6969242,
         type: 3}
