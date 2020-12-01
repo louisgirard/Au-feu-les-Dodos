@@ -79,7 +79,6 @@ public class EctoplasmaStartFight : DialogueTrigger
     private void StartMusicFight()
     {
         playMusic.StopMusic();
-        Debug.Log(menuSettings.musicEctoplasmaFight);
         playMusic.PlaySelectedMusic(menuSettings.musicEctoplasmaFight);
     }
 }

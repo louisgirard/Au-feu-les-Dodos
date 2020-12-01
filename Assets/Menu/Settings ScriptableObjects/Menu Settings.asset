@@ -15,13 +15,13 @@ MonoBehaviour:
   menuFadeTime: 1
   sceneChangeFadeColor: {r: 0, g: 0, b: 0, a: 1}
   nextSceneIndex: 1
-  mainMenuMusicLoop: {fileID: 8300000, guid: 7db0c87ec4fdb0e48af04349c4f14df9, type: 3}
-  musicWorldMap: {fileID: 8300000, guid: d3be130010ff3e040bec75160cfcd05a, type: 3}
-  musicLevel1: {fileID: 8300000, guid: 7db0c87ec4fdb0e48af04349c4f14df9, type: 3}
-  musicLevel2: {fileID: 0}
-  musicLevel3: {fileID: 0}
-  musicEctoplasmaFight: {fileID: 8300000, guid: d3be130010ff3e040bec75160cfcd05a,
+  mainMenuMusicLoop: {fileID: 8300000, guid: efca31c8bac044244b212b7a7a69fb9c, type: 3}
+  musicWorldMap: {fileID: 8300000, guid: 39e0c34ed453a1147a7945a065fd4cb5, type: 3}
+  musicLevel1: {fileID: 8300000, guid: 616e1a22972de3040a7e7d2b49a79b8c, type: 3}
+  musicLevel2: {fileID: 8300000, guid: effc06b6f94c2c4479467584a2b71120, type: 3}
+  musicLevel3: {fileID: 8300000, guid: 07394b5356befc34b823341a69614fbd, type: 3}
+  musicEctoplasmaFight: {fileID: 8300000, guid: 12b156420ff1e514e94e4e8f288cfdc4,
     type: 3}
   musicRodeurIsClose: {fileID: 0}
-  musicEndLevel: {fileID: 0}
+  musicEndLevel: {fileID: 8300000, guid: c1f050bfaa3028845ad13152d07467f7, type: 3}
   musicGameOver: {fileID: 0}

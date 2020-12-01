@@ -14,6 +14,9 @@ public class LoadSystem : MonoBehaviour
 
     GameOverBox gameOverBox;
 
+    public MenuSettings menuSettings;
+    private PlayMusic playMusic;
+
     private void Start()
     {
         savePlayer = FindObjectOfType<SavePlayerSystem>();
@@ -23,6 +26,8 @@ public class LoadSystem : MonoBehaviour
         dodoHealth = FindObjectOfType<DodoHealth>();
         gameOverBox = FindObjectOfType<GameOverBox>();
         gameOverBox.gameObject.SetActive(false);
+
+        playMusic = FindObjectOfType<PlayMusic>();
     }
 
     private void Update()
@@ -61,5 +66,13 @@ public class LoadSystem : MonoBehaviour
 
         playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);
         dodoHealth.Heal(dodoHealth.maxHealth);
+
+        StartLevelMusic();
+    }
+
+    private void StartLevelMusic()
+    {
+        playMusic.StopMusic();
+        playMusic.PlayLevelMusic();
     }
 }

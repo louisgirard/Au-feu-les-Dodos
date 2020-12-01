@@ -5,6 +5,14 @@ public class EctoplasmaEndLevel : DialogueTrigger
 {
     bool dialogueStarted = false;
 
+    public MenuSettings menuSettings;
+    private PlayMusic playMusic;
+
+    private void Start()
+    {
+        playMusic = FindObjectOfType<PlayMusic>();
+    }
+
     public void StartDialogue()
     {
         if(!dialogueStarted)
@@ -12,6 +20,7 @@ public class EctoplasmaEndLevel : DialogueTrigger
             DisableControl();
             DialogueStart();
             dialogueStarted = true;
+            StartEndLevelMusic();
         }
     }
 
@@ -30,5 +39,11 @@ public class EctoplasmaEndLevel : DialogueTrigger
     {
         GetComponent<Burning>().enabled = false;
         GetComponent<Animator>().SetTrigger("Stop");
+    }
+
+    private void StartEndLevelMusic()
+    {
+        playMusic.StopMusic();
+        playMusic.PlaySelectedMusic(menuSettings.musicEndLevel);
     }
 }

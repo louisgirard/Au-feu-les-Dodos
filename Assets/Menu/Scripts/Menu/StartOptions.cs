@@ -84,6 +84,7 @@ public class StartOptions : MonoBehaviour {
 		//if changeMusicOnStart is true, call the PlayLevelMusic function of playMusic
 		if (menuSettingsData.musicWorldMap != null)
 		{
+			playMusic.StopMusic();
 			playMusic.PlayLevelMusic ();
 		}	
 	}
