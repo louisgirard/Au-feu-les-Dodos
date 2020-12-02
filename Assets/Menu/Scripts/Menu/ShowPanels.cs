@@ -13,8 +13,6 @@ public class ShowPanels : MonoBehaviour {
     private MenuObject activePanelMenuObject;
     private EventSystem eventSystem;
 
-
-
     private void SetSelection(GameObject panelToSetSelected)
     {
 
@@ -36,8 +34,9 @@ public class ShowPanels : MonoBehaviour {
 	{
 		optionsPanel.SetActive(true);
 		optionsTint.SetActive(true);
-        menuPanel.SetActive(false);
-        SetSelection(optionsPanel);
+		menuPanel.transform.GetChild(1).gameObject.SetActive(false);
+		menuPanel.transform.GetChild(2).gameObject.SetActive(false);
+		SetSelection(optionsPanel);
 
     }
 
@@ -45,7 +44,9 @@ public class ShowPanels : MonoBehaviour {
 	public void HideOptionsPanel()
 	{
         menuPanel.SetActive(true);
-        optionsPanel.SetActive(false);
+		menuPanel.transform.GetChild(1).gameObject.SetActive(true);
+		menuPanel.transform.GetChild(2).gameObject.SetActive(true);
+		optionsPanel.SetActive(false);
 		optionsTint.SetActive(false);
 	}
 
