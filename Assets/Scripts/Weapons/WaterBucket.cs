@@ -5,11 +5,13 @@ using UnityEngine;
 [RequireComponent(typeof(PolygonCollider2D))]
 public class WaterBucket : Weapon
 {
+    AudioSource audioSource;
     ParticleSystem ps;
     PolygonCollider2D polygonCollider2D;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         ps = GetComponent<ParticleSystem>();
         polygonCollider2D = GetComponent<PolygonCollider2D>();
     }
@@ -17,6 +19,7 @@ public class WaterBucket : Weapon
     public override void Fire()
     {
         base.Fire();
+        audioSource.Play();
         ps.Play();
         polygonCollider2D.enabled = true;
         StartCoroutine(DisableWater());

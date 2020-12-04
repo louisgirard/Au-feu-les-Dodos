@@ -31,6 +31,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8379016234887530025, guid: ec1f15e3a71d027478a1abf84a4ba1be,
         type: 3}
+    - target: {fileID: 1258844259, guid: bf5a79e75d14a634cb4521d6bf7a7c35, type: 3}
+      propertyPath: waterSplash
+      value: 
+      objectReference: {fileID: 8300000, guid: 70030ac4e854db64db072d1233cec010, type: 3}
     - target: {fileID: 1881695994351409275, guid: bf5a79e75d14a634cb4521d6bf7a7c35,
         type: 3}
       propertyPath: m_Sprite
