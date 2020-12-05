@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 2
-  timeBetweenAttacks: 0.5
+  timeBetweenAttacks: 0.8
   projectilePrefab: {fileID: -2908479488200296261, guid: 6f086ab449fea90438de0f80c66e74c9,
     type: 3}
 --- !u!1001 &7851655112866112037
