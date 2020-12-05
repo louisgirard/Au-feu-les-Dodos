@@ -63,6 +63,10 @@ public class DialogueManager : MonoBehaviour
             Dialogue.sentenceAction action = sentenceActions.Dequeue();
             dialogueText.text = action.sentence;
             action.sentenceEvent.Invoke();
+            if(dialogueText.text.Equals(""))
+            {
+                NextSentence();
+            }
         }
         else
         {

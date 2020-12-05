@@ -11,6 +11,8 @@ public class LoadSystem : MonoBehaviour
 
     PlayerEnjoyment playerEnjoyment;
     DodoHealth dodoHealth;
+    LanceIncendie lanceIncendie;
+    Inventory inventory;
 
     GameOverBox gameOverBox;
 
@@ -24,6 +26,8 @@ public class LoadSystem : MonoBehaviour
         saveEctoplasma = FindObjectOfType<SaveEctoplasmaSystem>();
         playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
         dodoHealth = FindObjectOfType<DodoHealth>();
+        lanceIncendie = FindObjectOfType<LanceIncendie>();
+        inventory = FindObjectOfType<Inventory>();
         gameOverBox = FindObjectOfType<GameOverBox>();
         gameOverBox.gameObject.SetActive(false);
 
@@ -46,6 +50,8 @@ public class LoadSystem : MonoBehaviour
         loadingData = true;
 
         Time.timeScale = 0;
+        lanceIncendie.gameObject.SetActive(false);
+        inventory.gameObject.SetActive(false);
         gameOverBox.gameObject.SetActive(true);
         gameOverBox.ShowBox(dodoHealth.IsDead());
 
@@ -53,6 +59,8 @@ public class LoadSystem : MonoBehaviour
 
         LoadSaveData();
         Time.timeScale = 1;
+        lanceIncendie.gameObject.SetActive(true);
+        inventory.gameObject.SetActive(true);
         gameOverBox.gameObject.SetActive(false);
 
         loadingData = false;
