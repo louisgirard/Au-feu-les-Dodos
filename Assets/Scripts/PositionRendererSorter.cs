@@ -7,9 +7,9 @@ public class PositionRendererSorter : MonoBehaviour
 {
     public float offset = 0f;
     readonly float timeBetweenCalculation = 0.01f;
-    readonly float precision = 100;
+    protected readonly float precision = 100;
 
-    SpriteRenderer spriteRenderer;
+    protected SpriteRenderer spriteRenderer;
     SortingGroup sortingGroup;
 
     // Start is called before the first frame update
@@ -27,7 +27,7 @@ public class PositionRendererSorter : MonoBehaviour
         }
     }
 
-    IEnumerator LoopUpdateSortingOrder()
+    protected IEnumerator LoopUpdateSortingOrder()
     {
         while (true)
         {
@@ -37,7 +37,7 @@ public class PositionRendererSorter : MonoBehaviour
         }
     }
 
-    private void UpdateSortingOrder()
+    protected virtual void UpdateSortingOrder()
     {
         if(sortingGroup == null)
         {

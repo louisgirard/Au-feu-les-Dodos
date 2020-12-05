@@ -89392,6 +89392,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2316526810724224648, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 925
+      objectReference: {fileID: 0}
     - target: {fileID: 3749985317117988088, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -89451,6 +89456,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Super Pompier
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749985317117988091, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 935
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644196235846382842, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053745349320352153, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8150371894536663991, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}

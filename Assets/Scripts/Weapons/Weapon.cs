@@ -58,7 +58,7 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    private void Orientation()
+    protected virtual void Orientation()
     {
         Vector2 cursorPosition = CursorPosition.Position();
 

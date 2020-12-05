@@ -8,9 +8,11 @@ public class CharacterAnimation : MonoBehaviour
     string[] attackPositions = { "Attack Down", "Attack Up", "Attack Left", "Attack Right" };
     Animator animator;
     int direction;
+    string animationPlaying;
 
     private void Start()
     {
+        animationPlaying = idlePositions[0];
         animator = GetComponent<Animator>();
     }
 
@@ -25,12 +27,18 @@ public class CharacterAnimation : MonoBehaviour
         if(moveVector.Equals(Vector2.zero))
         {
             if(!AnimatorIsPlaying())
-                animator.Play(idlePositions[direction]);
+            {
+                animationPlaying = idlePositions[direction];
+                animator.Play(animationPlaying);
+            }
         }
         else
         {
             if (!AnimatorIsPlaying())
-                animator.Play(walkPositions[direction]);
+            {
+                animationPlaying = walkPositions[direction];
+                animator.Play(animationPlaying);
+            }
         }
     }
 
@@ -74,5 +82,10 @@ public class CharacterAnimation : MonoBehaviour
     {
         return animator.GetCurrentAnimatorStateInfo(0).length >
                animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+    }
+
+    public string Animation()
+    {
+        return animationPlaying;
     }
 }
