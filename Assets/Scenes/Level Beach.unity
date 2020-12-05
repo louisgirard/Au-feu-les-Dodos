@@ -89452,11 +89452,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Super Pompier
       objectReference: {fileID: 0}
-    - target: {fileID: 3749985317117988091, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 935
-      objectReference: {fileID: 0}
     - target: {fileID: 8150371894536663991, guid: 1d31cfac47d23c14a808dd5427a7cc2c,
         type: 3}
       propertyPath: enjoymentBar
