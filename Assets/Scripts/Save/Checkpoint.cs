@@ -12,12 +12,15 @@ public class Checkpoint : MonoBehaviour
     PlayerEnjoyment playerEnjoyment;
     DodoHealth dodoHealth;
 
+    AudioSource audioSource;
+
     private void Start()
     {
         savePlayer = FindObjectOfType<SavePlayerSystem>();
         saveDodo = FindObjectOfType<SaveDodoSystem>();
         playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
         dodoHealth = FindObjectOfType<DodoHealth>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,6 +36,7 @@ public class Checkpoint : MonoBehaviour
                 dodoHealth.Heal(dodoHealth.maxHealth);
             }
             testCheckpoint++;
+            audioSource.Play();
         }
     }
 }

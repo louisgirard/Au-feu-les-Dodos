@@ -96,9 +96,4 @@ public class Weapon : MonoBehaviour
         if (!isOverheating) return 0;
         return 1 - (timer / overheatingTime);
     }
-
-    private void OnDisable()
-    {
-        StopFire();
-    }
 }

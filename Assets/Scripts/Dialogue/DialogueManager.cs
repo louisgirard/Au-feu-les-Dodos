@@ -14,13 +14,13 @@ public class DialogueManager : MonoBehaviour
     DialogueTrigger currentDialogueTrigger;
     static bool inDialogue = false;
 
-    GameObject player;
+    LanceIncendie lanceIncendie;
     Inventory inventory;
 
     private void Start()
     {
         dialogueBox.SetActive(false);
-        player = GameObject.FindGameObjectWithTag("Player");
+        lanceIncendie = FindObjectOfType<LanceIncendie>();
         inventory = FindObjectOfType<Inventory>();
     }
 
@@ -63,6 +63,10 @@ public class DialogueManager : MonoBehaviour
             Dialogue.sentenceAction action = sentenceActions.Dequeue();
             dialogueText.text = action.sentence;
             action.sentenceEvent.Invoke();
+            if(dialogueText.text.Equals(""))
+            {
+                NextSentence();
+            }
         }
         else
         {
@@ -90,7 +94,7 @@ public class DialogueManager : MonoBehaviour
     private void EnableControl()
     {
         Time.timeScale = 1;
-        player.GetComponentInChildren<LanceIncendie>().enabled = true;
+        lanceIncendie.gameObject.SetActive(true);
         inventory.gameObject.SetActive(true);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Default);
     }
@@ -98,7 +102,7 @@ public class DialogueManager : MonoBehaviour
     private void DisableControl()
     {
         Time.timeScale = 0;
-        player.GetComponentInChildren<LanceIncendie>().enabled = false;
+        lanceIncendie.gameObject.SetActive(false);
         inventory.gameObject.SetActive(false);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
     }

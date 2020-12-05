@@ -7,6 +7,8 @@ public class Pause : MonoBehaviour
 	private static bool isPaused;								//Boolean to check if the game is paused or not
 	private StartOptions startScript;                   //Reference to the StartButton script
 	MouseAspect.Aspect savedAspect;
+	GameObject player;
+	Inventory inventory;
 	
 	//Awake is called before Start()
 	void Awake()
@@ -46,6 +48,13 @@ public class Pause : MonoBehaviour
 		//Change mouse aspect
 		savedAspect = MouseAspect.CurrentAspect();
 		MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
+		//Disable weapons
+		player = GameObject.FindGameObjectWithTag("Player");
+		inventory = FindObjectOfType<Inventory>();
+		if(player)
+			player.GetComponentInChildren<LanceIncendie>().enabled = false;
+		if(inventory)
+			inventory.gameObject.SetActive(false);
 		//Set isPaused to true
 		isPaused = true;
 		//Set time.timescale to 0, this will cause animations and physics to stop updating
@@ -64,6 +73,11 @@ public class Pause : MonoBehaviour
 		showPanels.HidePausePanel();
 		//Change mouse aspect
 		MouseAspect.ChangeAspect(savedAspect);
+		//Enable weapons
+		if (player)
+			player.GetComponentInChildren<LanceIncendie>().enabled = true;
+		if (inventory)
+			inventory.gameObject.SetActive(true);
 	}
 
 	public static bool IsPaused()
