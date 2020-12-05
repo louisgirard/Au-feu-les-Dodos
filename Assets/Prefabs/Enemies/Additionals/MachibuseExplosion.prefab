@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 8161871274335801752}
   - component: {fileID: 5418819341074009467}
   - component: {fileID: -7945811338256135238}
+  - component: {fileID: 990240657409004410}
   m_Layer: 0
   m_Name: MachibuseExplosion
   m_TagString: Untagged
@@ -124,7 +125,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 1204819871
   m_SortingLayer: 3
-  m_SortingOrder: 5000
+  m_SortingOrder: 0
 --- !u!82 &-7945811338256135238
 AudioSource:
   m_ObjectHideFlags: 0
@@ -222,6 +223,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &990240657409004410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161871274336104552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 6000
 --- !u!1 &8161871274336119346
 GameObject:
   m_ObjectHideFlags: 0
