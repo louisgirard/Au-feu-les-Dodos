@@ -87,6 +87,7 @@ public class DialogueManager : MonoBehaviour
         hud.SetActive(true);
         dialogueBox.SetActive(false);
         inDialogue = false;
+        FindObjectOfType<DodoUI>().ResetHead();
 
         currentDialogueTrigger.DialogueEnd();
     }
