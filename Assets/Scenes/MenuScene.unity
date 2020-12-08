@@ -465,6 +465,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22434976, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 262
+      objectReference: {fileID: 0}
+    - target: {fileID: 22434976, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 22434976, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 15.900005
+      objectReference: {fileID: 0}
     - target: {fileID: 22439792, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -636,6 +648,72 @@ PrefabInstance:
     - target: {fileID: 22496010, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 894980753937388796, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 697042d9b16b5c144b47a0f81920db4e,
+        type: 3}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_Text
+      value: "Au feu \nles Dodos !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.72132653
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.08962262
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160118005387301581, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180530954320497249, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 201
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180530954320497249, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180530954320497249, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 418.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180530954320497249, guid: 45616935e4fe10f48b62da1347801a16,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 123.7
       objectReference: {fileID: 0}
     - target: {fileID: 7302304160597565497, guid: 45616935e4fe10f48b62da1347801a16,
         type: 3}
