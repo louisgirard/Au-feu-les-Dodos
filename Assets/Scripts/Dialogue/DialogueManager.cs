@@ -87,7 +87,9 @@ public class DialogueManager : MonoBehaviour
         hud.SetActive(true);
         dialogueBox.SetActive(false);
         inDialogue = false;
-        FindObjectOfType<DodoUI>().ResetHead();
+        DodoUI dodoUI = FindObjectOfType<DodoUI>();
+        if (dodoUI !=null)
+            dodoUI.ResetHead();
 
         currentDialogueTrigger.DialogueEnd();
     }
@@ -95,16 +97,20 @@ public class DialogueManager : MonoBehaviour
     private void EnableControl()
     {
         Time.timeScale = 1;
-        lanceIncendie.gameObject.SetActive(true);
-        inventory.gameObject.SetActive(true);
+        if (lanceIncendie != null)
+            lanceIncendie.gameObject.SetActive(true);
+        if (inventory != null)
+            inventory.gameObject.SetActive(true);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Default);
     }
 
     private void DisableControl()
     {
         Time.timeScale = 0;
-        lanceIncendie.gameObject.SetActive(false);
-        inventory.gameObject.SetActive(false);
+        if (lanceIncendie != null)
+            lanceIncendie.gameObject.SetActive(false);
+        if (inventory != null)
+            inventory.gameObject.SetActive(false);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
     }
 
