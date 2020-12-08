@@ -34,7 +34,7 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         else if (action == "Rodeur")
         {
-            LoseEnjoyment(10f);
+            LoseEnjoyment(14f);
         }
         else if (action == "Burn")
         {
@@ -67,7 +67,7 @@ public class PlayerEnjoyment : MonoBehaviour
         }
         if (action == "Rodeur Damage")
         {
-            AddEnjoyment(0.015f);
+            AddEnjoyment(0.09f);
         }
     }
 
