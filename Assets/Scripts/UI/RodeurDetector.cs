@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RodeurDetector : MonoBehaviour
 {
@@ -80,6 +81,7 @@ public class RodeurDetector : MonoBehaviour
 
     private void Setup()
     {
+        // Rodeurs
         for (int i = 0; i < rodeurs.Length; i++)
         {
             GameObject rodeurPoint = Instantiate(rodeurPointPrefab, radar);
@@ -87,6 +89,9 @@ public class RodeurDetector : MonoBehaviour
             GameObject rodeurArrow = Instantiate(rodeurArrowPrefab, radar);
             rodeurArrows.Add(rodeurArrow);
         }
+
+        // Dodo
+        dodoPoint.GetComponent<Image>().sprite = dodo.GetComponentInChildren<DodoHealth>().Head();
     }
 
     private void OrientateDodoArrow(Vector2 direction)

@@ -108832,7 +108832,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - sentence: "Avec ton d\xE9tecteur tu pourras savoir s'ils sont proches de toi
-        ou non (Points Rouges)."
+        ou non (Fl\xE8ches Rouges)."
       sentenceEvent:
         m_PersistentCalls:
           m_Calls:
@@ -108847,8 +108847,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-    - sentence: "Il te servira aussi \xE0 me retrouver (Point Bleu) si jamais tu
-        me perds de vue."
+    - sentence: "Il te servira aussi \xE0 me retrouver si jamais tu me perds de vue."
       sentenceEvent:
         m_PersistentCalls:
           m_Calls: []
