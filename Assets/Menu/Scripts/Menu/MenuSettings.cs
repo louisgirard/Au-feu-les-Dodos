@@ -27,4 +27,6 @@ public class MenuSettings : ScriptableObject
     public AudioClip musicEndLevel;
     [Header("If you want to play new music on the game over, add it here")]
     public AudioClip musicGameOver;
+    [Header("If you want to play new music on the intro, add it here")]
+    public AudioClip musicIntro;
 }

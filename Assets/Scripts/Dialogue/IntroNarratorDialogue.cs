@@ -8,7 +8,7 @@ public class IntroNarratorDialogue : DialogueTrigger
         Invoke("DialogueStart", 0.1f);
     }
 
-    public void EndScene()
+    public override void DialogueEnd()
     {
         SceneManager.LoadScene(1);
     }

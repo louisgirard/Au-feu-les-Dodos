@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: d17bd9e7d1ae4b3489f708d00f9457dd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/World Map.unity
     guid: f495931557aaa4648971de254c755207
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level Beach.unity
     guid: fc4a43c52cc1a394e81a9271e80f6b41
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level 2 Jungle.unity
     guid: 740900be24161684fb6c0f99554b93ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level 3 Mountain.unity
     guid: 3491e0f25ea6bc443a7559e7c8ee43da
   - enabled: 1

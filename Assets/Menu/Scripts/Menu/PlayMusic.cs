@@ -49,6 +49,10 @@ public class PlayMusic : MonoBehaviour {
 				Debug.Log("Scene index is 4, setting music to " + menuSettings.musicLevel3);
 				musicSource.clip = menuSettings.musicLevel3;
 				break;
+			case 5:
+				Debug.Log("Scene index is 5, setting music to " + menuSettings.musicIntro);
+				musicSource.clip = menuSettings.musicIntro;
+				break;
 		}
 
 

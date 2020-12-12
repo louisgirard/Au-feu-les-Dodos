@@ -189,6 +189,10 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8286744, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11408416, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -392,6 +396,14 @@ PrefabInstance:
     - target: {fileID: 11487658, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488040, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: sceneToStart
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488040, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
+      propertyPath: changeMusicOnStart
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11489742, guid: 45616935e4fe10f48b62da1347801a16, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
