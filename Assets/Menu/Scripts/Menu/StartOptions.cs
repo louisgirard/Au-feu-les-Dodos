@@ -56,9 +56,7 @@ public class StartOptions : MonoBehaviour {
 			Invoke ("LoadDelayed", menuSettingsData.menuFadeTime);
 
             StartCoroutine(FadeCanvasGroupAlpha(0f, 1f, fadeOutImageCanvasGroup));
-
-        } 
-
+        }
 		//If changeScenes is false, call StartGameInScene
 		else 
 		{

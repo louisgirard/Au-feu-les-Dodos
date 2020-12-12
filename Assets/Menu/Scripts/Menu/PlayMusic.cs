@@ -13,7 +13,7 @@ public class PlayMusic : MonoBehaviour {
 	public AudioMixerSnapshot volumeUp;				//Reference to Audio mixer snapshot in which the master volume of main mixer is turned up
 
 	private AudioSource musicSource;                //Reference to the AudioSource which plays music	private AudioSource lastMusicPlayed;
-	private float resetTime = .3f;                 //Very short time used to fade in near instantly without a click
+	private float resetTime = .1f;                 //Very short time used to fade in near instantly without a click
 
 	void Awake () 
 	{
@@ -56,9 +56,9 @@ public class PlayMusic : MonoBehaviour {
 		}
 
 
-		FadeUp (resetTime);
+		FadeUp(resetTime);
 		//Play the assigned music clip in musicSource
-		musicSource.Play ();
+		musicSource.Play();
 	}
 	
 	public void StopMusic()
@@ -70,11 +70,11 @@ public class PlayMusic : MonoBehaviour {
 	//Used if running the game in a single scene, takes an integer music source allowing you to choose a clip by number and play.
 	public void PlaySelectedMusic(AudioClip clipToPlay)
 	{
-			musicSource.clip = clipToPlay;
+		musicSource.clip = clipToPlay;
 
-			//Play the selected clip
-			FadeUp(resetTime);
-			musicSource.Play();
+		//Play the selected clip
+		FadeUp(resetTime);
+		musicSource.Play();
 	}
 
 	//Call this function to very quickly fade up the volume of master mixer
@@ -88,6 +88,6 @@ public class PlayMusic : MonoBehaviour {
 	public void FadeDown(float fadeTime)
 	{
 		//call the TransitionTo function of the audioMixerSnapshot volumeDown;
-		volumeDown.TransitionTo (fadeTime);
+		volumeDown.TransitionTo(fadeTime);
 	}
 }
