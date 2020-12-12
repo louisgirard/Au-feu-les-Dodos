@@ -78956,7 +78956,7 @@ PrefabInstance:
     - target: {fileID: 4974421565800688833, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -4359
+      value: -5259
       objectReference: {fileID: 0}
     - target: {fileID: 8784258933173700288, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
@@ -80698,7 +80698,7 @@ PrefabInstance:
     - target: {fileID: 4974421565800688833, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -1768
+      value: -2668
       objectReference: {fileID: 0}
     - target: {fileID: 8784258933173700288, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
@@ -87020,6 +87020,11 @@ PrefabInstance:
       propertyPath: health
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 979025039589605706, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1390
+      objectReference: {fileID: 0}
     - target: {fileID: 3274551243886420562, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: waypoint
@@ -87089,6 +87094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222840492973017692, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1390
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75c84a3723528a740bcccf62b66b5273, type: 3}
@@ -90828,6 +90838,11 @@ PrefabInstance:
       propertyPath: health
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 979025039589605706, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -3396
+      objectReference: {fileID: 0}
     - target: {fileID: 3274551243886420562, guid: 75c84a3723528a740bcccf62b66b5273,
         type: 3}
       propertyPath: waypoint
@@ -90897,6 +90912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222840492973017692, guid: 75c84a3723528a740bcccf62b66b5273,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -3396
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75c84a3723528a740bcccf62b66b5273, type: 3}
@@ -91835,6 +91855,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8247054461539698866, guid: 1a34690ae1f537e4097ec459f9ad3fc4,
         type: 3}
+    - target: {fileID: 5573706107270563204, guid: 3b7b185cc199dbc4cbfdb27a3f79b486,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -6122
+      objectReference: {fileID: 0}
     - target: {fileID: 5573706107270563205, guid: 3b7b185cc199dbc4cbfdb27a3f79b486,
         type: 3}
       propertyPath: m_Name
@@ -92002,7 +92027,7 @@ PrefabInstance:
     - target: {fileID: 4974421565800688833, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -3014
+      value: -3914
       objectReference: {fileID: 0}
     - target: {fileID: 8784258933173700288, guid: 8f2a31e008d0e1845907940cccce4ada,
         type: 3}
@@ -108807,7 +108832,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - sentence: "Avec ton d\xE9tecteur tu pourras savoir s'ils sont proches de toi
-        ou non."
+        ou non (Fl\xE8ches Rouges)."
       sentenceEvent:
         m_PersistentCalls:
           m_Calls:
@@ -108822,6 +108847,10 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
+    - sentence: "Il te servira aussi \xE0 me retrouver si jamais tu me perds de vue."
+      sentenceEvent:
+        m_PersistentCalls:
+          m_Calls: []
     - sentence: En route, allons sauver ma famille !
       sentenceEvent:
         m_PersistentCalls:

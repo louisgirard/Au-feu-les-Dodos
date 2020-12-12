@@ -83,4 +83,9 @@ public class DodoHealth : MonoBehaviour
             Heal(1);
         }
     }
+
+    public Sprite Head()
+    {
+        return heads[0];
+    }
 }

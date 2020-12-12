@@ -112,6 +112,11 @@ public class DialogueManager : MonoBehaviour
         if (inventory != null)
             inventory.gameObject.SetActive(false);
         MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
+        ParticleSystem[] particleSystems = FindObjectsOfType<ParticleSystem>();
+        foreach(ParticleSystem particleSystem in particleSystems)
+        {
+            particleSystem.gameObject.SetActive(false);
+        }
     }
 
     public static bool IsInDialogue()
