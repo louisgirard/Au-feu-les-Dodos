@@ -14,7 +14,7 @@ public class PatrolWaypoint : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.cyan;
-        Gizmos.DrawSphere(transform.position, 0.1f);
+        Gizmos.DrawSphere(transform.position, 0.25f);
         for (int i = 0; i < nextPossiblePoints.Length; i++)
         {
             Vector3 direction = nextPossiblePoints[i].transform.position - transform.position;
