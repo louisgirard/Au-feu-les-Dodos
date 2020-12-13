@@ -18,6 +18,8 @@ public class RodeurDetector : MonoBehaviour
     List<GameObject> rodeurPoints = new List<GameObject>();
     List<GameObject> rodeurArrows = new List<GameObject>();
 
+    bool dodoDisabled = false;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -59,6 +61,8 @@ public class RodeurDetector : MonoBehaviour
         }
 
         // Dodo
+        if (dodoDisabled) return;
+
         direction = (dodo.position - player.position);
         if (direction.magnitude > arrowLimit)
         {
@@ -114,5 +118,12 @@ public class RodeurDetector : MonoBehaviour
         }
 
         rodeurArrows[index].transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+    }
+
+    public void DisableDodo()
+    {
+        dodoDisabled = true;
+        dodoArrow.SetActive(false);
+        dodoPoint.SetActive(false);
     }
 }

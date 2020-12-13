@@ -46,6 +46,8 @@ public class EctoplasmaStartFight : DialogueTrigger
 
     public override void DialogueEnd()
     {
+        FindObjectOfType<DodoUI>().gameObject.SetActive(false);
+        FindObjectOfType<RodeurDetector>().DisableDodo();
         StartFight();
     }
 

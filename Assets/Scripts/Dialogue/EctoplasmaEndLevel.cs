@@ -32,7 +32,14 @@ public class EctoplasmaEndLevel : DialogueTrigger
 
     private void NextLevel()
     {
-        SceneManager.LoadScene(1);
+        if (CrossSceneInformation.nextLevel == 4)
+        {
+            ResetGame();
+        }
+        else
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     private void DisableControl()
@@ -45,5 +52,12 @@ public class EctoplasmaEndLevel : DialogueTrigger
     {
         playMusic.StopMusic();
         playMusic.PlaySelectedMusic(menuSettings.musicEndLevel);
+    }
+
+    private void ResetGame()
+    {
+        // End Game
+        CrossSceneInformation.Reset();
+        SceneManager.LoadScene(0);
     }
 }
