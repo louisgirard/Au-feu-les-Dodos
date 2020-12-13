@@ -3,7 +3,7 @@
 public class GrenadeLauncher : Weapon
 {
     [SerializeField] Projectile projectilePrefab = null;
-    [SerializeField] float range = 10f;
+    [SerializeField] float range = 2f;
 
     private void Start()
     {
@@ -18,28 +18,34 @@ public class GrenadeLauncher : Weapon
         projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 
         Vector2 destination = CursorPosition.ToWorld();
+        print(Vector2.Distance(transform.position, destination));
         if (Vector2.Distance(transform.position, destination) > range)
         {
-            destination = (Vector2)transform.position + CursorPosition.Position().normalized * range;
+            print("out of range");
+            destination = (Vector2)transform.position + CursorPosition.Position().normalized * (range);
         }
         projectile.SetDestination(destination);
     }
 
     private void DrawCircle()
     {
-        int vertexCount = 40;
-        LineRenderer lineRenderer = GetComponent<LineRenderer>();
+        LineRenderer line = GetComponent<LineRenderer>();
+        line.positionCount = 40;
+        float radius = range + range / 3.33f;
+        float angle = 20f;
 
-        float deltaTheta = (2f * Mathf.PI) / vertexCount;
-        float theta = 0f;
-
-        lineRenderer.positionCount = vertexCount;
-
-        for(int i = 0; i < lineRenderer.positionCount; i++)
+        for (int i = 0; i < line.positionCount; i++)
         {
-            Vector3 pos = new Vector3(range * Mathf.Cos(theta), range * Mathf.Sin(theta), 0f);
-            lineRenderer.SetPosition(i, pos);
-            theta += deltaTheta;
+            Vector3 position = new Vector3(Mathf.Sin(Mathf.Deg2Rad * angle) * radius, Mathf.Cos(Mathf.Deg2Rad * angle) * radius, 0f);
+            line.SetPosition(i, position);
+
+            angle += (360f / line.positionCount);
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, range);
+        print("gizmos draw circle");
     }
 }

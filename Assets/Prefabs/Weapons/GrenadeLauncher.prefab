@@ -50,7 +50,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: f712515510a5cdf41a2df21658bafc9a, type: 3}
   projectilePrefab: {fileID: -2908479488200296261, guid: 8cff303a9dc10ee42a2ba98c200ba43c,
     type: 3}
-  range: 2
+  range: 1.5
 --- !u!120 &349370002
 LineRenderer:
   m_ObjectHideFlags: 0
