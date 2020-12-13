@@ -80,6 +80,10 @@ public class DodoUI : MonoBehaviour
         else
         {
             int index = heads.Length - Mathf.CeilToInt(health / healthBars.Count * (heads.Length - 1)) - 1;
+            print("heads.Length = " + heads.Length);
+            print("health = " + health);
+            print("healthBars.Count = " + healthBars.Count);
+            print("index = " + index);
             dodoHead.sprite = heads[index];
         }
     }

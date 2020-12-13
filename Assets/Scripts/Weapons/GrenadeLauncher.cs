@@ -18,10 +18,8 @@ public class GrenadeLauncher : Weapon
         projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 
         Vector2 destination = CursorPosition.ToWorld();
-        print(Vector2.Distance(transform.position, destination));
         if (Vector2.Distance(transform.position, destination) > range)
         {
-            print("out of range");
             destination = (Vector2)transform.position + CursorPosition.Position().normalized * (range);
         }
         projectile.SetDestination(destination);

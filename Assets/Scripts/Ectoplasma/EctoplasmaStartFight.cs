@@ -13,11 +13,16 @@ public class EctoplasmaStartFight : DialogueTrigger
     private GameObject dodo;
     private GameObject dodoToSave;
 
+    private DodoUI dodoUI;
+    private RodeurDetector rodeurDetector;
+
     void Start()
     {
         playMusic = FindObjectOfType<PlayMusic>();
         dodo = GameObject.FindGameObjectWithTag("Dodo");
         dodoToSave = GameObject.FindGameObjectWithTag("DodoToSave");
+        dodoUI = FindObjectOfType<DodoUI>();
+        rodeurDetector = FindObjectOfType<RodeurDetector>();
         ResetBattle();
     }
 
@@ -46,8 +51,8 @@ public class EctoplasmaStartFight : DialogueTrigger
 
     public override void DialogueEnd()
     {
-        FindObjectOfType<DodoUI>().gameObject.SetActive(false);
-        FindObjectOfType<RodeurDetector>().DisableDodo();
+        dodoUI.gameObject.SetActive(false);
+        rodeurDetector.DisableDodo();
         StartFight();
     }
 
@@ -62,6 +67,8 @@ public class EctoplasmaStartFight : DialogueTrigger
 
         SetDodoActive(true);
         dodoToSave.SetActive(true);
+        dodoUI.gameObject.SetActive(true);
+        rodeurDetector.EnableDodo();
 
         PlayerEnjoyment playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
         playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);

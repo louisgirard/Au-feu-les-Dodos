@@ -126,4 +126,11 @@ public class RodeurDetector : MonoBehaviour
         dodoArrow.SetActive(false);
         dodoPoint.SetActive(false);
     }
+
+    public void EnableDodo()
+    {
+        dodoDisabled = false;
+        dodoArrow.SetActive(false);
+        dodoPoint.SetActive(false);
+    }
 }
