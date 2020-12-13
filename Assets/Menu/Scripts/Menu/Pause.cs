@@ -22,8 +22,14 @@ public class Pause : MonoBehaviour
 		savedAspect = MouseAspect.CurrentAspect();
 	}
 
-	// Update is called once per frame
-	void Update ()
+    private void Start()
+	{
+		MouseAspect.ChangeAspect(MouseAspect.Aspect.Mouse);
+		savedAspect = MouseAspect.CurrentAspect();
+	}
+
+    // Update is called once per frame
+    void Update ()
 	{
 		if (DialogueManager.IsInDialogue() || SceneManager.GetActiveScene().name.Equals("World Map")) return;
 
