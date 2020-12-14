@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -24,6 +25,14 @@ public class PositionRendererSorter : MonoBehaviour
         else
         {
             StartCoroutine(LoopUpdateSortingOrder());
+        }
+    }
+
+    private void Update()
+    {
+        if (Application.isEditor)
+        {
+            UpdateSortingOrder();
         }
     }
 
