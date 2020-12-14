@@ -2,6 +2,8 @@
 
 public class DodoAI : MonoBehaviour
 {
+    [SerializeField] float maxDistanceToPlayer = 4f;
+
     enum Mode { Passive, Active };
 
     DodoMovement dodoMovement;
@@ -27,7 +29,7 @@ public class DodoAI : MonoBehaviour
         transform.position = new Vector2(transform.position.x, transform.position.y);
 
         // Target dead, or dodo dying
-        if (currentTarget == null || health.IsDying())
+        if (currentTarget == null || health.IsDying() || FarFromPlayer())
         {
             SetTarget(player);
             mode = Mode.Passive;
@@ -53,6 +55,9 @@ public class DodoAI : MonoBehaviour
 
     public void EnemyDetected(Transform enemy)
     {
+        // If dodo to far away from player then ignore enemies
+        if (FarFromPlayer()) return;
+
         // Target in range, set new target
         if(mode == Mode.Passive)
         {
@@ -83,5 +88,15 @@ public class DodoAI : MonoBehaviour
     {
         currentTarget = target;
         dodoAttack.SetTarget(ref currentTarget);
+    }
+
+    private bool FarFromPlayer()
+    {
+        return Vector2.Distance(transform.position, player.position) > maxDistanceToPlayer;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, maxDistanceToPlayer);
     }
 }

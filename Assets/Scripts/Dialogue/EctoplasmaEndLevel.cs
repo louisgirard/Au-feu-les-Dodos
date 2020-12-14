@@ -26,6 +26,8 @@ public class EctoplasmaEndLevel : DialogueTrigger
 
     public override void DialogueEnd()
     {
+        PlayerEnjoyment playerEnjoyment = FindObjectOfType<PlayerEnjoyment>();
+        playerEnjoyment.AddEnjoyment(playerEnjoyment.maxEnjoyment);
         Invoke(nameof(NextLevel), 1);
         gameObject.SetActive(false);
     }
