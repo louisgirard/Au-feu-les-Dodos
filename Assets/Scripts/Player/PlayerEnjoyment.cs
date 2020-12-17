@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class PlayerEnjoyment : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerEnjoyment : MonoBehaviour
     private bool timeOn = true;
 
     public EnjoymentBar enjoymentBar;
+
+    public Animator cameraAnimation;
 
     void Start()
     {
@@ -31,10 +34,12 @@ public class PlayerEnjoyment : MonoBehaviour
         if (action == "Machibuse")
         {
             LoseEnjoyment(5);
+            CameraShake();
         }
         else if (action == "Rodeur")
         {
             LoseEnjoyment(14f);
+            CameraShake();
         }
         else if (action == "Burn")
         {
@@ -48,6 +53,7 @@ public class PlayerEnjoyment : MonoBehaviour
         else if (action == "Ectoplasma fireball")
         {
             LoseEnjoyment(5f);
+            CameraShake();
         }
     }
 
@@ -91,5 +97,23 @@ public class PlayerEnjoyment : MonoBehaviour
     public void ActiveTime(bool val)
     {
         timeOn = val;
+    }
+
+    private bool shaking = false;
+
+    public void CameraShake()
+    {
+        if (!shaking)
+        {
+            cameraAnimation.SetTrigger("shake");
+            shaking = true;
+            StartCoroutine(shake_time());
+        }
+    }
+
+    IEnumerator shake_time()
+    {
+        yield return new WaitForSeconds(0.2f);
+        shaking = false;
     }
 }

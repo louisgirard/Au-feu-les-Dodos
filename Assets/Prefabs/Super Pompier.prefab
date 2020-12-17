@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3749985317105444790}
   - component: {fileID: 3749985317105444681}
   - component: {fileID: 3749985317105444683}
+  - component: {fileID: 3432703314700636336}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -83,6 +84,25 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3749985317105444682}
   m_Enabled: 1
+--- !u!95 &3432703314700636336
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749985317105444682}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5047397b571be24e954ae9ff490eefd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3749985317117988090
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +328,7 @@ MonoBehaviour:
   maxEnjoyment: 90
   waitTime: 1
   enjoymentBar: {fileID: 0}
+  cameraAnimation: {fileID: 3432703314700636336}
 --- !u!199 &522630289
 ParticleSystemRenderer:
   serializedVersion: 6
