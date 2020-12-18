@@ -81,7 +81,10 @@ public class LoadSystem : MonoBehaviour
 
     private void StartLevelMusic()
     {
-        playMusic.StopMusic();
-        playMusic.PlayLevelMusic();
+        if (playMusic != null)
+        {
+            playMusic.StopMusic();
+            playMusic.PlayLevelMusic();
+        }
     }
 }

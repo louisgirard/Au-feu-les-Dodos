@@ -58,7 +58,7 @@ public class Inventory : MonoBehaviour
 
     private void ProcessScrollWheel()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f || Input.GetButtonDown("weapon"))
         {
             NextWeapon();
         }
