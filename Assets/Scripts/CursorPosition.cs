@@ -19,7 +19,7 @@ public static class CursorPosition
         if (xInput == 0 && yInput == 0)
             return new Vector2(mousePosition.x, mousePosition.y);
         else
-            return new Vector2(xInput, yInput);
+            return new Vector2(xInput, yInput)*270;
     }
 
     public static Vector2 ToWorld()

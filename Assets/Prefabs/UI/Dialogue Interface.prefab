@@ -116,6 +116,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 5403657501993364080}
   dialogueName: {fileID: 5403657502352317097}
   dialogueText: {fileID: 5403657502931198180}
+  continuer: {fileID: 8587583451145702707}
 --- !u!1 &5403657501993364080
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     LanceIncendie lanceIncendie;
     Inventory inventory;
 
+    public GameObject continuer;
+
     private void Start()
     {
         dialogueBox.SetActive(false);
@@ -31,6 +34,8 @@ public class DialogueManager : MonoBehaviour
         currentDialogueTrigger = dialogueTrigger;
         sentences.Clear();
         sentenceActions.Clear();
+
+        GameObject.FindObjectOfType<EventSystem>().SetSelectedGameObject(continuer);
 
         foreach (string sentence in dialogueTrigger.dialogue.sentences)
         {
