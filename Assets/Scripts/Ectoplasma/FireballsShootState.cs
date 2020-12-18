@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FireballsShootState : StateMachineBehaviour
 {
-    public GameObject fireball_prefab;
+    public Fireball fireball_prefab;
 
     float walking_speed;
     float shooting_speed = 3;
@@ -38,8 +38,8 @@ public class FireballsShootState : StateMachineBehaviour
         shooting_timer += Time.deltaTime;
         if (shooting_timer > 1/shooting_speed)
         {
-            GameObject fireball = Instantiate(fireball_prefab, ectoplasma.transform.position, Quaternion.identity);
-            Destroy(fireball, 10f);
+            Fireball fireball = Instantiate(fireball_prefab, ectoplasma.transform.position, Quaternion.identity);
+            Destroy(fireball.gameObject, 10f);
             shooting_timer = 0;
             fireball_counter++;
         }

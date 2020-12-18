@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9df9c4edb0483f34ba26b7c8168ddae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeteoriteRain_prefab: {fileID: 3775234498068645815, guid: 65bdfba2fd70906469f49f08893bf449,
+  MeteoriteRain_prefab: {fileID: 3775234498068645813, guid: 65bdfba2fd70906469f49f08893bf449,
     type: 3}
 --- !u!91 &9100000
 AnimatorController:
@@ -385,43 +385,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Shoot
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Shoot end
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Frontal attack
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Meteorites
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Start
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Stop
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2973813148521e34480beffd64e38af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireball_prefab: {fileID: 4385674145269130741, guid: 2cc2393f370e8fb48a2c6b2fa53f47e4,
+  fireball_prefab: {fileID: 4385674145269130729, guid: 2cc2393f370e8fb48a2c6b2fa53f47e4,
     type: 3}
 --- !u!1102 &5932368816888283582
 AnimatorState:

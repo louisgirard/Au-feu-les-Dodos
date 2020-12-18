@@ -21,7 +21,7 @@ public class WalkState : StateMachineBehaviour
         proximity_timer = 0;
 
         patterns = new List<string>();
-        EctoplasmaPatternsSetUp paramaters = GameObject.FindWithTag("Ectoplasma").GetComponent<EctoplasmaPatternsSetUp>();
+        EctoplasmaPatternsSetUp paramaters = ectoplasma.GetComponent<EctoplasmaPatternsSetUp>();
         speed = paramaters.walking_speed;
         patterns_pause = paramaters.pause_between_patterns;
         if (paramaters.fireball_shoot_pattern)
