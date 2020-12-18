@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6445634299124554977}
   - component: {fileID: 4644040240319181013}
+  - component: {fileID: 1800869930206663177}
+  - component: {fileID: -9005041624804737538}
   m_Layer: 0
   m_Name: FrontalFiresZone
   m_TagString: Untagged
@@ -183,6 +185,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1800869930206663177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445634299124554976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0
+--- !u!210 &-9005041624804737538
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445634299124554976}
+  m_Enabled: 1
+  m_SortingLayerID: 1204819871
+  m_SortingLayer: 3
+  m_SortingOrder: 0
 --- !u!1001 &11581670677363383
 PrefabInstance:
   m_ObjectHideFlags: 0
