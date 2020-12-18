@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5156051388947962689}
   - component: {fileID: 3201899242767011628}
   - component: {fileID: 7547338558150580513}
+  - component: {fileID: 8399043320351357942}
   m_Layer: 0
   m_Name: EctoplasmaExplosion
   m_TagString: Untagged
@@ -226,3 +227,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8399043320351357942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3901510669638702303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: -10

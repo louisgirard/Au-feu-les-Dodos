@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485542119437627472}
   - component: {fileID: 9139259946560178650}
+  - component: {fileID: 8318307250652345611}
   m_Layer: 0
   m_Name: rift
   m_TagString: Untagged
@@ -69,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1204819871
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: -107
   m_Sprite: {fileID: 21300000, guid: 86dd9ae3461198e4b9105d4f3b494dbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -81,6 +82,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8318307250652345611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2579921493795052914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: -1
 --- !u!114 &1503347399176380635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,6 +107,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516429d96ada9cc4f89f1e9914f5381c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1844127219762755931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3147053518395103319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b390623ba2bf5e1479afe2b35821cfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0
 --- !u!1001 &3657016216246079694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -202,6 +229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832050663595804827, guid: ea38cef62c6da364882f0652150b4317,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 4837900510685742007, guid: ea38cef62c6da364882f0652150b4317,
         type: 3}
