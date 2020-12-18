@@ -7016,8 +7016,8 @@ PrefabInstance:
     - target: {fileID: 4397874671804974783, guid: 8bb9215a41005bc41ab1048bdef30a66,
         type: 3}
       propertyPath: dialogue.sentenceActions.Array.data[6].sentence
-      value: Tous tes armes sont utilisables avec Clic Droit et pour en changer utilise
-        la molette.
+      value: Tous tes armes sont utilisables avec Clic Droit (ou la Gachette Gauche)
+        et pour en changer utilise la molette (ou le bouton A)
       objectReference: {fileID: 0}
     - target: {fileID: 4397874671804974783, guid: 8bb9215a41005bc41ab1048bdef30a66,
         type: 3}
@@ -108797,7 +108797,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - sentence: "Pour te d\xE9fendre contre le feu et les ennemis tu disposes de
-        ta lance \xE0 incendie (Clic gauche)."
+        ta lance \xE0 incendie (Clic gauche / Gachette droite)."
       sentenceEvent:
         m_PersistentCalls:
           m_Calls: []
