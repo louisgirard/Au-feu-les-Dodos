@@ -26,3 +26,4 @@ MonoBehaviour:
   musicEndLevel: {fileID: 8300000, guid: c1f050bfaa3028845ad13152d07467f7, type: 3}
   musicGameOver: {fileID: 0}
   musicIntro: {fileID: 8300000, guid: d5cc1cf6b4a1e564a84cab95badc19d0, type: 3}
+  musicOutro: {fileID: 8300000, guid: d5cc1cf6b4a1e564a84cab95badc19d0, type: 3}
