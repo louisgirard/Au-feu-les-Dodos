@@ -11,6 +11,8 @@ public class Extinguishment : MonoBehaviour
     protected float max_health;
     private Vector3 start_scale;
 
+    [SerializeField] GameObject rodeurExplosionPrefab = null;
+
     private void Start()
     {
         max_health = health;
@@ -102,6 +104,12 @@ public class Extinguishment : MonoBehaviour
 
     protected virtual void Death()
     {
+        if (gameObject.CompareTag("Rodeur") && rodeurExplosionPrefab != null)
+        {
+            GameObject explosion = Instantiate(rodeurExplosionPrefab, transform.position, Quaternion.identity);
+            Destroy(explosion, 0.5f);
+        }
+
         Destroy(gameObject);
     }
 }

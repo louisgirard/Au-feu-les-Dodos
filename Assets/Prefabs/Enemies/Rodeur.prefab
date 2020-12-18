@@ -191,6 +191,8 @@ MonoBehaviour:
   rekindle_speed: 0.1
   is_scale_world_fixed: 0
   world_fixed_scale: {x: 0.17, y: 0.17, z: 0.17}
+  rodeurExplosionPrefab: {fileID: 139366, guid: 1643b50c6774c7f42907b41dbca9493f,
+    type: 3}
 --- !u!114 &3274551243886420562
 MonoBehaviour:
   m_ObjectHideFlags: 0
